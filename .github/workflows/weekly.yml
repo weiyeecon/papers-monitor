@@ -1,0 +1,69 @@
+name: weekly-fetch
+
+on:
+  schedule:
+    # 每周一 11:00 UTC = 美东时间周一早上 7:00（夏令时）/ 6:00（冬令时）
+    - cron: "0 11 * * 1"
+  workflow_dispatch:          # 也可以在 Actions 页面手动点一次
+    inputs:
+      translate_limit:
+        description: "本次最多翻译多少篇（防止补发历史条目时费用超支）"
+        required: false
+        default: "60"
+
+permissions:
+  contents: write             # 需要把 data.json 与周报 commit 回仓库
+
+concurrency:
+  group: weekly-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 抓取并生成
+        env:
+          # 三选一即可：配了哪个就用哪个，都不配就跳过中文摘要
+          DEEPSEEK_API_KEY:  ${{ secrets.DEEPSEEK_API_KEY }}
+          LLM_API_KEY:       ${{ secrets.LLM_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 下面这几个都可以不填，用默认值
+          LLM_BASE_URL:      ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL:         ${{ vars.LLM_MODEL }}
+          ANTHROPIC_MODEL:   ${{ vars.ANTHROPIC_MODEL }}
+          TRANSLATE_LIMIT:   ${{ inputs.translate_limit || '60' }}
+          OPENALEX_MAILTO:   ${{ vars.OPENALEX_MAILTO }}
+        run: python run.py
+
+      - name: 提交结果
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "本周没有任何变化，跳过提交"
+          else
+            git commit -m "chore: 每周抓取 $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: 汇总到运行页
+        if: always()
+        run: |
+          {
+            echo "## 本周简报"
+            echo
+            head -c 60000 reports/latest.md 2>/dev/null || echo "（未生成）"
+          } >> "$GITHUB_STEP_SUMMARY"
