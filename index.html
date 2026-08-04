@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>数字货币与金融稳定 · 工作论文监测台</title>
+<style>
+
+:root{
+  --bg:#0e1117; --bg2:#151a23; --card:#1a202b; --card2:#212938;
+  --line:#2b3444; --line2:#3a4658;
+  --tx:#e6eaf2; --tx2:#a3adbf; --tx3:#6f7b8f;
+  --acc:#5b9cf8; --acc2:#7ee0c6;
+  --t1:#f0883e; --t2:#a78bfa; --t3:#4ade80; --t4:#60a5fa; --t5:#f87171; --t6:#fbbf24;
+  --ok:#4ade80; --warn:#fbbf24; --err:#f87171;
+  --radius:10px;
+}
+html[data-theme="light"]{
+  --bg:#f6f7f9; --bg2:#ffffff; --card:#ffffff; --card2:#f2f4f7;
+  --line:#e2e6ec; --line2:#cdd4de;
+  --tx:#141a22; --tx2:#4b5666; --tx3:#78859a;
+  --acc:#1e63d0; --acc2:#0d8f78;
+  --t1:#c2410c; --t2:#6d28d9; --t3:#15803d; --t4:#1d4ed8; --t5:#b91c1c; --t6:#a16207;
+  --ok:#15803d; --warn:#a16207; --err:#b91c1c;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--tx);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  font-size:14px; line-height:1.6;
+}
+a{color:var(--acc); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1360px; margin:0 auto; padding:0 20px 80px}
+
+/* ---------- header ---------- */
+header{
+  position:sticky; top:0; z-index:50; background:var(--bg);
+  border-bottom:1px solid var(--line); margin-bottom:18px;
+}
+.hd{max-width:1360px;margin:0 auto;padding:14px 20px 0;display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.brand h1{font-size:19px;margin:0;letter-spacing:-.2px}
+.brand p{margin:2px 0 0;color:var(--tx3);font-size:12px}
+.hd-right{margin-left:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+button,select,input{font-family:inherit;font-size:13px}
+.btn{
+  background:var(--card2); color:var(--tx); border:1px solid var(--line2);
+  padding:6px 13px; border-radius:8px; cursor:pointer; transition:.12s;
+}
+.btn:hover{border-color:var(--acc);color:var(--acc)}
+.btn.primary{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:600}
+.btn.primary:hover{filter:brightness(1.1);color:#fff}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn.sm{padding:3px 9px;font-size:12px;border-radius:6px}
+
+/* ---------- progress ---------- */
+#progbar{height:2px;background:transparent;overflow:hidden}
+#progbar div{height:100%;width:0;background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .3s}
+
+/* ---------- controls ---------- */
+.controls{padding:12px 20px 12px;max-width:1360px;margin:0 auto;display:flex;flex-direction:column;gap:9px}
+.ctl-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ctl-lab{color:var(--tx3);font-size:11.5px;min-width:52px;letter-spacing:.5px}
+.chip{
+  border:1px solid var(--line2); background:transparent; color:var(--tx2);
+  padding:3.5px 11px; border-radius:99px; cursor:pointer; font-size:12.5px; transition:.12s;
+  display:inline-flex;align-items:center;gap:5px;
+}
+.chip:hover{border-color:var(--tx2);color:var(--tx)}
+.chip.on{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:600}
+.chip .n{opacity:.65;font-size:11px;font-variant-numeric:tabular-nums}
+.chip.t-stable.on{background:var(--t1);border-color:var(--t1)}
+.chip.t-crypto.on{background:var(--t2);border-color:var(--t2)}
+.chip.t-token.on{background:var(--t3);border-color:var(--t3);color:#08210f}
+.chip.t-cbdc.on{background:var(--t4);border-color:var(--t4)}
+.chip.t-fs.on{background:var(--t5);border-color:var(--t5)}
+.chip.t-pay.on{background:var(--t6);border-color:var(--t6);color:#241a00}
+#q{
+  flex:1;min-width:200px;background:var(--card);border:1px solid var(--line2);
+  color:var(--tx);padding:6px 11px;border-radius:8px;
+}
+#q:focus{outline:none;border-color:var(--acc)}
+select{background:var(--card);border:1px solid var(--line2);color:var(--tx);padding:5.5px 9px;border-radius:8px}
+.stat{color:var(--tx3);font-size:12px;font-variant-numeric:tabular-nums}
+.stat b{color:var(--tx);font-weight:600}
+
+/* ---------- diagnostics ---------- */
+details.diag{background:var(--bg2);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:16px}
+details.diag summary{padding:9px 14px;cursor:pointer;font-size:12.5px;color:var(--tx2);user-select:none}
+details.diag summary:hover{color:var(--tx)}
+.diag-body{padding:0 14px 12px}
+table.src{width:100%;border-collapse:collapse;font-size:12px}
+table.src th{text-align:left;color:var(--tx3);font-weight:500;padding:5px 8px;border-bottom:1px solid var(--line)}
+table.src td{padding:4px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+table.src tr:last-child td{border-bottom:none}
+.dot{display:inline-block;width:7px;height:7px;border-radius:99px;margin-right:6px;vertical-align:middle}
+.dot.ok{background:var(--ok)} .dot.err{background:var(--err)} .dot.pend{background:var(--tx3)} .dot.warn{background:var(--warn)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;color:var(--tx3);word-break:break-all}
+
+/* ---------- cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:14px;align-items:start}
+mark{background:color-mix(in srgb,var(--acc) 28%,transparent);color:var(--tx);border-radius:2px;padding:0 1px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 15px;display:flex;flex-direction:column;gap:9px;transition:.15s;position:relative;overflow:hidden;
+}
+.card:hover{border-color:var(--line2)}
+.card.new::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--acc2)}
+.c-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-size:11.5px}
+.org{font-weight:700;color:var(--tx);letter-spacing:-.1px}
+.orgcn{color:var(--tx3)}
+.ptype{color:var(--tx2);border:1px solid var(--line2);border-radius:5px;padding:0 5px;font-size:10.5px}
+.date{color:var(--tx3);margin-left:auto;font-variant-numeric:tabular-nums}
+.badge-new{background:var(--acc2);color:#08210f;border-radius:5px;padding:0 5px;font-size:10px;font-weight:700}
+.score{color:var(--tx3);font-variant-numeric:tabular-nums;font-size:10.5px;border:1px solid var(--line);border-radius:5px;padding:0 4px}
+.score.hi{color:var(--acc2);border-color:var(--acc2)}
+h3.title{margin:0;font-size:14.5px;line-height:1.45;font-weight:600}
+h3.title a{color:var(--tx)}
+h3.title a:hover{color:var(--acc)}
+.authors{font-size:11.5px;color:var(--tx3);margin:-3px 0 0}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:10.5px;padding:1px 7px;border-radius:99px;font-weight:600}
+.tag.t-stable{background:color-mix(in srgb,var(--t1) 18%,transparent);color:var(--t1)}
+.tag.t-crypto{background:color-mix(in srgb,var(--t2) 18%,transparent);color:var(--t2)}
+.tag.t-token{background:color-mix(in srgb,var(--t3) 18%,transparent);color:var(--t3)}
+.tag.t-cbdc{background:color-mix(in srgb,var(--t4) 18%,transparent);color:var(--t4)}
+.tag.t-fs{background:color-mix(in srgb,var(--t5) 18%,transparent);color:var(--t5)}
+.tag.t-pay{background:color-mix(in srgb,var(--t6) 18%,transparent);color:var(--t6)}
+.brief{
+  background:var(--card2);border:1px solid var(--line);border-left:2px solid var(--acc);
+  border-radius:7px;padding:9px 11px;font-size:12.8px;line-height:1.75;
+}
+.brief .lead{color:var(--tx)}
+.brief .kv{display:flex;gap:7px;margin-top:5px;font-size:12px}
+.brief .k{color:var(--tx3);flex-shrink:0;min-width:34px}
+.brief .v{color:var(--tx2)}
+.brief .v em{font-style:normal;color:var(--tx);background:color-mix(in srgb,var(--acc) 15%,transparent);border-radius:3px;padding:0 3px}
+.brief .src-note{color:var(--tx3);font-size:10.5px;margin-top:6px;border-top:1px dashed var(--line2);padding-top:5px}
+.ai-out{border-left-color:var(--acc2)!important}
+details.abs summary{cursor:pointer;color:var(--tx3);font-size:11.5px;user-select:none;list-style:none}
+details.abs summary::-webkit-details-marker{display:none}
+details.abs summary::before{content:"▸ ";}
+details.abs[open] summary::before{content:"▾ ";}
+details.abs summary:hover{color:var(--acc)}
+.abs-txt{font-size:12.3px;color:var(--tx2);line-height:1.65;margin-top:6px;max-height:280px;overflow:auto}
+.abs-txt mark{background:color-mix(in srgb,var(--acc) 30%,transparent);color:var(--tx);border-radius:2px;padding:0 1px}
+.c-foot{display:flex;gap:7px;align-items:center;margin-top:auto;padding-top:3px}
+
+.empty{text-align:center;color:var(--tx3);padding:60px 20px}
+.empty h2{color:var(--tx2);font-weight:500;font-size:16px}
+
+/* ---------- ai panel ---------- */
+dialog{
+  background:var(--card);color:var(--tx);border:1px solid var(--line2);border-radius:14px;
+  padding:0;max-width:560px;width:92%;
+}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.dlg-h{padding:15px 18px 0}
+.dlg-h h2{margin:0;font-size:16px}
+.dlg-b{padding:12px 18px 18px;font-size:13px;color:var(--tx2);line-height:1.7}
+.dlg-b label{display:block;color:var(--tx3);font-size:11.5px;margin:11px 0 4px}
+.dlg-b input,.dlg-b select{width:100%;background:var(--bg);border:1px solid var(--line2);color:var(--tx);padding:7px 10px;border-radius:8px}
+.dlg-f{display:flex;gap:8px;justify-content:flex-end;padding:0 18px 16px}
+.note{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:11.5px;color:var(--tx3);margin-top:12px}
+kbd{background:var(--card2);border:1px solid var(--line2);border-bottom-width:2px;border-radius:4px;padding:0 4px;font-size:11px;font-family:inherit}
+@media (max-width:640px){
+  .grid{grid-template-columns:1fr}
+  .ctl-lab{display:none}
+}
+
+.cn-flag{display:inline-block;background:var(--acc2);color:#08210f;border-radius:4px;
+  padding:0 5px;font-size:10px;font-weight:700;margin-right:6px;vertical-align:1px}
+.ai-out{border-left-color:var(--acc2)!important}
+.repo-link{color:var(--tx3);font-size:11.5px}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <div class="brand">
+      <h1>数字货币与金融稳定 · 工作论文监测台</h1>
+      <p>NBER · CEPR · BIS · IMF · 各国央行 · 国际组织｜每周一自动抓取并生成中文摘要
+         <span class="repo-link">· 数据由 GitHub Actions 构建</span></p>
+    </div>
+    <div class="hd-right">
+      <span class="stat" id="lastrun">读取中…</span>
+      <button class="btn" id="weekBtn" title="只看近 7 天，按相关度排序">本周新增</button>
+      <button class="btn" id="themeBtn" title="切换主题">◐</button>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="ctl-row">
+      <span class="ctl-lab">主题</span>
+      <div id="topicChips" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+    </div>
+    <div class="ctl-row">
+      <span class="ctl-lab">机构</span>
+      <div id="groupChips" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+    </div>
+    <div class="ctl-row">
+      <span class="ctl-lab">筛选</span>
+      <input id="q" placeholder="搜索标题 / 摘要 / 中文摘要 / 作者（支持中文主题词，如 稳定币、挤兑）">
+      <select id="win">
+        <option value="7">近 7 天</option>
+        <option value="30" selected>近 30 天</option>
+        <option value="90">近 90 天</option>
+        <option value="180">近 180 天</option>
+        <option value="0">全部</option>
+      </select>
+      <select id="sort">
+        <option value="date">按日期</option>
+        <option value="score">按相关度</option>
+      </select>
+      <label class="chip" style="cursor:pointer"><input type="checkbox" id="strict" checked style="margin:0">仅主题相关</label>
+      <label class="chip" style="cursor:pointer"><input type="checkbox" id="onlyCn" style="margin:0">仅看有中文摘要</label>
+      <button class="btn sm" id="copyMd">复制 MD</button>
+      <button class="btn sm" id="dlCsv">CSV</button>
+    </div>
+    <div class="ctl-row"><span class="stat" id="counts">—</span></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <details class="diag" id="diag">
+    <summary>数据源状态 <span id="diagsum" class="mono"></span></summary>
+    <div class="diag-body">
+      <p style="font-size:11.5px;color:var(--tx3);margin:4px 0 10px">
+        抓取在 GitHub Actions 的服务器上完成，本页只读同目录的 <span class="mono">data.json</span>，
+        不发任何跨域请求。下表是上一次构建时各源的结果。
+      </p>
+      <table class="src" id="srcTable"></table>
+    </div>
+  </details>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none"><h2>没有符合条件的论文</h2>
+    <p>试试放宽时间窗、取消「仅主题相关」，或换个主题标签。</p></div>
+</div>
+<script src="./data.js" onerror="console.warn('data.js 缺失，改用 fetch')"></script>
+<script src="./app.js"></script>
+</body>
+</html>

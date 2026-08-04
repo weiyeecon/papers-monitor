@@ -37,7 +37,7 @@ git push -u origin main
 |---|---|---|
 | Secrets and variables → Actions → **New repository secret** | 名字填 `DEEPSEEK_API_KEY`，值填你的 key | 三选一，见下表；不填也能跑，只是没有中文摘要 |
 | Actions → General → Workflow permissions | 选 **Read and write permissions** | **必须改**，否则 Action 无法把结果 commit 回仓库 |
-| Pages → Build and deployment | Source 选 **Deploy from a branch**，分支 `main`、目录 `/docs` | 私有仓库需要 GitHub Pro 才能开 Pages |
+| Pages → Build and deployment | Source 选 **Deploy from a branch**，分支 `main`、目录 **`/(root)`** | 私有仓库需要 GitHub Pro 才能开 Pages |
 
 #### 用哪家模型：Secret 名字三选一
 
@@ -76,31 +76,46 @@ Actions → **weekly-fetch** → **Run workflow**。
 ## 目录
 
 ```
-config/sources.json     31 个数据源（机构、feed 地址、解析方式）
-config/taxonomy.json    主题词典、数据源词典、方法词典、中文检索映射
-scripts/fetch_feeds.py  抓取与解析（RSS/Atom/RDF + NBER/Crossref/World Bank 三个 JSON 接口）
-scripts/analyse.py      主题识别、相关度打分、数据与方法提取（纯规则，不调模型）
-scripts/translate.py    Anthropic 结构化中文摘要，只翻新增
-scripts/build.py        产出 docs/data.json 与 reports/*.md
-scripts/run.py          主流程
-data/papers.json        累积库（去重后的全量条目，含中文摘要，随仓库增长）
-docs/                   GitHub Pages 看板
-reports/                每周 Markdown 简报，latest.md 恒指向最新一期
+sources.json       31 个数据源（机构、feed 地址、解析方式）
+taxonomy.json      主题词典、数据源词典、方法词典、中文检索映射
+fetch_feeds.py     抓取与解析（RSS/Atom/RDF + NBER/Crossref/World Bank 三个 JSON 接口）
+analyse.py         主题识别、相关度打分、数据与方法提取（纯规则，不调模型）
+translate.py       中文摘要，支持 DeepSeek / Anthropic / 任意 OpenAI 兼容服务，只翻新增
+build.py           产出 data.json 与 reports/*.md
+run.py             主流程
+index.html         看板页面（GitHub Pages 的入口）
+app.js             看板逻辑
 ```
+
+运行后自动生成、由 Actions 提交回仓库的：
+
+```
+papers.json        累积库（去重后的全量条目，含中文摘要，随仓库增长）
+data.json/data.js  看板读的数据（data.js 是给 file:// 直接打开时用的）
+reports/           每周 Markdown 简报，latest.md 恒指向最新一期
+```
+
+> 全部文件平铺在仓库根目录，没有子文件夹——这样在 GitHub 网页上传时可以直接多选拖拽。
+> 唯一的例外是 `.github/workflows/weekly.yml`，它必须在那个路径下，用网页版
+> 「Create new file」输入带斜杠的路径即可创建。
+>
+> **`app.js` 不要改成 `_app.js` 之类下划线开头的名字。** GitHub Pages 默认跑 Jekyll，
+> 会把下划线开头的文件当成模板素材而不发布，页面会因为加载不到脚本而白屏。
+
 
 ### 本地跑
 
 ```bash
 pip install -r requirements.txt
-DEEPSEEK_API_KEY=sk-... python scripts/run.py
-open docs/index.html          # 直接双击也能开，页面会读同目录的 data.js
+DEEPSEEK_API_KEY=sk-... python run.py
+open index.html               # 直接双击也能开，页面会读同目录的 data.js
 ```
 
 ---
 
 ## 改源、改主题
 
-**加一个机构**：往 `config/sources.json` 的 `sources` 里加一条：
+**加一个机构**：往 `sources.json` 的 `sources` 里加一条：
 
 ```json
 { "id": "riksbank", "org": "Riksbank", "cn": "瑞典央行", "group": "cb",
@@ -111,7 +126,7 @@ open docs/index.html          # 直接双击也能开，页面会读同目录的
 `kind` 取 `rss`（RSS/Atom/RDF 都归它）、`nber`、`crossref`、`worldbank`。
 `group` 取 `core` / `cb` / `intl`，对应看板上的机构筛选钮。
 
-**改主题范围**：编辑 `config/taxonomy.json` 的 `topics[].kw`。
+**改主题范围**：编辑 `taxonomy.json` 的 `topics[].kw`。
 关键词全部小写，程序会在标题和摘要里做子串匹配——标题命中权重是摘要的 3.5 倍。
 `data_dict` 和 `method_dict` 决定"用了什么数据、什么方法"那两行怎么识别，
 想加自己领域的数据库（比如某个链上数据商）直接往里加一行即可。
@@ -146,7 +161,7 @@ open docs/index.html          # 直接双击也能开，页面会读同目录的
 - **BIS 的 robots.txt 对 `/doclist/` 是 Disallow**。这些地址是 BIS 自己在
   [bis.org/rss/index.htm](https://www.bis.org/rss/index.htm) 上作为订阅入口公布的，
   本项目按普通 RSS 订阅的方式每周读一次、带可识别的 User-Agent。
-  如果你所在机构对此有更严格的合规要求，把 `config/sources.json` 里 5 个 `bis.org`
+  如果你所在机构对此有更严格的合规要求，把 `sources.json` 里 5 个 `bis.org`
   的源删掉即可，其余部分不受影响。
 - **没收进来的**：IOSCO 的 RSS 停更在 2023 年、波士顿联储停在 2020 年、
   纽约联储 Staff Reports 的 feed 停在 2015 年（改用了 Liberty Street 博客替代）；
