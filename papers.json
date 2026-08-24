@@ -207,7 +207,16 @@
    "question": "Tax avoidance through personal holding companies has long been viewed as a key challenge for progressive income taxation.",
    "finding": "As a result, effective tax rates, all taxes included, fall from about 50% for the upper middle class to about 15%-20% among the highest-net-worth individuals.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入违法风险与操作风险。"
-  }
+  },
+  "cn": {
+   "一句话": "利用瑞典挪威行政数据研究个人控股公司对税收累进性与不平等的影响。",
+   "问题": "个人控股公司如何被用于避税，及其对税收累进性和收入不平等的影响？",
+   "数据": "瑞典和挪威企业-所有者关联的行政微观数据，覆盖二十年，摘要未说明具体样本范围。",
+   "方法": "准实验设定，基于经营企业增加值冲击的事件研究法。",
+   "发现": "顶层0.1%收入约半数留存于个人控股公司；控股公司可规避约一半股息分配的个人所得税，最高收入群体二十年累计派息率仅15%-20%；最高净值人群实际有效税率降至15%-20%。",
+   "含义": "个人控股公司严重侵蚀税基，削弱税收累进性，财富税因私人企业股份低估或豁免而无法有效兜底。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21817 Ideas and Firm Dynamics When It Takes Two to Tango",
@@ -467,7 +476,16 @@
    "question": "Local governments promise democratic responsiveness but are also vulnerable to political capture by illicit actors.",
    "finding": "Using a difference-in-differences design with matched controls based on a machine-learning index of mafia-infiltration risk, we show that dissolutions substantially improve bureaucratic performance.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入违法风险与操作风险，方法上采用双重差分 DiD，数据来自行政管理与信贷登记数据。"
-  }
+  },
+  "cn": {
+   "一句话": "研究黑手党渗透的意大利市镇中，政治捕获对官僚行为的影响。",
+   "问题": "当政治领导层被犯罪组织捕获时，官僚如何应对？",
+   "数据": "摘要未说明",
+   "方法": "利用解散市议会的外生冲击，采用基于机器学习风险指数的匹配双重差分。",
+   "发现": "议会解散大幅提升官僚绩效；黑手党统治期绩效较低源于官僚抵抗捕获。",
+   "含义": "官僚体系可缓解政治捕获对治理的下游后果。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21803 Objective vs. Perceived Corporate Greenness: Do Individuals Understand Corporate Sustainability Information?",
@@ -941,7 +959,16 @@
    "question": "The Voluntary Carbon Market (VCM) rests on the premise that one carbon credit compensates for one tonne of emissions.",
    "finding": "Our results identify a demand-side problem in the VCM that is distinct from concerns about credit quality: even when credits represent genuine emissions reductions, the option to offset may slow decarbonization within purchasing firms.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入监管与合规、能源与气候影响。"
-  }
+  },
+  "cn": {
+   "一句话": "研究2023年碳市场丑闻后碳抵消对企业自身减排的影响",
+   "问题": "抵消能力是否削弱企业减少自身排放的激励？",
+   "数据": "覆盖近全部抵消注销的买家关联数据集；具体时间跨度摘要未说明",
+   "方法": "以2023年碳市场丑闻为准自然实验，比较停止抵消与继续购买的企业",
+   "发现": "丑闻后停止抵消的企业范围一减排显著大于继续购买者；市场持续过剩、中介不透明，价格与数量剧烈反应",
+   "含义": "即使碳信用真实，抵消选项也可能减缓企业脱碳，政策需审慎设计抵消机制"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21789 Platform Power in News Aggregation",
@@ -1221,7 +1248,16 @@
    "question": "We present the first large-scale field experiment evaluating the integration of generative AI into a national justice system.",
    "finding": "Overall, the results suggest that generative AI can raise public-sector productivity, but that these gains may depend on targeted training that directs use toward tasks for which the tool is better suited.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，方法上采用随机实验，数据来自行政管理与信贷登记数据。"
-  }
+  },
+  "cn": {
+   "一句话": "通过全国随机实验评估生成式AI助手对巴基斯坦法院生产率的影响。",
+   "问题": "生成式AI融入国家司法系统能否提高法官生产率，且是否依赖定向培训？",
+   "数据": "巴基斯坦法院；1559名法官、118个法院；时间跨度摘要未说明。",
+   "方法": "随机实地实验，设AI加定向培训、AI加通用培训、无AI通用培训三组。",
+   "发现": "AI加定向培训显著提升采纳与使用，中位地区每年多解决1848件案件（+6.3%），上诉率略降、写作质量略升。",
+   "含义": "生成式AI可提升公共部门生产率，但需配套定向培训以引导适用任务。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21781 Immigrants' Regularization and Native Workers' Response",
@@ -1403,7 +1439,16 @@
    "question": "We develop a nonlinear model in which trend inflation and inflation tail risks emerge endogenously in equilibrium from the interaction between the primary deficit and the risk of supply disruptions.",
    "finding": "Interpreted through the model, the post-pandemic rise in long-run inflation expectations reflects a higher probability of fiscally constrained monetary policy.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入货币政策传导、市场微观结构与定价。"
-  }
+  },
+  "cn": {
+   "一句话": "构建非线性模型，研究财政空间收窄如何内生推升趋势通胀与通胀尾部风险。",
+   "问题": "有限财政责任如何通过央行约束影响通胀预期与通胀风险？",
+   "数据": "摘要未说明",
+   "方法": "非线性动态模型与均衡分析",
+   "发现": "供给冲击波动上升和财政空间收窄时，财政约束更频繁；预期提前抬升，推高趋势通胀与上行尾部风险。模型可解释1965—1990年美国趋势通胀的升降。",
+   "含义": "财政空间收窄加大通胀脱锚风险，削弱货币政策独立性。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21775 Payday and the Monthly Attention Cycle of Low-Wage Workers",
@@ -5036,7 +5081,16 @@
    "question": "Faced with the limitations of existing tax frameworks for cross-border trade in services—particularly the lack of taxing rights over certain income from highly digital business models and the continuing scope for profit shifting through payments for cross-border services—countries and scholars have adopted or proposed a wide range of tax measures.",
    "finding": "Its main conclusion is that broader reliance on destination-based taxation can address many of the core problems raised by digitalized services trade more effectively than narrower, more distortionary alternatives.",
    "lead": "国际货币基金组织「IMF Working Papers」，主题为加密资产 × 支付与跨境，切入跨境与国际维度、支付清算、违法风险与操作风险。"
-  }
+  },
+  "cn": {
+   "一句话": "系统评估各类跨境服务税收措施及其经济影响。",
+   "问题": "现有跨境服务税收框架存在哪些局限，各国应对措施如何比较？",
+   "数据": "摘要未说明",
+   "方法": "构建统一框架，从经济与法律视角比较增值税、数字服务税、预提税及反避税规则等工具。",
+   "发现": "跨境服务贸易增长且更数字化、更集中；更广泛依赖目的地征税能更有效应对数字化服务贸易的核心问题，且扭曲更小。",
+   "含义": "为各国优化跨境服务税制、减少利润转移提供政策参考。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Graying Asia",
@@ -9815,7 +9869,11 @@
    "question": "We study the causes and consequences of bank runs.",
    "finding": "Our novel data allow us to establish that runs are",
    "lead": "美国国民经济研究局「Working Paper」，主题为金融稳定，切入挤兑与赎回，方法上采用机器学习 / 文本分析。"
-  }
+  },
+  "cn": {
+   "一句话": "用语言模型分析历史报纸，构建美国1863-1934"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Volatility Disagreement in the Options Market",
@@ -10461,7 +10519,16 @@
    "question": "by Matteo Aquilina, Peter Cincinelli, Giovanni Urga We investigate the systemic risk contribution of 3,500 Money Market Funds (MMFs) in normal periods and during asset price bubbles in the US from January 2004 to December 2022.",
    "finding": "Using state-of-the-art statistical techniques for bubble detection and granular fund-level data, we show that MMF characteristics significantly influence systemic risk.",
    "lead": "国际清算银行「Working Paper」，主题为金融稳定，切入系统性风险传染。"
-  }
+  },
+  "cn": {
+   "一句话": "研究美国货币市场基金特征如何影响其系统性风险贡献",
+   "问题": "货币市场基金特征如何影响正常期与资产价格泡沫期的系统性风险？",
+   "数据": "约3500只美国货币市场基金，2004年1月至2022年12月",
+   "方法": "气泡检测统计技术与基金层面微观数据建模",
+   "发现": "货币市场基金特征显著影响系统性风险，且在泡沫期作用更突出",
+   "含义": "监管应关注货币市场基金特征在资产泡沫期对金融稳定的影响"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "The digitalisation of banking and social media: implications for deposit pricing",
@@ -12495,33 +12562,6 @@
   }
  },
  {
-  "title": "ES - 2026-04-23 - Damien Klossner, Christian Myohl and Sabrina Stadelmann: Implementing monetary policy with repos and SNB Bills",
-  "link": "https://www.snb.ch/en/publications/research/economic-notes/2026/economic_note_2026_04",
-  "abstract": "The SNB steers secured short-term interest rates by remunerating sight deposits and conducting open market operations, specifically repo transactions and the issuance of SNB Bills. These operations absorb sight deposits from the financial system to keep SARON, the most important secured short-term rate, close to the SNB policy rate. The design of repo transactions anchors SARON while supporting interbank market activity. SNB Bills strengthen monetary policy transmission to a wider range of short-term rates, as they can be purchased by a broad set of financial market participants. Issuing SNB Bills also allows the SNB to create collateral for its repo transactions.",
-  "authors": "",
-  "date": "2026-04-22T22:00:00+00:00",
-  "ptype": "Working Paper",
-  "src_id": "snb",
-  "org": "SNB",
-  "org_cn": "瑞士央行",
-  "group": "cb",
-  "key": "es20260423damienklossnerchristianmyohlandsabrinastadelmannimplementingmonetarypolicywithre",
-  "first_seen": "2026-08-04T15:02:07.003412+00:00",
-  "meta": {
-   "topics": [],
-   "score": 5,
-   "data": [],
-   "method": [],
-   "ctx": [
-    "货币政策传导",
-    "储备资产与抵押品"
-   ],
-   "question": "The SNB steers secured short-term interest rates by remunerating sight deposits and conducting open market operations, specifically repo transactions and the issuance of SNB Bills.",
-   "finding": "Issuing SNB Bills also allows the SNB to create collateral for its repo transactions.",
-   "lead": "瑞士央行「Working Paper」，切入货币政策传导、储备资产与抵押品。"
-  }
- },
- {
   "title": "WP - 2026-01-23 - Romain Baeriswyl, Kene Boun My and Camille Cornand: Central Bank Digital Currency and Gresham's law: An experimental analysis",
   "link": "https://www.snb.ch/en/publications/research/working-papers/2026/working_paper_2026_03",
   "abstract": "In a monetary system in which risk-free and risky money coexist, Gresham's law predicts that people will prefer to hoard risk-free money as a store of value and spend risky money as a medium of exchange. Establishing a payment system on the basis of risk-free money, such as a retail CBDC, while maintaining the fractional reserve banking system in place poses numerous challenges. In a laboratory experiment, we demonstrate that when the holding of risk-free money is unrestricted, people hold and pay with it extensively. However, when the ability to hold risk-free money is limited by a ceiling or an unattractive interest rate, people tend to hoard risk-free money and use risky money for payments.",
@@ -12859,7 +12899,16 @@
    "question": "Nicola Cetorelli and Shohini Kundu This post concludes a three-part series on how bank regulation interacts with the organizational structure of banking firms.",
    "finding": "We document that bank subsidiaries accumulated capital, improved asset quality, and reduced risk.",
    "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定，切入银行存款与信贷中介、监管与合规、用户采纳与普惠，方法上采用事件研究 + 描述性/政策梳理，数据来自银行监管报表（Call Report / Y-9C 等）。"
-  }
+  },
+  "cn": {
+   "一句话": "研究银行控股公司为满足监管向银行子公司转移资本，导致非银行子公司更脆弱。",
+   "问题": "内部资本重新分配是否降低了整体风险，还是仅将风险转移到非银行子公司？",
+   "数据": "FR Y-9C、FR Y-9LP、FR Y-11及BHC组织结构数据库；样本范围与时间跨度摘要未说明。",
+   "方法": "事件研究法和基于子公司资产负债表的压力测试。",
+   "发现": "银行资本充足率上升、风险下降；非银行子公司权益比率下降、不良贷款和损失增加，风险从银行转移至非银行部门。",
+   "含义": "监管资本达标可能掩盖组织内部风险转移，需关注非银行子公司脆弱性对母公司的反向传染。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "How Basel III Changes Where Capital Sits: Nonbank Subsidiaries as Equity Reservoirs",
@@ -12954,7 +13003,16 @@
    "question": "Nicola Cetorelli and Shohini Kundu This post is the first in a three-part series on how bank regulation interacts with the organizational structure of banking firms.",
    "finding": "In this first post of our three-part series, we document the scale of nonbank activity within BHCs and describe the balance-sheet features that, as the remainder of the series shows, make these subsidiaries a vehicle for regulatory arbitrage.",
    "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定，切入监管与合规、市场微观结构与定价、储备资产与抵押品，方法上采用事件研究 + 面板/回归分析，数据来自银行监管报表（Call Report / Y-9C 等）、TRACE 债券交易数据。"
-  }
+  },
+  "cn": {
+   "一句话": "研究银行控股公司内非银行子公司的规模及其监管套利特征。",
+   "问题": "银行控股公司内部非银行子公司如何构成监管套利载体？",
+   "数据": "美国监管 filings，FR Y-9C、FR Y-9LP、FR Y-10，1995-2025年，摘要未明确样本量。",
+   "方法": "基于组织结构数据库匹配监管报表，测算非银行资产占比及股权乘数。",
+   "发现": "非银行子公司占银行控股公司资产约20%-30%，占美国非银行中介约四分之一，且90%受母公司直接控制。",
+   "含义": "非银行子公司的轻资本监管可能成为银行集团规避资本要求的渠道，需关注金融稳定风险。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Effect of Tariffs on U.S. Small Businesses",
@@ -13128,7 +13186,15 @@
    "finding": "Letting the Newspapers Speak For our analysis, we start with a body of more than 374 million newspaper articles ( Dell et al., 2023 ).",
    "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定 × 支付与跨境，切入挤兑与赎回、监管与合规、储备资产与抵押品，方法上采用机器学习 / 文本分析 + 描述性/政策梳理，数据来自TRACE 债券交易数据。"
   },
-  "cn_model": "deepseek-v4-flash"
+  "cn_model": "deepseek-v4-flash",
+  "cn": {
+   "一句话": "用大语言模型从历史报纸中提取信息，构建美国银行挤兑数据库。",
+   "问题": "如何从非结构化历史记录中系统识别银行挤兑事件，弥补银行层面数据缺失。",
+   "数据": "美国国会图书馆Chronicling America项目，超3.74亿篇历史报纸文章，筛选约百万篇候选；时间跨度摘要未说明。",
+   "方法": "关键词初筛后，使用多种大语言模型提取事件结构化信息，并与人工编码样本交叉验证。",
+   "发现": "构建了美国历史上最全面的银行挤兑数据库，涵盖挤兑、暂停营业与倒闭三类事件，每个事件均可追溯原始报纸报道。",
+   "含义": "为研究金融不稳定动态、防范挤兑风险提供了新的历史证据和公共数据基础。"
+  }
  },
  {
   "title": "The Disappearing Overnight Drift",
@@ -13729,7 +13795,15 @@
    "question": "Nina Boyarchenko and Leonardo Elias The global corporate nonfinancial bond market is both a large investment asset class and a vital source of funding for nonfinancial firms.",
    "finding": "In our Staff Report , we show that high levels of the factor predict high corporate bond returns and deteriorations in local credit conditions, and are associated with outflows from global bond funds.",
    "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定，切入跨境与国际维度、监管与合规、市场微观结构与定价。"
-  }
+  },
+  "cn": {
+   "一句话": "构建全球信用因子，揭示公司债回报的全球信用周期与非线性格局",
+   "问题": "全球公司债回报是否存在全球信用周期，如何度量？",
+   "数据": "1998-2024年月度ICE全球债券指数（逾万只成分债券）与Lehman-Warga固定收益数据库",
+   "方法": "基于中介资产定价，用EBP与VIX作预测变量，对按信用评级分组的公司债组合收益进行非线性预测估计",
+   "发现": "全球信用因子随EBP和VIX上升而收紧；风险价格与VI"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Honey, Who Shrunk the U.S. Income Surplus?",
@@ -13853,7 +13927,15 @@
    "question": "Zara Jacob, Donghoon Lee, Daniel Mangrum, Joelle W.",
    "finding": "We find that the average borrower entering default is nearly 40 years old, was not past due on their student loans prior to the pandemic, and is more likely to live in the South.",
    "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定，切入用户采纳与普惠、储备资产与抵押品、支付清算，方法上采用面板/回归分析。"
-  }
+  },
+  "cn": {
+   "一句话": "研究疫情后联邦学生贷款违约情况，分析新违约借款人的特征。",
+   "问题": "疫情后哪些借款人进入联邦学生贷款违约，其人口与信贷特征如何？",
+   "数据": "纽约联储消费者信贷小组/Equifax；2025Q4-2026Q1新违约，与2018Q2-2019Q4对比；具体样本范围摘要未说明。",
+   "方法": "描述性统计与年龄分布对比；摘要未说明计量识别策略。",
+   "发现": "约100万借款人在2025Q4违约，"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Will Mounting Supply Chain Strains Hamstring the AI Investment Boom?",
@@ -15808,7 +15890,16 @@
    "question": "Jay Kahn Recently instituted rule amendments have initiated a large migration of dealer-to-client Treasury repurchase trades to central clearing.",
    "finding": "Any errors or omissions are the responsibility of the author(s).",
    "lead": "纽约联储「Liberty Street」，主题为资产代币化 × 金融稳定，切入监管与合规、储备资产与抵押品、支付清算。"
-  }
+  },
+  "cn": {
+   "一句话": "研究Sponsored Service在回购清算中的作用、成本收益及市场使用情况。",
+   "问题": "交易商如何通过Sponsored Service进行国债回购中央清算，其使用特征如何？",
+   "数据": "美国OFR机密数据，2020年1月至2024年6月，覆盖国债与机构债回购交易。",
+   "方法": "基于机密数据的描述性统计与事实分析，未展示计量识别策略。",
+   "发现": "赞助交易占日均交易量29.5%，其中赞助贷款15.9%（2443亿美元）、赞助借款13.6%（2093亿美元）。",
+   "含义": "中央清算扩大有助于提升交易商资产负债表净额结算，但可能增加保证金成本。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Dutch Treat: The Netherlands’ Exorbitant Privilege in the Eighteenth Century",
@@ -16741,7 +16832,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为金融稳定。"
-  }
+  },
+  "cn": {
+   "一句话": "研究银行估值与宏观审慎资本缓冲的关系",
+   "问题": "银行估值如何影响宏观审慎资本缓冲的设定与作用？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "依据标题，研究银行估值水平与宏观审慎资本缓冲之间的关系，可能涉及资本缓冲的逆周期调节。",
+   "含义": "为宏观审慎资本缓冲的校准提供参考，有助于维护金融稳定"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Energy and Monetary Policy in the Euro Area",
@@ -16917,56 +17017,6 @@
   }
  },
  {
-  "title": "Identifying scenarios of interest under deep uncertainty",
-  "link": "/en/publications/research-publications/working-paper-2026/860-identifying-scenarios-of-interest-under-deep-uncertainty/",
-  "abstract": "",
-  "authors": "",
-  "date": "2026-04-20T16:33:25+00:00",
-  "ptype": "Research Publication",
-  "src_id": "dnb",
-  "org": "DNB",
-  "org_cn": "荷兰央行",
-  "group": "cb",
-  "key": "identifyingscenariosofinterestunderdeepuncertainty",
-  "first_seen": "2026-08-04T15:02:07.003412+00:00",
-  "meta": {
-   "topics": [],
-   "score": 3,
-   "data": [],
-   "method": [],
-   "ctx": [],
-   "question": "",
-   "finding": "",
-   "lead": "荷兰央行「Research Publication」。"
-  }
- },
- {
-  "title": "The Employment Concentration Channel of Monetary Policy",
-  "link": "/en/publications/research-publications/working-paper-2026/859-the-employment-concentration-channel-of-monetary-policy/",
-  "abstract": "",
-  "authors": "",
-  "date": "2026-04-20T09:30:56+00:00",
-  "ptype": "Research Publication",
-  "src_id": "dnb",
-  "org": "DNB",
-  "org_cn": "荷兰央行",
-  "group": "cb",
-  "key": "theemploymentconcentrationchannelofmonetarypolicy",
-  "first_seen": "2026-08-04T15:02:07.003412+00:00",
-  "meta": {
-   "topics": [],
-   "score": 3,
-   "data": [],
-   "method": [],
-   "ctx": [
-    "货币政策传导"
-   ],
-   "question": "",
-   "finding": "",
-   "lead": "荷兰央行「Research Publication」，切入货币政策传导。"
-  }
- },
- {
   "title": "From nature shocks to financial stability Incorporating nature physical risks – in particular water-related risks – into banks’ credit risk models and insurers’ market risk models",
   "link": "/en/publications/research-publications/working-paper-2026/857-from-nature-shocks-to-financial-stability-incorporating-nature-physical-risks-in-particular-water-related-risks-into-banks-credit-risk-models-and-insurers-market-risk-models/",
   "abstract": "This paper presents a top-down stress testing framework for estimating the financial (stability) impact of nature degradation. The methodology links the three components of the NGFS conceptual framework on nature-related risks...",
@@ -16997,7 +17047,16 @@
    "question": "This paper presents a top-down stress testing framework for estimating the financial (stability) impact of nature degradation.",
    "finding": "The methodology links the three components of the NGFS conceptual framework on nature-related risks...",
    "lead": "荷兰央行「Research Publication」，主题为金融稳定，方法上采用网络与传染模拟 + 描述性/政策梳理。"
-  }
+  },
+  "cn": {
+   "一句话": "构建评估自然退化金融影响的压力测试框架。",
+   "问题": "自然物理风险（尤其水相关风险）如何影响银行信用风险与保险市场风险，进而影响金融稳定？",
+   "数据": "摘要未说明。",
+   "方法": "基于NGFS自然相关风险概念框架，构建自上而下压力测试框架，将自然物理风险纳入银行信用风险模型和保险公司市场风险模型。",
+   "发现": "提出了将自然物理风险（尤其水风险）纳入金融机构风险模型的压力测试框架，用于量化自然退化的金融稳定影响。",
+   "含义": "有助于监管机构评估自然退化对金融稳定的潜在冲击，并制定相应防范政策。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Floods and financial stability: Exploring the role of sea level rise",
@@ -17459,7 +17518,11 @@
    "question": "The national central banks of the Eurosystem are preparing for the possible issuance of a digital euro.",
    "finding": "This initiative aims to provide a universally accepted, secure, and reliable form of central bank money in the digital era in the eurozone",
    "lead": "荷兰央行「Research Publication」，主题为央行数字货币。"
-  }
+  },
+  "cn": {
+   "一句话": "调查荷兰商户对数字"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Federated Modelling: A new framework and an application to system-wide stress testing",
@@ -22603,30 +22666,6 @@
   }
  },
  {
-  "title": "Corporate operational flexibility as a buffer against economic policy uncertainty (PDF File, 1.2 MB)",
-  "link": "https://www.hkma.gov.hk/media/eng/publication-and-research/research/research-memorandums/2026/RM03.pdf",
-  "abstract": "",
-  "authors": "",
-  "date": "2026-04-21T16:00:00+00:00",
-  "ptype": "Research",
-  "src_id": "hkma",
-  "org": "HKMA",
-  "org_cn": "香港金管局",
-  "group": "cb",
-  "key": "corporateoperationalflexibilityasabufferagainsteconomicpolicyuncertaintypdffile12mb",
-  "first_seen": "2026-08-04T15:02:07.003412+00:00",
-  "meta": {
-   "topics": [],
-   "score": 3,
-   "data": [],
-   "method": [],
-   "ctx": [],
-   "question": "",
-   "finding": "",
-   "lead": "香港金管局「Research」。"
-  }
- },
- {
   "title": "Assessing the Impact of Stablecoins on Exchange Rate Volatility: Evidence from Emerging Market Economies (PDF File, 1.4 MB)",
   "link": "https://www.hkma.gov.hk/media/eng/publication-and-research/research/research-memorandums/2026/RM02.pdf",
   "abstract": "",
@@ -23105,30 +23144,6 @@
   }
  },
  {
-  "title": "The future of financial messaging: navigating the ISO 20022 migration journey",
-  "link": "https://www.bis.org/cpmi/publ/brief11.htm",
-  "abstract": "In the early 2000s financial institutions' back offices faced rising costs and the complexity of managing multiple messaging standards...",
-  "authors": "Federico Semorile",
-  "date": "2026-04-21T09:33:00+00:00",
-  "ptype": "Publication",
-  "src_id": "cpmi",
-  "org": "CPMI",
-  "org_cn": "支付与市场基础设施委员会",
-  "group": "intl",
-  "key": "thefutureoffinancialmessagingnavigatingtheiso20022migrationjourney",
-  "first_seen": "2026-08-04T15:02:07.003412+00:00",
-  "meta": {
-   "topics": [],
-   "score": 0,
-   "data": [],
-   "method": [],
-   "ctx": [],
-   "question": "In the early 2000s financial institutions' back offices faced rising costs and the complexity of managing multiple messaging standards...",
-   "finding": "",
-   "lead": "支付与市场基础设施委员会「Publication」。"
-  }
- },
- {
   "title": "Implementation monitoring of PFMI: Level 2 assessment report for UK payment systems and central securities depositories/securities settlement systems",
   "link": "https://www.bis.org/cpmi/publ/d231.htm",
   "abstract": "The Bank for International Settlements' Committee on Payments and Market Infrastructures (CPMI) and the International Organization of Securities Commissions (IOSCO) closely monitor the implementation of the Principles for financial market infrastructures (PFMI). This report presents the conclusions drawn by CPMI-IOSCO from a Level 2 assessment of whether, and to what degree, the legal, regulatory and oversight frameworks for financial market infrastructures (FMIs) in the United Kingdom for systemically important payment systems and central securities depositories (CSDs)/securities settlement systems (SSSs) are complete and consistent with the Principles.",
@@ -23599,7 +23614,16 @@
    "question": "Service level agreements used in cross-border payment arrangements define minimum service levels for correspondent banking relationships, the links between payment systems and payment instrument rulebooks...",
    "finding": "",
    "lead": "支付与市场基础设施委员会「Publication」，主题为加密资产 × 支付与跨境，切入跨境与国际维度、支付清算。"
-  }
+  },
+  "cn": {
+   "一句话": "研究跨境支付安排中的服务级别协议如何界定最低服务水平。",
+   "问题": "跨境支付安排中的服务级别协议如何定义最低服务标准并发挥作用？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "服务级别协议为代理银行关系、支付系统链接及支付工具规则手册设定最低服务水平。",
+   "含义": "有助于提升跨境支付安排的稳健性与可预期性，支持金融稳定。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Tap, click and pay: how digital payments seize the day",
@@ -24022,7 +24046,16 @@
    "question": "This report provides an overview of the experiences central banks have gathered with ex ante appraisals of macroprudential instruments and identifies areas where further analytical development would be particularly useful.",
    "finding": "In all cases the discussion is illustrated with actual experiences in different jurisdictions.",
    "lead": "全球金融体系委员会「Publication」，主题为金融稳定，方法上采用定量校准与反事实模拟，数据来自模型模拟/校准（非实证数据）。"
-  }
+  },
+  "cn": {
+   "一句话": "回顾央行宏观审慎工具事前评估经验，指出需深化分析领域。",
+   "问题": "宏观审慎工具事前评估有哪些实践经验，哪些方面需要进一步分析？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "事前评估已用于风险识别、工具选择、启动时点和强度校准，且多国实践展示了不同方法的应用价值。",
+   "含义": "改进事前评估有助于增强宏观审慎政策的有效性与金融稳定。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Central bank operating frameworks and collateral markets",
@@ -24438,7 +24471,16 @@
    "question": "The commercial real estate (CRE) sector is a source of financial stability risk, yet its financing structures remain poorly understood because of complex corporate group structures and data limitations.",
    "finding": "In the loan network, regional clustering may amplify cross-border contagion, while highly central CRE groups in both networks could generate spillovers in distress, shaping credit allocation and systemic risk in the euro area.",
    "lead": "欧洲系统性风险委员会「Report」，主题为金融稳定，切入跨境与国际维度、系统性风险传染，方法上采用网络与传染模拟。"
-  }
+  },
+  "cn": {
+   "一句话": "构建欧元区百大商业地产集团融资网络并分析其结构。",
+   "问题": "欧元区大型商业地产集团的贷款与债券融资网络有何特征？",
+   "数据": "摘要未说明。",
+   "方法": "构建贷款与债券两类网络，分析聚类、本土偏好及核心-边缘结构。",
+   "发现": "贷款网络呈区域聚类、本土偏好明显且银行间重叠有限；债券网络互联性更高且多元化。",
+   "含义": "贷款网络区域聚类可能放大跨境传染，高中心性集团或产生溢出并影响欧元区系统性风险。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "ESRB Annual Report 2025",
@@ -24857,7 +24899,16 @@
    "question": "If frontier AI models can be used to develop their next models, this may lead to an ‘intelligence explosion’ and give a large boost to technological advancement.",
    "finding": "Bottlenecks in tasks that remain human, physical constraints on compute, and the pace of automation will shape whether these dynamics materialise.",
    "lead": "CEPR 政策评论「Column」，主题为加密资产。"
-  }
+  },
+  "cn": {
+   "一句话": "构建框架分析AI反馈循环引发爆炸式增长的条件",
+   "问题": "前沿AI自我改进能否触发经济爆炸式增长，条件是什么？",
+   "数据": "摘要未说明",
+   "方法": "建立理论框架，考察劳动份额、研究回报与自动化占比",
+   "发现": "爆炸式增长潜力取决于劳动份额、研究回报和部门自动化占比，临界值可能意外地低；未自动化任务、算力物理约束和自动化速度形成瓶颈",
+   "含义": "AI爆炸式增长可能深刻影响金融稳定与政策应对，需关注阈值条件 机构：VoxEU（CEPR 政策评论） 类型：Column 标题：AI feedback loops and the conditions for explosive growth 作者：Tom Davidson, Basil Halperin, Thomas Houlden, Anton Korinek 日期：2026-08-09 英文摘要：If frontier AI models can be used to develop their next models, this may lead to an ‘intelligence explosion’ and give a large boost to technological advancement. This column develops a framework for understanding how AI may transform the economy through new feedback loops. It shows that the potential for explosive growth depends on the labour share, the returns to research effort, and the share of automated tasks in each sector, and that the threshold may be surprisingly low. Bottlenecks in tasks that remain human, physical constraints on compute, and the pace of automation will shape whether these dynamics materialise."
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "The scramble for critical minerals: An old curse in a new world",
@@ -24962,7 +25013,16 @@
    "question": "Today, 1.6 million more women than men are enrolled in four-year colleges and universities in the US, raising concerns that college-educated women will struggle to find suitable partners.",
    "finding": "The findings raise the question of whether policies that improve outcomes for less-educated men could also narrow class gaps in marriage and family formation.",
    "lead": "CEPR 政策评论「Column」，主题为加密资产，切入监管与合规。"
-  }
+  },
+  "cn": {
+   "一句话": "研究美国大学性别差距如何影响婚姻匹配与婚姻挤压问题。",
+   "问题": "大学女性在性别差距下能否找到合适伴侣，婚姻格局如何变化？",
+   "数据": "摘要未说明。",
+   "方法": "摘要未说明。",
+   "发现": "大学女性结婚率相对稳定，越来越多人嫁给非大学男性；非大学男性经济地位下降，使非大学女性获得经济稳定伴侣的机会减少。",
+   "含义": "改善低学历男性经济前景的政策或可缩小婚姻与家庭形成方面的阶级差距。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "How the rise of AI matters for fiscal policy",
@@ -25093,7 +25153,16 @@
    "question": "GLP-1 drugs have transformed the treatment of type 2 diabetes and obesity.",
    "finding": "The findings reveal that GLP-1 treatment reduces long-term sickness leave, as well as emergency department visits and cardiovascular medication use.",
    "lead": "CEPR 政策评论「Column」，主题为加密资产。"
-  }
+  },
+  "cn": {
+   "一句话": "研究GLP-1药物对因病缺勤及劳动参与的影响。",
+   "问题": "GLP-1治疗是否减少因病缺勤并提高工作参与？",
+   "数据": "丹麦关联登记数据；样本范围与时间跨度摘要未说明。",
+   "方法": "摘要未说明。",
+   "发现": "GLP-1治疗减少了长期病假、急诊就诊和心血管药物使用。",
+   "含义": "提示政策制定者在考虑GLP-1药物覆盖时，应纳入劳动市场收益。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Safe debt financing: International spillovers and the benefits of fiscal policy coordination",
@@ -26921,7 +26990,16 @@
    "question": "This box assesses the scope for euro area governments to adopt compensatory fiscal measures against the backdrop of the recent energy shock.",
    "finding": "The box concludes that, since fiscal space is more constrained than it was during the 2022 energy crisis and there is only modest scope for self-financing through inflation-driven revenues, it is all the more important for fiscal support to be temporary, targeted and tailored.",
    "lead": "欧洲央行出版物「Publication」，主题为加密资产，切入能源与气候影响。"
-  }
+  },
+  "cn": {
+   "一句话": "评估欧元区政府应对近期能源冲击的补偿性财政措施空间。",
+   "问题": "欧元区政府在近期能源冲击下有多大补偿性财政措施空间？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "财政空间比2022年能源危机时更受约束，通过通胀驱动收入自我融资的空间有限。",
+   "含义": "财政支持应临时、有针对性且量身定制，以维护政策可持续性。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "The ECB-BIG index: tracking credit conditions in the euro area",
@@ -26953,7 +27031,16 @@
    "question": "This box introduces the European Central Bank Broad Intermediation Gauge (ECB-BIG) index, a new indicator designed to provide a timely assessment of intermediation conditions in the euro area.",
    "finding": "Currently, the index is signalling a moderate tightening of credit conditions after the start of the war in the Middle East.",
    "lead": "欧洲央行出版物「Publication」，主题为加密资产，切入货币政策传导。"
-  }
+  },
+  "cn": {
+   "一句话": "介绍追踪欧元区信贷条件的ECB-BIG指数。",
+   "问题": "如何及时评估欧元区银行与非银行的中介条件？",
+   "数据": "摘要未说明。",
+   "方法": "摘要未说明。",
+   "发现": "目前指数显示中东战争爆发后信贷条件温和收紧。",
+   "含义": "为货币政策传导及信贷冲击对投资的影响提供参考。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Capturing inflation expectations (de-)anchoring and what survey-based metrics are telling us",
@@ -27064,7 +27151,16 @@
    "question": "Fleming and Or Shachar In March 2020, the Financial Industry Regulatory Authority (FINRA) began reporting aggregate trading volume for securities issued by the U.S.",
    "finding": "Any errors or omissions are the responsibility of the author(s).",
    "lead": "纽约联储「Liberty Street」，主题为加密资产，切入监管与合规、市场微观结构与定价、储备资产与抵押品。"
-  }
+  },
+  "cn": {
+   "一句话": "利用TRACE数据首次详细分析美国STRIPS交易活动及其特征。",
+   "问题": "STRIPS交易活动有何特征？",
+   "数据": "FINRA TRACE交易数据及财政部月度公共债务报表；样本为美国STRIPS，时间跨度2024年7月至2025年6月。",
+   "方法": "描述性统计与图表分析。",
+   "发现": "STRIPS日均交易56亿美元，本金STRIPS占68%；截至2025年6月底，5600亿美元国债以剥离形式持有，占可交易国债2.5%，集中于长久期债券。",
+   "含义": "有助于监管机构了解STRIPS交易活动及收益率曲线信号，提升市场透明度。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Why Do Fewer Renters Expect to Move?",
@@ -27099,7 +27195,15 @@
    "question": "Haughwout, Eungik Lee, and Wilbert van der Klaauw Americans are moving less than they used to.",
    "finding": "In this post, we show that the decline in mobility also holds for renters, with growing challenges to owning a home being an important contributing factor.",
    "lead": "纽约联储「Liberty Street」，主题为加密资产，切入用户采纳与普惠、储备资产与抵押品，数据来自住户/消费者调查数据。"
-  }
+  },
+  "cn": {
+   "一句话": "用纽约联储调查数据研究租房者预期搬家率下降及其与购房预期、房贷负担的关系。",
+   "问题": "为什么美国租房者预期搬家率持续下降，以及购房预期和房贷可负担性如何影响这一趋势？",
+   "数据": "纽约联储SCE住房调查，2014年2月至2026年2月，样本为美国租房者与房主（具体样本量未说明）。",
+   "方法": "摘要未说明。",
+   "发现": "租房者三年预期搬家概率从2014年约57%降至2026年约37%；预期曾购房概率从约52%降至35%，预期房贷利率从约"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "AI’s Impact on Labor and Hiring",
@@ -28130,7 +28234,14 @@
    "question": "This paper documents that the traditional sovereign-bank nexus has morphed into a broader nexus that now also includes non-bank financial institutions (NBFIs): the sovereign-bank-NBFI nexus.",
    "finding": "We find that banks’ direct sovereign exposures have recently become less important in explaining the co-movement between bank and sovereign risk.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，切入货币政策传导、跨境与国际维度。"
-  }
+  },
+  "cn": {
+   "一句话": "研究主权-银行-NBFI关联演变及风险在三者间的传导",
+   "问题": "传统主权-银行关联如何演变为包含NBFI的更广关联，风险如何传导？",
+   "数据": "欧洲银行层面数据与全球国家层面数据；具体来源和时间摘要未说明",
+   "方法": ""
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21833 Variety and Agglomeration in Financial Markets",
@@ -29473,7 +29584,16 @@
    "question": "Ayelen Banegas , Lucas Devigne, Mulalo Mamburu, Kleopatra Nikolaou, Anna Samarina, Fabio Tamburrini This paper synthesizes the literature on vulnerabilities in government bond-backed repo markets, focusing on the features that contribute to both the fragility and stability of these markets.",
    "finding": "The review also examines post-crisis regulatory reforms and central bank interventions, identifying how these measures have enhanced market resilience while also creating trade-offs for market dynamics, with implications for liquidity and collateral availability.",
    "lead": "美联储理事会「FEDS / IFDP」，主题为金融稳定，切入货币政策传导、监管与合规、市场微观结构与定价。"
-  }
+  },
+  "cn": {
+   "一句话": "综述政府债券回购市场的脆弱性与韧性特征及其传导机制。",
+   "问题": "政府债券回购市场中有哪些特征导致脆弱性与稳定性并存？",
+   "数据": "摘要未说明",
+   "方法": "文献综述",
+   "发现": "短期融资、交易商中介、抵押品再使用和低折扣率等特征在提供流动性的同时，也会快速传导压力；回购与国债市场紧密关联，可通过交易商和非银机构放大杠杆并跨市场传播冲击。",
+   "含义": "监管改革与央行干预可增强回购市场韧性，但需权衡对流动性和抵押品可用性的影响。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
@@ -29980,7 +30100,16 @@
    "question": "The relation between stocks and bonds indicates whether supply or demand shocks dominate the risks to economic activity.",
    "finding": "In line with this evidence, financial market pricing now indicates that elevated oil prices and potential inflation are prominent sources of risk.",
    "lead": "旧金山联储「Economic Letter」，主题为加密资产。"
-  }
+  },
+  "cn": {
+   "一句话": "研究股债相关性变化，判断经济风险来自供给还是需求冲击",
+   "问题": "金融市场价格如何反映经济风险来源从需求转向供给？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "股债相关性由负转正，股票与石油相关性同步变化，显示供给冲击主导，油价上涨与通胀成为突出风险。",
+   "含义": "政策制定者需关注供给冲击引发的通胀压力及其对金融稳定的影响。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Highlights of the Outlook for Economic Activity and Prices (July 2026)",
@@ -30289,7 +30418,16 @@
    "question": "Al-Sayari, Governor of the Saudi Central Bank, has been appointed FSB’s Regional Engagement Chair for a two-year term, starting on 10 August 2026.",
    "finding": "In some priority areas of FSB work – such as crypto-assets and stablecoins and cross-border payments –, meaningful progress can only be achieved with a good understanding of developments in jurisdictions that are not members of the FSB.",
    "lead": "金融稳定理事会「Publication」，主题为稳定币 × 加密资产 × 支付与跨境，切入跨境与国际维度、支付清算。"
-  }
+  },
+  "cn": {
+   "一句话": "宣布沙特央行行长被任命为FSB区域参与主席，任期两年。",
+   "问题": "FSB区域参与主席任命及其对非成员辖区重点领域工作的意义。",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "任命自2026年8月10日起，任期两年；重点领域包括加密资产与稳定币、跨境支付，需理解非FSB成员辖区动态。",
+   "含义": "有助于FSB加强与非成员辖区的接触，促进全球金融稳定监管协调。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "ESMA confirms go-live for weekly commodity derivatives position reporting",
@@ -30315,6 +30453,2737 @@
    "question": "ESMA confirms go-live for weekly commodity derivatives position reporting 14 August 2026 Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, announces that the new weekly commodity derivatives position reporting framework will go live on 3 September 2026.",
    "finding": "Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu 14/08/2026 ESMA65-955014868-14991 Commodities derivatives weekly position reporting - Reporting instructions 14/08/2026 ESMA65-955014868-14993 XML Schema for commodities derivates weekly reporting (version 2.0)",
    "lead": "欧洲证券与市场管理局「Publication」，切入监管与合规。"
+  }
+ },
+ {
+  "title": "Lesetja Kganyago: Remarks - annual dinner for the Heads of Foreign Missions accredited in South Africa",
+  "link": "https://www.bis.org/review/r260813i.htm",
+  "abstract": "Remarks by Lesetja Kganyago, Governor of the South African Reserve Bank, at the annual dinner for the Heads of Foreign Missions accredited in South Africa, South African Reserve Bank, Pretoria, 9 July 2026.",
+  "authors": "Lesetja Kganyago",
+  "date": "2026-08-17T08:22:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "lesetjakganyagoremarksannualdinnerfortheheadsofforeignmissionsaccreditedinsouthafrica",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "储备资产与抵押品"
+   ],
+   "question": "Remarks by Lesetja Kganyago, Governor of the South African Reserve Bank, at the annual dinner for the Heads of Foreign Missions accredited in South Africa, South African Reserve Bank, Pretoria, 9 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "Lesetja Kganyago: Overview of the South African economy",
+  "link": "https://www.bis.org/review/r260813j.htm",
+  "abstract": "Address by Lesetja Kganyago, Governor of the South African Reserve Bank, at the 106th Ordinary Annual General Meeting, South African Reserve Bank, Pretoria, 31 July 2026.",
+  "authors": "Lesetja Kganyago",
+  "date": "2026-08-17T08:22:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "lesetjakganyagooverviewofthesouthafricaneconomy",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "储备资产与抵押品"
+   ],
+   "question": "Address by Lesetja Kganyago, Governor of the South African Reserve Bank, at the 106th Ordinary Annual General Meeting, South African Reserve Bank, Pretoria, 31 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "Lisa D Cook: Outlook for the US and Alaskan economies",
+  "link": "https://www.bis.org/review/r260813h.htm",
+  "abstract": "Speech by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska, 5 August 2026.",
+  "authors": "Lisa D Cook",
+  "date": "2026-08-17T08:17:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "lisadcookoutlookfortheusandalaskaneconomies",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "储备资产与抵押品"
+   ],
+   "question": "Speech by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska, 5 August 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "Yannis Stournaras: The global economy in 2026 and beyond - financing Europe and Greece's future",
+  "link": "https://www.bis.org/review/r260813g.htm",
+  "abstract": "Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at the 30th Annual Economist Government Roundtable \"The global economy in 2026 and beyond – financing Europe and Greece's future\", Athens, 10 July 2026.",
+  "authors": "Yannis Stournaras",
+  "date": "2026-08-17T08:15:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "yannisstournarastheglobaleconomyin2026andbeyondfinancingeuropeandgreecesfuture",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at the 30th Annual Economist Government Roundtable \"The global economy in 2026 and beyond – financing Europe and Greece's future\", Athens, 10 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入跨境与国际维度。"
+  }
+ },
+ {
+  "title": "Burkhard Balz: 40 years of the Deutsche Bundesbank's Representative Office in New York",
+  "link": "https://www.bis.org/review/r260813f.htm",
+  "abstract": "Speech by Mr Burkhard Balz, Member of the Executive Board of the Deutsche Bundesbank, at the reception marking 40 years of the Representative Office of the Deutsche Bundesbank in the United States, New York City, 7 July 2026.",
+  "authors": "Burkhard Balz",
+  "date": "2026-08-17T08:11:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "burkhardbalz40yearsofthedeutschebundesbanksrepresentativeofficeinnewyork",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Speech by Mr Burkhard Balz, Member of the Executive Board of the Deutsche Bundesbank, at the reception marking 40 years of the Representative Office of the Deutsche Bundesbank in the United States, New York City, 7 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」。"
+  }
+ },
+ {
+  "title": "Philip R Lane: AI and monetary policy",
+  "link": "https://www.bis.org/review/r260813c.htm",
+  "abstract": "Dinner speech by Philip R. Lane, Member of the Executive Board of the European Central Bank, at the closing conference of the European System of Central Banks Research Network on Challenges for Monetary Policy Transmission in a Changing World (ChaMP), Rome, 6 July 2026.",
+  "authors": "Philip R Lane",
+  "date": "2026-08-17T07:43:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "philiprlaneaiandmonetarypolicy",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导",
+    "系统性风险传染"
+   ],
+   "question": "Lane, Member of the Executive Board of the European Central Bank, at the closing conference of the European System of Central Banks Research Network on Challenges for Monetary Policy Transmission in a Changing World (ChaMP), Rome, 6 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入货币政策传导、系统性风险传染。"
+  }
+ },
+ {
+  "title": "Rohit Jain: Building deep and resilient financial markets for a Viksit Bharat",
+  "link": "https://www.bis.org/review/r260813b.htm",
+  "abstract": "Keynote address by Mr Rohit Jain, Deputy Governor of the Reserve Bank of India, at the Financial Institutions Leadership conference, organised by the Standard Chartered Bank, Mumbai, 24 July 2026.",
+  "authors": "Rohit Jain",
+  "date": "2026-08-17T07:37:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "rohitjainbuildingdeepandresilientfinancialmarketsforaviksitbharat",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "储备资产与抵押品"
+   ],
+   "question": "Keynote address by Mr Rohit Jain, Deputy Governor of the Reserve Bank of India, at the Financial Institutions Leadership conference, organised by the Standard Chartered Bank, Mumbai, 24 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "Chia Der Jiun: Remarks on the MAS Annual Report 2025/2026",
+  "link": "https://www.bis.org/review/r260813l.htm",
+  "abstract": "Opening address by Mr Chia Der Jiun, Managing Director of the Monetary Authority of Singapore, at the MAS Annual Report 2025/2026 Media Conference, Singapore, 28 July 2026.",
+  "authors": "Chia Der Jiun",
+  "date": "2026-08-17T07:34:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "chiaderjiunremarksonthemasannualreport20252026",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Opening address by Mr Chia Der Jiun, Managing Director of the Monetary Authority of Singapore, at the MAS Annual Report 2025/2026 Media Conference, Singapore, 28 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」。"
+  }
+ },
+ {
+  "title": "Michele Bullock: Monetary policy in an era of shocks",
+  "link": "https://www.bis.org/review/r260813a.htm",
+  "abstract": "Speech by Ms Michele Bullock, Governor of the Reserve Bank of Australia, at the Anika Foundation Fundraising Lunch, Sydney, 28 July 2026.",
+  "authors": "Michele Bullock",
+  "date": "2026-08-17T07:31:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "michelebullockmonetarypolicyinaneraofshocks",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导",
+    "储备资产与抵押品"
+   ],
+   "question": "Speech by Ms Michele Bullock, Governor of the Reserve Bank of Australia, at the Anika Foundation Fundraising Lunch, Sydney, 28 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入货币政策传导、储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "Denis Beau: Opportunities and risks for CCPs and their overseers in a changing environment",
+  "link": "https://www.bis.org/review/r260813e.htm",
+  "abstract": "Keynote speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at the CCP Global Annual Meeting 2026, Amsterdam, 23 June 2026.",
+  "authors": "Denis Beau",
+  "date": "2026-08-17T07:06:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "denisbeauopportunitiesandrisksforccpsandtheiroverseersinachangingenvironment",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度",
+    "能源与气候影响"
+   ],
+   "question": "Keynote speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at the CCP Global Annual Meeting 2026, Amsterdam, 23 June 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入跨境与国际维度、能源与气候影响。"
+  }
+ },
+ {
+  "title": "Piero Cipollone: The cooperative spirit at the heart of the digital euro",
+  "link": "https://www.bis.org/review/r260813d.htm",
+  "abstract": "Lecture by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the annual meeting of the Federation of Italian Cooperative Credit Banks (Federcasse), Rome, 17 July 2026.",
+  "authors": "Piero Cipollone",
+  "date": "2026-08-17T07:02:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "pierocipollonethecooperativespiritattheheartofthedigitaleuro",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "cbdc",
+     "label": "央行数字货币",
+     "cls": "t-cbdc"
+    }
+   ],
+   "score": 15,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Lecture by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the annual meeting of the Federation of Italian Cooperative Credit Banks (Federcasse), Rome, 17 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，主题为央行数字货币。"
+  }
+ },
+ {
+  "title": "Andriy Pyshnyy: National Bank of Ukraine press briefing - monetary policy decisions",
+  "link": "https://www.bis.org/review/r260813k.htm",
+  "abstract": "Speech by Mr Andriy Pyshnyy, Governor of the National Bank of Ukraine, at a press briefing on monetary policy decisions, Kyiv, 30 July 2026.",
+  "authors": "Andriy Pyshnyy",
+  "date": "2026-08-06T06:29:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "andriypyshnyynationalbankofukrainepressbriefingmonetarypolicydecisions",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导"
+   ],
+   "question": "Speech by Mr Andriy Pyshnyy, Governor of the National Bank of Ukraine, at a press briefing on monetary policy decisions, Kyiv, 30 July 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入货币政策传导。"
+  }
+ },
+ {
+  "title": "High public debt in the Americas: non-linear implications for risk premia and inflation expectations",
+  "link": "https://www.bis.org/publ/bisbull133.htm",
+  "abstract": "by Eduardo Amaral, Rafael Guerra, Alejandrina Salcedo, Pablo Tomasini, Christian Upper",
+  "authors": "Christian Upper",
+  "date": "2026-08-19T07:04:00+00:00",
+  "ptype": "Publication",
+  "src_id": "bis-fsi",
+  "org": "BIS/FSI",
+  "org_cn": "BIS 与金融稳定学院",
+  "group": "core",
+  "key": "highpublicdebtintheamericasnonlinearimplicationsforriskpremiaandinflationexpectations",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 8,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "by Eduardo Amaral, Rafael Guerra, Alejandrina Salcedo, Pablo Tomasini, Christian Upper",
+   "finding": "",
+   "lead": "BIS 与金融稳定学院「Publication」。"
+  }
+ },
+ {
+  "title": "IFDP Paper: Optimal Monetary and Fiscal Policy under Limited Foresight",
+  "link": "https://www.federalreserve.gov/econres/ifdp/optimal-monetary-and-fiscal-policy-under-limited-foresight.htm",
+  "abstract": "Martin Bodenstein and Junzhu Zhao We investigate Barro's random walk hypothesis according to which distortionary labor taxes should follow a random walk for any stochastic process of government expenditures, see Barro (1979). When agents experience cognitive discounting as in Gabaix (2020), they perceive government debt as wealth, and the random walk result breaks down except for knife-edge combinations of limited rationality by policymakers and the private sector. For these specific parameter values, the result can reemerge, but minor deviations from these knife-edge combinations lead to stationary equilibrium dynamics, reflecting the wealth effect of government debt. However, the dynamics turn explosive when policymakers discount the future excessively. Our results extend to other models with limited foresight such as Blanchard (1985), Weil (1989), or Woodford (2019).",
+  "authors": "",
+  "date": "2026-08-21T19:40:00+00:00",
+  "ptype": "FEDS / IFDP",
+  "src_id": "fed-wp",
+  "org": "Fed Board",
+  "org_cn": "美联储理事会",
+  "group": "cb",
+  "key": "ifdppaperoptimalmonetaryandfiscalpolicyunderlimitedforesight",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "违法风险与操作风险"
+   ],
+   "question": "Martin Bodenstein and Junzhu Zhao We investigate Barro's random walk hypothesis according to which distortionary labor taxes should follow a random walk for any stochastic process of government expenditures, see Barro (1979).",
+   "finding": "Our results extend to other models with limited foresight such as Blanchard (1985), Weil (1989), or Woodford (2019).",
+   "lead": "美联储理事会「FEDS / IFDP」，切入违法风险与操作风险。"
+  }
+ },
+ {
+  "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
+  "link": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
+  "abstract": "Isabel Cairó , Hess Chung , Francesco Ferrante , Cristina Fuentes-Albero , Camilo Morales-Jimenez , and Damjan Pfajfar Labor market variables frequently send conflicting signals about the degree of slack or tightness, often complicating policy assessments at critical junctures. This paper develops a Structural Labor Market Indicator (SLMI) for the U.S. economy that addresses the limitations of existing univariate measures or atheoretical statistical approaches that synthesize multiple labor market indicators but cannot distinguish between supply and demand driving forces. We construct the SLMI using a medium scale New Keynesian DSGE model featuring search and matching frictions, endogenous labor force participation, and variable hours. The model is disciplined by a comprehensive dataset that includes not only labor market variables but also other macroeconomic aggregates. The SLMI synthesizes model-implied gaps across multiple labor market dimensions using principal component analysis. We show that GDP growth and inflation provide substantial information about labor market slack beyond what labor market variables contain, validating our multi-variable structural approach. Relative to alternative measures, the SLMI often provides earlier warnings of deteriorating conditions at recession onset but recovers more gradually during expansions.",
+  "authors": "",
+  "date": "2026-08-20T13:40:00+00:00",
+  "ptype": "FEDS / IFDP",
+  "src_id": "fed-wp",
+  "org": "Fed Board",
+  "org_cn": "美联储理事会",
+  "group": "cb",
+  "key": "fedspaperbeyondtheunemploymentrateastructurallabormarketindicator",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [
+    "一般均衡 / DSGE"
+   ],
+   "ctx": [],
+   "question": "Isabel Cairó , Hess Chung , Francesco Ferrante , Cristina Fuentes-Albero , Camilo Morales-Jimenez , and Damjan Pfajfar Labor market variables frequently send conflicting signals about the degree of slack or tightness, often complicating policy assessments at critical junctures.",
+   "finding": "We show that GDP growth and inflation provide substantial information about labor market slack beyond what labor market variables contain, validating our multi-variable structural approach.",
+   "lead": "美联储理事会「FEDS / IFDP」，方法上采用一般均衡 / DSGE。"
+  }
+ },
+ {
+  "title": "FEDS Note: Liquidity Transformation Risks in U.S. Bank Loan and High-Yield Mutual Funds: A 2026 Update",
+  "link": "https://www.federalreserve.gov/econres/notes/feds-notes/liquidity-transformation-risks-in-u-s-bank-loan-and-high-yield-mutual-funds-a-2026-update-20260819.html",
+  "abstract": "Kenechukwu Anadu, Sean Baker, Fang Cai , Logan George, and Erik Larsson Mutual funds (MFs) and other open-ended collective investment funds engage in liquidity transformation—they offer investors daily redemptions while investing in assets that may take longer than a day to sell without significant price impact. This activity is particularly salient for corporate debt funds, where large investor redemptions during stress periods could result in fire sales that adversely affect underlying markets (see, e.g., Goldstein, Jiang, and Ng, 2017; Chernenko and Sunderam, 2020; Falato, Goldstein, and Hortaçsu, 2021; Federal Reserve Board, 2025).",
+  "authors": "",
+  "date": "2026-08-19T14:00:00+00:00",
+  "ptype": "FEDS Note",
+  "src_id": "fed-notes",
+  "org": "Fed Board",
+  "org_cn": "美联储 FEDS Notes",
+  "group": "cb",
+  "key": "fedsnoteliquiditytransformationrisksinusbankloanandhighyieldmutualfundsa2026update",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 12,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "挤兑与赎回",
+    "储备资产与抵押品"
+   ],
+   "question": "Kenechukwu Anadu, Sean Baker, Fang Cai , Logan George, and Erik Larsson Mutual funds (MFs) and other open-ended collective investment funds engage in liquidity transformation—they offer investors daily redemptions while investing in assets that may take longer than a day to sell without significant price impact.",
+   "finding": "This activity is particularly salient for corporate debt funds, where large investor redemptions during stress periods could result in fire sales that adversely affect underlying markets (see, e.g., Goldstein, Jiang, and Ng, 2017; Chernenko and Sunderam, 2020; Falato, Goldstein, and Hortaçsu, 2021; Federal Reserve Board, 2025).",
+   "lead": "美联储 FEDS Notes「FEDS Note」，主题为金融稳定，切入挤兑与赎回、储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "Aging Economies and AI Adoption",
+  "link": "https://doi.org/10.5089/9798229059640.001",
+  "abstract": "How do demographic trends shape the adoption of AI and automation technologies? This paper provides the first large-scale cross-country firm-level test of the demographic–automation hypothesis using World Bank Enterprise Surveys data covering 89,380 firms across 144 countries from 2022 to 2025. I classify adopters by applying a large language model to firms’ open-ended process innovation descriptions, identifying 1,656 AI and automation adopters (1.9 percent of the sample). A ten-percentage-point increase in the old-age dependency ratio raises process adoption probability by approximately 0.6 percentage points, after accounting for countries’ income levels, digital infrastructure, firm size and sector, and broad regional and time differences. The result is robust across specifications and supported by an instrumental variable strategy based on predetermined demographic cohort structure. Heterogeneity analysis shows the effect concentrates in manufacturing, large firms, and developing economies for the broad adoption measure; restricting to firms with explicit references to AI reverses the sector pattern, with services firms significantly more likely to adopt than manufacturing firms, pointing to distinct sectoral profiles for software-based AI and hardware-based automation. Aging also predicts firms’ development of AI-enabled products across both manufacturing and services. The results indicate that demographic aging shapes AI and automation adoption through both process and product innovation channels: firms substitute technology for increasingly scarce and costly labor in production, and separately develop AI-enabled products for labor-constrained customers.",
+  "authors": "Ha Minh Nguyen",
+  "date": "2026-08-21T21:05:01Z",
+  "ptype": "IMF Working Papers",
+  "doi": "10.5089/9798229059640.001",
+  "src_id": "imf",
+  "org": "IMF",
+  "org_cn": "国际货币基金组织",
+  "group": "core",
+  "key": "agingeconomiesandaiadoption",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "工具变量 IV",
+    "机器学习 / 文本分析"
+   ],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "How do demographic trends shape the adoption of AI and automation technologies?",
+   "finding": "The results indicate that demographic aging shapes AI and automation adoption through both process and product innovation channels: firms substitute technology for increasingly scarce and costly labor in production, and separately develop AI-enabled products for labor-constrained customers.",
+   "lead": "国际货币基金组织「IMF Working Papers」，切入用户采纳与普惠，方法上采用工具变量 IV + 机器学习 / 文本分析。"
+  }
+ },
+ {
+  "title": "Inferring Structural Beliefs from Macroeconomic Expectations",
+  "link": "https://doi.org/10.5089/9798229056199.001",
+  "abstract": "I analyze multi-horizon market forecasts for macroeconomic variables in Brazil from 2010 to 2026, using a structural macroeconomic model to interpret stated beliefs as the outcomes of a coherent belief system. This produces time-varying beliefs about policy rules, transmission mechanisms, and structural shocks. Beliefs about the monetary policy rule vary in two distinct dimensions, with the perceived target and Taylor response coefficients showing independent variation. Monetary transmission is seen as weak; the perceived Philips and IS curves are very flat. Markets see fiscal policy as increasingly unresponsive to higher debt. The perceived inflation target is unchanged after an unexpected monetary tightening, but the perceived response to inflation increases, with larger effects for monetary surprises and smaller for news shocks.",
+  "authors": "Philip Barrett",
+  "date": "2026-08-21T20:45:09Z",
+  "ptype": "IMF Working Papers",
+  "doi": "10.5089/9798229056199.001",
+  "src_id": "imf",
+  "org": "IMF",
+  "org_cn": "国际货币基金组织",
+  "group": "core",
+  "key": "inferringstructuralbeliefsfrommacroeconomicexpectations",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导"
+   ],
+   "question": "I analyze multi-horizon market forecasts for macroeconomic variables in Brazil from 2010 to 2026, using a structural macroeconomic model to interpret stated beliefs as the outcomes of a coherent belief system.",
+   "finding": "The perceived inflation target is unchanged after an unexpected monetary tightening, but the perceived response to inflation increases, with larger effects for monetary surprises and smaller for news shocks.",
+   "lead": "国际货币基金组织「IMF Working Papers」，切入货币政策传导。"
+  }
+ },
+ {
+  "title": "The Fund's Income Position for FY 2026 - Actual Outcome",
+  "link": "https://doi.org/10.5089/9798229059602.007",
+  "abstract": "This paper reports on the Fund’s income position for FY 2026 following the closing of the Fund’s accounts for the financial year and completion of the external audit. Total comprehensive income of the General Department was SDR 4.8 billion (or about US$6.5 billion) comprising General Resources Account (GRA) net income (SDR 1.9 billion), retained investment income (SDR 1 billion) and remeasurement gains reported under IAS 19 (SDR 1.9 billion). GRA net income, after taking into account the placement of SDR 1.38 billion from the General Resources Account (GRA) to the Interim Placement Administered Account (IPAA), increased Fund reserves by about SDR 0.5 billion. Remeasurement gains contributed a further SDR 1.9 billion to reserves. In accordance with decisions taken by the Executive Board in April 2026, the Endowment payout of US$208 million (SDR 151 million) was made to the GRA and a net transfer of currencies equivalent to SDR 0.3 billion will be made from the Fixed-Income Subaccount (FI) of the Investment Account (IA) to the GRA during FY 2027. The Fund’s precautionary balances reached SDR 26.3 billion at the end of FY 2026.",
+  "authors": "",
+  "date": "2026-08-21T19:25:06Z",
+  "ptype": "Policy Papers",
+  "doi": "10.5089/9798229059602.007",
+  "src_id": "imf",
+  "org": "IMF",
+  "org_cn": "国际货币基金组织",
+  "group": "core",
+  "key": "thefundsincomepositionforfy2026actualoutcome",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "储备资产与抵押品"
+   ],
+   "question": "This paper reports on the Fund’s income position for FY 2026 following the closing of the Fund’s accounts for the financial year and completion of the external audit.",
+   "finding": "The Fund’s precautionary balances reached SDR 26.3 billion at the end of FY 2026.",
+   "lead": "国际货币基金组织「Policy Papers」，切入储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "FY2026 Budget Outturn",
+  "link": "https://doi.org/10.5089/9798229059442.007",
+  "abstract": "The paper presents highlights from the FY2026 budget, followed by a discussion of outputs based on the Fund Thematic Categories and of inputs.",
+  "authors": "",
+  "date": "2026-08-21T18:50:10Z",
+  "ptype": "Policy Papers",
+  "doi": "10.5089/9798229059442.007",
+  "src_id": "imf",
+  "org": "IMF",
+  "org_cn": "国际货币基金组织",
+  "group": "core",
+  "key": "fy2026budgetoutturn",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 8,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "The paper presents highlights from the FY2026 budget, followed by a discussion of outputs based on the Fund Thematic Categories and of inputs.",
+   "finding": "",
+   "lead": "国际货币基金组织「Policy Papers」。"
+  }
+ },
+ {
+  "title": "Private Finance and Climate Investment Needs",
+  "link": "https://doi.org/10.5089/9798229059411.001",
+  "abstract": "Achieving climate-related commitments and mitigating related risks to macroeconomic and financial stability require improving the conditions for private investment. Raising sufficient private finance is however challenging, particularly for emerging markets and developing economies. This paper develops an analytical framework to assess how reforms shape private climate finance. Key dimensions include macrostructural reforms to lower capital costs, measures to incentivise financing for climate-related investments, and blended financing that leverages public resources to attract private investment. To the extent the resulting externally-financed investments are resilience- and growth-enhancing, these can also support strengthening of the longer-term balance of payments position. Effective implementation may require international support, especially for developing economies",
+  "authors": "Chen Chen, Charlotte Gardes-Landolfini, Annapurna Mitra, Henk Jan Reinders",
+  "date": "2026-08-21T18:45:06Z",
+  "ptype": "IMF Working Papers",
+  "doi": "10.5089/9798229059411.001",
+  "src_id": "imf",
+  "org": "IMF",
+  "org_cn": "国际货币基金组织",
+  "group": "core",
+  "key": "privatefinanceandclimateinvestmentneeds",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 17,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度",
+    "支付清算",
+    "能源与气候影响"
+   ],
+   "question": "Achieving climate-related commitments and mitigating related risks to macroeconomic and financial stability require improving the conditions for private investment.",
+   "finding": "Effective implementation may require international support, especially for developing economies",
+   "lead": "国际货币基金组织「IMF Working Papers」，主题为金融稳定，切入跨境与国际维度、支付清算、能源与气候影响。"
+  }
+ },
+ {
+  "title": "Measures of Macroeconomic Shocks and Uncertainty for Asia-Pacific Economies",
+  "link": "https://doi.org/10.5089/9798229055550.001",
+  "abstract": "We develop standardized time-series measures of shocks and uncertainty for output growth and inflation across 14 Asia-Pacific economies using data from Consensus Economics survey of professional economic forecasters. They are based on changes in mean forecasts and standard deviations, adjusted for intra-year patterns that arise from the annual-average percent changes basis of the data. As an example of how our shock measures may be used, we apply the vector autoregression method of sign restrictions to decompose output growth and inflation shocks into fundamental demand and supply shocks. Those shocks and our uncertainty measures align well with major economic events such as the Asian Financial Crisis, the COVID-19 pandemic, and geopolitical conflicts. We show that our uncertainty measures most closely reflect the concept of macroeconomic uncertainty, with apparent differences to established economic policy uncertainty measures across all comparable economies, but a close relationship with two well-known macroeconomic uncertainty measures produced only for the United States. Hence, extending the measures of macroeconomic uncertainty to all 14 economies in our analysis, along with the shocks for those economies, creates a valuable dataset for economic policy setting and empirical research.",
+  "authors": "Iris Claus, Leo Krippner",
+  "date": "2026-08-21T14:40:06Z",
+  "ptype": "IMF Working Papers",
+  "doi": "10.5089/9798229055550.001",
+  "src_id": "imf",
+  "org": "IMF",
+  "org_cn": "国际货币基金组织",
+  "group": "core",
+  "key": "measuresofmacroeconomicshocksanduncertaintyforasiapacificeconomies",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 15,
+   "data": [],
+   "method": [
+    "向量自回归 VAR"
+   ],
+   "ctx": [],
+   "question": "We develop standardized time-series measures of shocks and uncertainty for output growth and inflation across 14 Asia-Pacific economies using data from Consensus Economics survey of professional economic forecasters.",
+   "finding": "We show that our uncertainty measures most closely reflect the concept of macroeconomic uncertainty, with apparent differences to established economic policy uncertainty measures across all comparable economies, but a close relationship with two well-known macroeconomic uncertainty measures produced only for the United States.",
+   "lead": "国际货币基金组织「IMF Working Papers」，主题为金融稳定，方法上采用向量自回归 VAR。"
+  }
+ },
+ {
+  "title": "Good Practices for Tax Administration Management of Domestic Tax Disputes",
+  "link": "https://doi.org/10.5089/9798229047029.005",
+  "abstract": "Disputes between taxpayers and tax administrations are inevitable and should be managed as a core function of tax administration. A well-functioning dispute management system protects government revenue, supports voluntary compliance, and sustains community trust in the legitimacy of the revenue system. This Technical Note and Manual provides a practical framework for managing domestic tax disputes that is fair, timely, and independent manner, grounded in clear legal foundations and supported by sound governance, capable staff, and effective systems. It describes a three-stage formal framework: administrative review, tribunal appeals, and court appeals, and the complementary role of alternative dispute resolution. It also addresses taxpayer rights and obligations, governance, oversight, transparency, staff capability, and performance monitoring. Adaptable to civil-law and common-law systems, it offers worked examples, key performance indicators, and country case studies.",
+  "authors": "Michael Hardy, Alison Lendon, Juan Redondo Sanchez",
+  "date": "2026-08-18T19:35:08Z",
+  "ptype": "Technical Notes and Manuals",
+  "doi": "10.5089/9798229047029.005",
+  "src_id": "imf",
+  "org": "IMF",
+  "org_cn": "国际货币基金组织",
+  "group": "core",
+  "key": "goodpracticesfortaxadministrationmanagementofdomestictaxdisputes",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规",
+    "违法风险与操作风险"
+   ],
+   "question": "Disputes between taxpayers and tax administrations are inevitable and should be managed as a core function of tax administration.",
+   "finding": "Adaptable to civil-law and common-law systems, it offers worked examples, key performance indicators, and country case studies.",
+   "lead": "国际货币基金组织「Technical Notes and Manuals」，切入监管与合规、违法风险与操作风险。"
+  }
+ },
+ {
+  "title": "Hidden in the aggregate: the cyclicality of EU labour force participation",
+  "link": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3275~9c3ff58aae.en.pdf",
+  "abstract": "We estimate the cyclical response of labour force participation to growth shocks across EU regions. We use a shift-share instrumental variable approach and local projections on EU Labour Force Survey microdata covering 15 countries and 114 regions over 2000–2020. The aggregate labour force participation rate is remarkably resilient, a clear contrast to the highly cyclical participation rate documented for the U.S. However, this resilience masks pronounced demographic heterogeneity. Men’s participation declines significantly while women’s remains stable, reflecting sectoral segregation and the added worker effect. Young workers exhibit the most persistent responses, with effects lasting up to eight years, consistent with hysteresis through human capital erosion. Less-educated and non-native workers bear disproportionate employment costs. The findings imply that aggregate slack measures may miss important distributional dimensions relevant for monetary, fiscal, and structural policy.",
+  "authors": "",
+  "date": "2026-08-20T09:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "ecb-wp",
+  "org": "ECB",
+  "org_cn": "欧洲央行",
+  "group": "cb",
+  "key": "hiddenintheaggregatethecyclicalityofeulabourforceparticipation",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [
+    "微观交易/账户级数据"
+   ],
+   "method": [
+    "工具变量 IV",
+    "局部投影 LP"
+   ],
+   "ctx": [],
+   "question": "We estimate the cyclical response of labour force participation to growth shocks across EU regions.",
+   "finding": "The findings imply that aggregate slack measures may miss important distributional dimensions relevant for monetary, fiscal, and structural policy.",
+   "lead": "欧洲央行「Working Paper」，方法上采用工具变量 IV + 局部投影 LP，数据来自微观交易/账户级数据。"
+  }
+ },
+ {
+  "title": "Banks’ funding structures and pass-through in the euro area",
+  "link": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3274~c747d7b2d0.en.pdf",
+  "abstract": "This paper investigates the interest rate pass-through of monetary policy in the euro area by focusing on the role of banks’ funding structures. We estimate the interest rate pass-through for loans to non-financial corporations using bank-level balance sheet data. In doing so, we interact the response of lending rates with characteristics of the funding structure, and show that banks that rely more on bond issuance than on the money market tend to be less responsive to policy changes. Finally, we test the presence of the asset-liability-management channel, and find that banks combining longer-term liabilities (higher bond shares) with longer rate fixation periods for loans (higher share of loans with fixed rates) exhibit the most muted lending rate response to policy shocks.",
+  "authors": "",
+  "date": "2026-08-20T09:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "ecb-wp",
+  "org": "ECB",
+  "org_cn": "欧洲央行",
+  "group": "cb",
+  "key": "banksfundingstructuresandpassthroughintheeuroarea",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "面板/回归分析"
+   ],
+   "ctx": [
+    "货币政策传导"
+   ],
+   "question": "This paper investigates the interest rate pass-through of monetary policy in the euro area by focusing on the role of banks’ funding structures.",
+   "finding": "Finally, we test the presence of the asset-liability-management channel, and find that banks combining longer-term liabilities (higher bond shares) with longer rate fixation periods for loans (higher share of loans with fixed rates) exhibit the most muted lending rate response to policy shocks.",
+   "lead": "欧洲央行「Working Paper」，切入货币政策传导，方法上采用面板/回归分析。"
+  }
+ },
+ {
+  "title": "Domestic and cyclical inflation in the euro area",
+  "link": "https://www.ecb.europa.eu//pub/pdf/scpsps/ecb.sps54~7507337776.en.pdf",
+  "abstract": "The ECB’s inflation target is formulated in terms of headline inflation. However, domestically determined inflation features prominently in the monetary policy transmission mechanism and in gauging underlying inflation, making it important to assess it regularly. The ECB monitors various proxies for domestically determined inflation, including: (i) “domestic inflation”, which aggregates inflation items with a low import share; and (ii) “Supercore” inflation, which aggregates inflation items found to be sensitive to the aggregate business cycle. This paper provides a detailed overview of the methodologies used to derive both these indicators and updates the relevant input data. It suggests refinements to the methodologies that would also make these measures more robust in future updates. In addition, it explains the changes in these indicators due to the introduction of a new classification of consumer goods and services (European Classification of Individual Consumption according to Purpose (ECOICOP) version 2) for the compilation of the Harmonised Index of Consumer Prices (HICP). First, on domestic inflation, the paper explains the new underlying data on the import share of inflation items made available since the publication of its methodology, and provides an update, combined with a few methodological changes (for example, moving to a constant composition of the included items). Second, with regard to Supercore inflation, the paper explains the challenges of identifying a cyclical inflation indicator for the euro area, especially in the light of the recent large shocks, and explores modelling approaches. It proposes some refinements to the previous methodology, while keeping a Phillips curve approach as a focal point in the analysis. For both indicators, the paper presents the updated indicators and some key properties.",
+  "authors": "",
+  "date": "2026-08-20T08:00:00+00:00",
+  "ptype": "Publication",
+  "src_id": "ecb-pub",
+  "org": "ECB",
+  "org_cn": "欧洲央行出版物",
+  "group": "cb",
+  "key": "domesticandcyclicalinflationintheeuroarea",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导",
+    "用户采纳与普惠"
+   ],
+   "question": "The ECB’s inflation target is formulated in terms of headline inflation.",
+   "finding": "For both indicators, the paper presents the updated indicators and some key properties.",
+   "lead": "欧洲央行出版物「Publication」，切入货币政策传导、用户采纳与普惠。"
+  }
+ },
+ {
+  "title": "Time Use and Consumption Expenditures",
+  "link": "https://www.bankofcanada.ca/2026/08/staff-working-paper-2026-29/",
+  "abstract": "This paper shows that consumption activities toward which households reallocate more time in recessions see larger expenditure declines, revealing a systematic link between time-use and expenditure cyclicality. A two-sector New Keynesian model shows this time-expenditure substitution explains roughly forty percent of consumption's response to monetary policy shocks.",
+  "authors": "",
+  "date": "2026-08-20T11:03:34+00:00",
+  "ptype": "Staff Working Paper",
+  "src_id": "boc",
+  "org": "BoC",
+  "org_cn": "加拿大央行",
+  "group": "cb",
+  "key": "timeuseandconsumptionexpenditures",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 11,
+   "data": [],
+   "method": [
+    "一般均衡 / DSGE"
+   ],
+   "ctx": [
+    "货币政策传导",
+    "用户采纳与普惠"
+   ],
+   "question": "This paper shows that consumption activities toward which households reallocate more time in recessions see larger expenditure declines, revealing a systematic link between time-use and expenditure cyclicality.",
+   "finding": "A two-sector New Keynesian model shows this time-expenditure substitution explains roughly forty percent of consumption's response to monetary policy shocks.",
+   "lead": "加拿大央行「Staff Working Paper」，切入货币政策传导、用户采纳与普惠，方法上采用一般均衡 / DSGE。"
+  }
+ },
+ {
+  "title": "Has Broader Stock Market Participation Changed How Interest Rates Affect the Economy?",
+  "link": "https://libertystreeteconomics.newyorkfed.org/2026/08/has-broader-stock-market-participation-changed-how-interest-rates-affect-the-economy/",
+  "abstract": "Juan M. Morelli Stock market participation in the U.S. has changed dramatically over the past four decades. In the mid-1980s, fewer than 30 percent of households held equity. By the early 2000s, more than half of U.S. households owned equity, either directly or through mutual funds, 401(k)s, and IRAs. As participation widened, the way stock market fluctuations passed through to household spending may have changed, with potential implications for how the broader economy behaves. An argument can be made that the rise in equity market participation has dampened the response of output to interest rate changes as stock market fluctuations are now spread across a larger share of households, moderating movements in consumer spending, asset prices, and investment spending. Why Does Participation Matter? Before turning to the data, it helps to set out the mechanisms at work. I develop a model in which households differ in their access to financial markets: participants trade both bonds and equity, while nonparticipants hold only bonds. Participants finance their equity positions with debt, giving them leveraged exposure to a procyclical asset. As a result, they bear more aggregate risk than nonparticipants, and their consumption is more responsive to interest rate changes. When rates rise, equity prices fall and participants’ financing costs increase. Both forces push participants to cut consumption by more than nonparticipants. As participation rises, the same changes in aggregate equity market value are spread across a larger pool of households. Each participant holds a smaller per-capita equity position and takes on less leverage. Consequently, the wealth effect of a given stock-price movement and the financing pressures created by higher interest rates are both weaker. Participants’ consumption becomes less responsive to interest rate changes, and their valuation of future firm profits also becomes less sensitive, reflecting both smoother consumption and milder financing conditions. The response of stock prices is therefore more muted. It may seem counterintuitive that adding more households from the group that is more responsive to interest rate changes can produce a smaller aggregate consumption response. Two opposing effects are at work. A larger share of participants, by itself, would make aggregate consumption more responsive. But as participation rises, each participant responds by less. In the model, this reduction in individual responsiveness more than offsets the effect of having more participants. This matters for the real economy because stock prices help determine firms’ incentives to invest. When stock prices fall, the market value of installed capital declines relative to the cost of building new capital, making investment projects less attractive. Smaller movements in stock prices therefore translate into smaller adjustments in investment spending. The more muted investment response also dampens movements in output and labor income, further reducing households’ consumption responses. The model is calibrated to match the empirical responses of equity prices and investment spending to unexpected interest rate changes, as well as business-cycle and asset-pricing moments. Under the parameterization, comparing a low-participation economy, at 25 percent, with a high-participation one, at 55 percent, the output response to an unexpected interest rate increase is 20 percent smaller. Stockholders and Nonstockholders Respond Differently With this mechanism in mind, one can examine whether the household-level patterns predicted by the model appear in the data. Using household-level nondurable consumption data from the U.S. Bureau of Labor Statistics’s Consumer Expenditure Survey for the period 1990–2007, I estimate how the differential consumption response between participants and nonparticipants evolved over time following unanticipated interest rate increases. Two patterns stand out. First, participants cut consumption by more than nonparticipants following an unexpected increase in interest rates. Second, this gap has narrowed considerably as participation has risen. The chart below shows the differential response between the two groups, estimated over rolling fifteen-year windows: it is large and negative in the mid-1990s but moves toward zero by the mid-2000s, in line with the rise in participation documented in the Federal Reserve Board’s Survey of Consumer Finances. Participants’ Extra Consumption Response Has Narrowed Over Time Differential log consumption response (P vs. NP, ppt) Sources : U.S. Bureau of Labor Statistics Consumer Expenditure Survey; Wieland and Yang (2020); and author’s calculations. Notes : The chart shows the differential consumption response between stock market participants (P) and nonparticipants (NP), estimated over rolling fifteen-year windows. The response is measured as the average difference between one and three years after an unanticipated interest rate increase. Negative values indicate that participants cut consumption more than nonparticipants. The Aggregate Output Response Has Weakened The model predicts that broader equity market participation dampens the response of aggregate output to interest rate changes. To assess this prediction, I examine how the response of industrial production evolved as participation rose. Using twenty-year rolling-window local projections of monthly industrial production onto unanticipated interest rate changes, it is evident that the response of output has weakened alongside the secular rise in participation (see chart below). This pattern holds for both the peak response and the average response over the two-to-three-year horizon following a shock. Output Responses to Interest Rate Changes Weakened as Participation Rose Response of log IP Participation rate (ppt) Sources : Board of Governors of the Federal Reserve System, Survey of Consumer Finances; Wieland and Yang (2020); and author’s calculations. Notes : The chart plots the peak (blue) and average (red) responses of log industrial production (IP) to an unanticipated interest rate increase, estimated using twenty-year rolling windows at monthly frequency. The responses are measured over horizons of 2 to 2.5 years after the shock. The gold line, plotted on the right axis, shows the equity market participation rate. Additional evidence comes from analysis that shows states with lower equity market participation exhibit larger consumption responses to interest rate changes, even after accounting for differences in demographics, income, and industry composition. Conclusion Taken together, these results suggest that changes in household portfolio composition can alter how strongly the economy responds to interest rate changes over time. When relatively few households own equity, stock market risk is concentrated among a smaller group of investors, amplifying movements in spending, asset prices, and investment following shocks. As participation broadens, that risk is spread across a larger share of the population, reducing the average exposure across participants to any given change in equity market capitalization and easing the financing pressures associated with interest rate changes. Household spending and asset valuations therefore become less responsive, leading firms to make smaller adjustments in investment spending. The rise in participation coincided with other structural changes in the economy, so these findings should be interpreted with caution. Nevertheless, the evidence from household consumption, aggregate output, and cross-state comparisons (conducted using this model, but not discussed here) points in the same direction and is consistent with the mechanism described above. Shifts in household portfolio composition therefore appear to be a meaningful determinant of how interest rate changes pass through to the real economy. Juan M. Morelli is a research economist in the Federal Reserve Bank of New York’s Research and Statistics Group. How to cite this post: Juan M. Morelli, “Has Broader Stock Market Participation Changed How Interest Rates Affect the Economy?,” Federal Reserve Bank of New York Liberty Street Economics , August 19, 2026, https://doi.org/10.59576/lse.20260819 BibTeX: View | Download @article{JuanM.Morelli2026, author={Juan M. Morelli}, title={Has Broader Stock Market Participation Changed How Interest Rates Affect the Economy?}, journal={Liberty Street Economics}, note={Liberty Street Economics Blog}, number={August 19}, year={2026}, url={https://doi.org/10.59576/lse.20260819} } You may also be interested in: How Household Saving Affects Monetary Policy Spillovers Monetary Policy Transmission and the Size of the Money Market Fund Industry: An Update Disclaimer The views expressed in this post are those of the author(s) and do not necessarily reflect the position of the Federal Reserve Bank of New York or the Federal Reserve System. Any errors or omissions are the responsibility of the author(s).",
+  "authors": "Juan M. Morelli",
+  "date": "2026-08-19T11:00:00+00:00",
+  "ptype": "Liberty Street",
+  "src_id": "nyfed-lse",
+  "org": "NY Fed",
+  "org_cn": "纽约联储",
+  "group": "cb",
+  "key": "hasbroaderstockmarketparticipationchangedhowinterestratesaffecttheeconomy",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    },
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 32,
+   "data": [
+    "住户/消费者调查数据",
+    "模型模拟/校准（非实证数据）"
+   ],
+   "method": [
+    "局部投影 LP",
+    "定量校准与反事实模拟"
+   ],
+   "ctx": [
+    "货币政策传导",
+    "用户采纳与普惠",
+    "储备资产与抵押品"
+   ],
+   "question": "Morelli Stock market participation in the U.S. has changed dramatically over the past four decades.",
+   "finding": "Conclusion Taken together, these results suggest that changes in household portfolio composition can alter how strongly the economy responds to interest rate changes over time.",
+   "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定，切入货币政策传导、用户采纳与普惠、储备资产与抵押品，方法上采用局部投影 LP + 定量校准与反事实模拟，数据来自住户/消费者调查数据、模型模拟/校准（非实证数据）。"
+  },
+  "cn": {
+   "一句话": "研究股市参与率上升如何减弱"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "Why Europe needs Eurobonds",
+  "link": "https://cepr.org/voxeu/columns/why-europe-needs-eurobonds",
+  "abstract": "The 2024 reform of the EU fiscal framework makes fiscal adjustment more country-specific and less procyclical. However, it does not eliminate two fundamental tail risks: following a large recession, too little fiscal flexibility can generate deflationary stagnation, while too much can undermine confidence in national debt stabilisation and generate stagflation. This column shows that a Eurobond-financed common fiscal capacity can mitigate both tail risks. Under this proposal, stabilisation of exceptional common shocks is shifted to the euro-area level while responsibility for national debt remains firmly national.",
+  "authors": "Francesco Bianchi, Qingyuan Fang, Leonardo Melosi, Anna Rogantini Picco",
+  "date": "2026-08-23T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "whyeuropeneedseurobonds",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "The 2024 reform of the EU fiscal framework makes fiscal adjustment more country-specific and less procyclical.",
+   "finding": "Under this proposal, stabilisation of exceptional common shocks is shifted to the euro-area level while responsibility for national debt remains firmly national.",
+   "lead": "CEPR 政策评论「Column」。"
+  }
+ },
+ {
+  "title": "Digitalisation and credit markets: Evidence from eInvoicing",
+  "link": "https://cepr.org/voxeu/columns/digitalisation-and-credit-markets-evidence-einvoicing",
+  "abstract": "Governments around the world are increasingly mandating the digitalisation of business records, yet little is known about the effects of these policies beyond tax compliance. This column discusses how mandatory electronic invoicing reshapes credit markets by changing the information available to lenders. The evidence shows that eInvoicing reallocates credit toward firms that already rely on invoice-based financing and away from other firms, as banks become better at assessing the credit risk of the former relative to the latter.",
+  "authors": "Alejandro Casado, Marco Giometti, Jose Gutierrez, David Martinez-Miera, Alexandra Matyunina, Tammaro Terracciano",
+  "date": "2026-08-23T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "digitalisationandcreditmarketsevidencefromeinvoicing",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 12,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规",
+    "违法风险与操作风险"
+   ],
+   "question": "Governments around the world are increasingly mandating the digitalisation of business records, yet little is known about the effects of these policies beyond tax compliance.",
+   "finding": "The evidence shows that eInvoicing reallocates credit toward firms that already rely on invoice-based financing and away from other firms, as banks become better at assessing the credit risk of the former relative to the latter.",
+   "lead": "CEPR 政策评论「Column」，主题为金融稳定，切入监管与合规、违法风险与操作风险。"
+  }
+ },
+ {
+  "title": "Small and stuck: Why European firms can’t scale",
+  "link": "https://cepr.org/voxeu/columns/small-and-stuck-why-european-firms-cant-scale",
+  "abstract": "In 2008, the US stock market was worth $3 trillion more than the combined European stock market; in 2023, the gap was $34 trillion. This column argues that the valuation gap is not driven by differences in GDP, number of listed firms, sectoral composition, or the presence of a few superstar firms, but by European firms’ inability to scale. European firms remain tethered to their home market. Small European firms face a much larger cost of capital and cannot substitute debt with access to equity financing, including venture capital. Therefore, even if they have profitable growth opportunities, European firms cannot grow as their US counterparts.",
+  "authors": "Bo Becker, Efraim Benmelech, Joao Monteiro",
+  "date": "2026-08-22T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "smallandstuckwhyeuropeanfirmscantscale",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "stable",
+     "label": "稳定币",
+     "cls": "t-stable"
+    }
+   ],
+   "score": 18,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "In 2008, the US stock market was worth $3 trillion more than the combined European stock market; in 2023, the gap was $34 trillion.",
+   "finding": "Therefore, even if they have profitable growth opportunities, European firms cannot grow as their US counterparts.",
+   "lead": "CEPR 政策评论「Column」，主题为稳定币。"
+  },
+  "cn": {
+   "一句话": "研究欧洲企业无法扩张导致欧美股市估值差距扩大。",
+   "问题": "为什么欧洲企业难以扩张，以及欧美股市估值差距的原因。",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "2008年美股总市值比欧洲高3万亿美元，2023年差距达34万亿美元；差距源于欧洲企业无法扩张，而非GDP、上市公司数、行业结构或少数巨星企业。",
+   "含义": "政策应改善欧洲企业股权融资和风投环境，以支持企业扩张并缩小估值差距。"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "Why more information can make macroeconomic expectations less accurate: Global evidence from 47 countries",
+  "link": "https://cepr.org/voxeu/columns/why-more-information-can-make-macroeconomic-expectations-less-accurate-global",
+  "abstract": "Households do not simply choose how much macroeconomic information to acquire; they choose among sources that differ in representativeness and credibility. Using a survey of 46,285 consumers in 47 countries, this column shows that reliance on shopping, utility bills, and other local signals is associated with larger macroeconomic perception and expectation errors. Households that use official reports, newspapers, and television for information make smaller errors. Crucially, distrust of governments and central banks helps explain why more representative aggregate information is dismissed.",
+  "authors": "Francesco D'Acunto, Michael Weber",
+  "date": "2026-08-22T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "whymoreinformationcanmakemacroeconomicexpectationslessaccurateglobalevidencefrom47countrie",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度",
+    "用户采纳与普惠"
+   ],
+   "question": "Households do not simply choose how much macroeconomic information to acquire; they choose among sources that differ in representativeness and credibility.",
+   "finding": "Crucially, distrust of governments and central banks helps explain why more representative aggregate information is dismissed.",
+   "lead": "CEPR 政策评论「Column」，切入跨境与国际维度、用户采纳与普惠。"
+  }
+ },
+ {
+  "title": "How early academic rank shapes high school choices and admissions",
+  "link": "https://cepr.org/voxeu/columns/how-early-academic-rank-shapes-high-school-choices-and-admissions",
+  "abstract": "Students with the same test score can have considerably different academic ranks depending on their school peers. Using data from the Mexico City metropolitan area, this column examines how differences relative academic ranks in elementary school affect later cognitive and noncognitive outcomes. Among students with similar third-grade scores, those with higher academic ranks performed better on their high school admission exams. The early ranks also shaped college aspirations and academic self-perceptions. Early academic ranks can be particularly consequential for students with fewer socioeconomic resources.",
+  "authors": "Eunsik Chang, Maria Padilla-Romo, Cecilia Peluffo",
+  "date": "2026-08-21T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "howearlyacademicrankshapeshighschoolchoicesandadmissions",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Students with the same test score can have considerably different academic ranks depending on their school peers.",
+   "finding": "Early academic ranks can be particularly consequential for students with fewer socioeconomic resources.",
+   "lead": "CEPR 政策评论「Column」。"
+  }
+ },
+ {
+  "title": "Combatting Sexual Harassment in the Military",
+  "link": "https://cepr.org/multimedia/combatting-sexual-harassment-military",
+  "abstract": "Norwegian conscripts arrive at boot camp straight out of school. They are assigned at random to a shared room and they live in it for the next eight weeks. Whatever the culture of that room turns out to be, they are stuck with it. We know that the military everywhere has a poor record on sexual harassment. Johanna Rickne (Stockholm University, CEPR) and her co-authors wanted to reduce its acceptance, and the number of incidents. Compulsory training, standing a in a room a showing a PowerPoint, has a poor record. It can even inspire a backlash. Instead, they included two pieces of information in a 20-minute enrolment survey. One fact was about how women score on the army's own end-of-service assessments. The other was about what last year's recruits really thought about crude sexual jokes. Eight weeks later, the researchers came back to see what had changed for the 949 recruits.",
+  "authors": "",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "combattingsexualharassmentinthemilitary",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Norwegian conscripts arrive at boot camp straight out of school.",
+   "finding": "Eight weeks later, the researchers came back to see what had changed for the 949 recruits.",
+   "lead": "CEPR 政策评论「Column」。"
+  }
+ },
+ {
+  "title": "A nascent international financial channel of China’s monetary policy transmission",
+  "link": "https://cepr.org/voxeu/columns/nascent-international-financial-channel-chinas-monetary-policy-transmission",
+  "abstract": "China is the world’s second-largest economy, and its monetary policy can affect global demand and trade. Using granular mutual fund data, this column finds that country stock indices and firm-level stocks with greater exposure to Chinese mutual funds experience significantly lower returns than those with less exposure following contractionary Chinese monetary policy announcements. These responses can be explained by a portfolio rebalancing channel and appear to be driven by retail investors. Overall, the findings show that China’s private portfolio equity flows already exert an influence on global equity markets, and this channel is likely to strengthen in the future.",
+  "authors": "Chang Ma, Alessandro Rebucci, Sili Zhou",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "anascentinternationalfinancialchannelofchinasmonetarypolicytransmission",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导",
+    "跨境与国际维度"
+   ],
+   "question": "China is the world’s second-largest economy, and its monetary policy can affect global demand and trade.",
+   "finding": "Overall, the findings show that China’s private portfolio equity flows already exert an influence on global equity markets, and this channel is likely to strengthen in the future.",
+   "lead": "CEPR 政策评论「Column」，切入货币政策传导、跨境与国际维度。"
+  }
+ },
+ {
+  "title": "AI’s gains are large and rising, but unevenly shared",
+  "link": "https://cepr.org/voxeu/columns/ais-gains-are-large-and-rising-unevenly-shared",
+  "abstract": "How large is the labour cost saved by AI, and how is it distributed across occupations? Using five waves of the Anthropic Economic Index from January 2025 to February 2026, this column constructs two novel measures from observed AI usage across countries over the world. The labour cost equivalent values the time currently saved by AI at $2.7 trillion annually (3.4% of GDP), concentrated in a small professional enclave in developing economies, with concentration declining in many countries.",
+  "authors": "Rachel Yuting Fan, Ha Nguyen",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "aisgainsarelargeandrisingbutunevenlyshared",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "How large is the labour cost saved by AI, and how is it distributed across occupations?",
+   "finding": "The labour cost equivalent values the time currently saved by AI at $2.7 trillion annually (3.4% of GDP), concentrated in a small professional enclave in developing economies, with concentration declining in many countries.",
+   "lead": "CEPR 政策评论「Column」。"
+  }
+ },
+ {
+  "title": "The anatomy of censorship and propaganda: What Russia’s Wikipedia clone reveals about authoritarian information control",
+  "link": "https://cepr.org/voxeu/columns/anatomy-censorship-and-propaganda-what-russias-wikipedia-clone-reveals-about",
+  "abstract": "Autocratic regimes shape what citizens know through censorship and propaganda, but their priorities are rarely observable at scale. This column exploits the 2023 cloning of Russian-language Wikipedia and its subsequent rewriting into Ruwiki, a regime-aligned alternative. Comparing the two 1.9 million-article corpora reveals a coherent editorial intervention legitimising Russia’s aggression, suppressing opposition and criticism of state institutions, and promoting traditional values. Rewriting is far more common than outright deletion, suggesting that modern information control works primarily by changing the meaning of familiar topics rather than making them disappear.",
+  "authors": "Ekaterina Zhuravskaya, Ulrich Matter, Ruben Durante, Vladimir Avetian",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "theanatomyofcensorshipandpropagandawhatrussiaswikipediaclonerevealsaboutauthoritarianinfor",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Autocratic regimes shape what citizens know through censorship and propaganda, but their priorities are rarely observable at scale.",
+   "finding": "Rewriting is far more common than outright deletion, suggesting that modern information control works primarily by changing the meaning of familiar topics rather than making them disappear.",
+   "lead": "CEPR 政策评论「Column」。"
+  }
+ },
+ {
+  "title": "Europe’s productivity is more dynamic than aggregate statistics suggest",
+  "link": "https://cepr.org/voxeu/columns/europes-productivity-more-dynamic-aggregate-statistics-suggest",
+  "abstract": "Aggregate productivity growth in Europe has disappointed over the last two decades, fuelling concerns about competitiveness. This column argues that firm-level evidence points to a more optimistic picture. Productivity differences between firms have stopped widening, and initially low-productivity firms have started moving up the productivity ladder. To speed up productivity convergence within industries, policies should reduce regulatory and administrative barriers to entry and expansion, strengthen competition enforcement, and deepen the Single Market. Investing in a European harmonised framework for firm-level data is also key for understanding productivity developments and devising economic policy.",
+  "authors": "Filippo Di Mauro, Ashim Dubey, Chad Syverson, Alessandro Zona Mattioli",
+  "date": "2026-08-18T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "europesproductivityismoredynamicthanaggregatestatisticssuggest",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规"
+   ],
+   "question": "Aggregate productivity growth in Europe has disappointed over the last two decades, fuelling concerns about competitiveness.",
+   "finding": "Investing in a European harmonised framework for firm-level data is also key for understanding productivity developments and devising economic policy.",
+   "lead": "CEPR 政策评论「Column」，切入监管与合规。"
+  }
+ },
+ {
+  "title": "When statistics lie: Using satellite data to track Russia’s wartime economy",
+  "link": "https://cepr.org/voxeu/columns/when-statistics-lie-using-satellite-data-track-russias-wartime-economy",
+  "abstract": "Official Russian statistics report a mild recession in 2022 following the full-scale of Ukraine but suggest that Russia has since fully recovered. This column argues that data on nighttime lights emitted by Russian cities suggest otherwise. The authors find evidence of a significant economic slowdown due to the war, and substantial redistribution of economic activity across Russia’s regions. The costs appear to have been concentrated where it matters: in the economic and political core of Russia.",
+  "authors": "Irakli Barbakadze, Jan Fidrmuc, Martin Hulényi, Ketevani Kapanadze",
+  "date": "2026-08-18T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "whenstatisticslieusingsatellitedatatotrackrussiaswartimeeconomy",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Official Russian statistics report a mild recession in 2022 following the full-scale of Ukraine but suggest that Russia has since fully recovered.",
+   "finding": "The costs appear to have been concentrated where it matters: in the economic and political core of Russia.",
+   "lead": "CEPR 政策评论「Column」。"
+  }
+ },
+ {
+  "title": "Industrial policy in complementary markets: Lessons from India's 4G rollout",
+  "link": "https://cepr.org/voxeu/columns/industrial-policy-complementary-markets-lessons-indias-4g-rollout",
+  "abstract": "Governments increasingly use protection and targeted subsidies to promote domestic firms. These policies are usually evaluated in the market they target. This column uses India's 4G rollout to show why that can be misleading when products and infrastructure are complements. Restricting low-priced Chinese phones slowed 4G network expansion and did not raise Indian phone firms' profits, while a subsidy open to all 4G phones accelerated coverage more than a domestic-only subsidy.",
+  "authors": "Chirantan Chatterjee, Ying Fan, Debi Prasad Mohapatra",
+  "date": "2026-08-17T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "industrialpolicyincomplementarymarketslessonsfromindias4grollout",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "系统性风险传染"
+   ],
+   "question": "Governments increasingly use protection and targeted subsidies to promote domestic firms.",
+   "finding": "Restricting low-priced Chinese phones slowed 4G network expansion and did not raise Indian phone firms' profits, while a subsidy open to all 4G phones accelerated coverage more than a domestic-only subsidy.",
+   "lead": "CEPR 政策评论「Column」，切入系统性风险传染。"
+  }
+ },
+ {
+  "title": "How regulatory risk and expropriation threats are affecting Berlin’s housing market",
+  "link": "https://cepr.org/voxeu/columns/how-regulatory-risk-and-expropriation-threats-are-affecting-berlins-housing-market",
+  "abstract": "Housing shortages and rising rents have become a source of political pressure in many countries, prompting calls for stronger intervention in rental markets. This column shows that the effects of such intervention can outlast the policy itself: in Berlin, the 2020 rent cap was followed by continued debate over expropriation and further regulation, and the city’s price-rent ratio remained 10%–15% below trend even three years after repeal. The findings suggest that credible threats of future intervention can depress housing valuations, alter market structure, and weaken construction activity even when no regulation is currently in force.",
+  "authors": "Mathias Dolls, Clemens Fuest, David Gstrein, Carla Krolage, Florian Neumeier",
+  "date": "2026-08-17T23:00:00+00:00",
+  "ptype": "Column",
+  "src_id": "cepr-vox",
+  "org": "VoxEU",
+  "org_cn": "CEPR 政策评论",
+  "group": "core",
+  "key": "howregulatoryriskandexpropriationthreatsareaffectingberlinshousingmarket",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规"
+   ],
+   "question": "Housing shortages and rising rents have become a source of political pressure in many countries, prompting calls for stronger intervention in rental markets.",
+   "finding": "The findings suggest that credible threats of future intervention can depress housing valuations, alter market structure, and weaken construction activity even when no regulation is currently in force.",
+   "lead": "CEPR 政策评论「Column」，切入监管与合规。"
+  }
+ },
+ {
+  "title": "DP21871 Firm Productivity and the Internal-Versus-External Hiring Decision",
+  "link": "https://cepr.org/publications/dp21871",
+  "abstract": "We document, using Finnish employer-employee matched panel data, that more productive firms are more likely to hire internally than externally. This result is interpreted via a new theoretical model in which the superior management practices of high-productivity firms enable their managers to screen internal candidates more accurately when recruiting across multiple applicant pools to fill a vacancy. More internal hiring usually results. The model’s further predictions are empirically supported, e.g., internal hiring rates increase in applicant pool size, education level of the internal pool, and managerial performance and education.",
+  "authors": "Ricardo Alonso, Jed DeVaro, Antti Kauhanen, Nelli Valmari",
+  "date": "2026-08-22T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21871firmproductivityandtheinternalversusexternalhiringdecision",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "理论建模",
+    "描述性/政策梳理"
+   ],
+   "ctx": [],
+   "question": "We document, using Finnish employer-employee matched panel data, that more productive firms are more likely to hire internally than externally.",
+   "finding": "The model’s further predictions are empirically supported, e.g., internal hiring rates increase in applicant pool size, education level of the internal pool, and managerial performance and education.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，方法上采用理论建模 + 描述性/政策梳理。"
+  }
+ },
+ {
+  "title": "DP21872 Immiserizing Automation",
+  "link": "https://cepr.org/publications/dp21872",
+  "abstract": "Early-career jobs often serve as stepping stones to more productive occupations later in life. Automating such jobs may disrupt skill accumulation. We study this possibility in an overlapping-generations economy with career ladders. Our main result is that automation of junior tasks can be immiserizing: when its cost savings are small, automation lowers long-run output. Immiseration occurs because junior automation shifts earnings to later in life. This shift lowers the present value of experience-intensive careers, so that fewer workers pursue them, and the supply of experienced workers falls. As the transition to the new steady state is Pareto efficient, any policy that averts immiseration hurts at least some workers. Incumbent experienced workers, for instance, benefit from higher senior wages without having suffered lower wages as juniors. In the context of U.S. robot automation, we provide empirical support for the theory's key predictions and explore its aggregate implications.",
+  "authors": "Vladimir Asriyan, Hugo Reichardt, Sandro Shelegia",
+  "date": "2026-08-22T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21872immiserizingautomation",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Early-career jobs often serve as stepping stones to more productive occupations later in life.",
+   "finding": "In the context of U.S. robot automation, we provide empirical support for the theory's key predictions and explore its aggregate implications.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」。"
+  }
+ },
+ {
+  "title": "DP21868 News Consumption in the Digital Age",
+  "link": "https://cepr.org/publications/dp21868",
+  "abstract": "Digital technologies have transformed the news landscape, shifting consumption from print media toward online providers. This has allowed news outlets to collect richer data on individual readers, and to use those data both to tailor the news a reader sees— which stories appear and how they are framed—and to sell more precisely targeted advertising. Online news outlets also increasingly recruit readers from social media, amplifying incentives to capture reader attention through sensationalized stories and other techniques to increase engagement. Generative AI is likely to accelerate this trend by lowering the cost of personalizing news. Whether cheaper production and finer personalization raise or lower consumer welfare depends on how closely the objectives firms maximize are aligned with the underlying preferences of consumers. This review studies how the shift toward online news consumption affects both the supply and the demand for news and draws potential implications for consumer welfare.",
+  "authors": "Francesco Capozza, Ingar Haaland, Christopher Roth, Johannes Wohlfart",
+  "date": "2026-08-21T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21868newsconsumptioninthedigitalage",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 21,
+   "data": [
+    "文本与舆情数据"
+   ],
+   "method": [],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "Digital technologies have transformed the news landscape, shifting consumption from print media toward online providers.",
+   "finding": "This review studies how the shift toward online news consumption affects both the supply and the demand for news and draws potential implications for consumer welfare.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入用户采纳与普惠，数据来自文本与舆情数据。"
+  },
+  "cn": {
+   "一句话": "综述数字技术如何改变新闻消费，并分析对消费者福利的影响",
+   "问题": "新闻消费向线上转移如何影响新闻供需与消费者福利？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明（文献综述）",
+   "发现": "线上新闻借助数据个性化与社交媒体引流，可能强化耸动化报道；生成式AI将加速这一趋势，福利影响取决于企业目标与消费者偏好是否一致。",
+   "含义": "若新闻平台目标偏离消费者偏好，可能损害信息环境与金融稳定，需关注监管与激励设计。"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "DP21870 Cultural Evolution",
+  "link": "https://cepr.org/publications/dp21870",
+  "abstract": "What gave rise to the mosaic of cultural expressions across the globe? Why are some societies more culturally diverse than others? This study develops a unified theory of cultural evolution, characterizing the forces that have governed this process over the course of human existence. The research advances the hypothesis that population movements and socioeconomic transformations generated a mismatch between inherited cultural traits and prevailing ecological and societal conditions, setting in motion an evolutionary process governed by adaptation-based vertical transmission, horizontal diffusion, and fitness-based evolutionary selection. The theory generates novel testable predictions concerning the origins of the global cultural mosaic and the cross-societal variation in cultural diversity. First, greater ecological distance between ancestral environments generated greater cultural distance across societies. Second, prehistoric differences in ancestral diversity contributed to divergent adaptive capacity and greater cultural distance. Third, societies descended from more diverse prehistoric populations exhibit greater cultural diversity despite convergence induced by adaptation to a common environment and societal norms. Drawing on measures of cultural distance and diversity derived from folkloric and musical traditions among ethnic groups, visual representations of common concepts, and the dispersion of norms, values, and attitudes, the empirical analysis lends credence to the predictions of the theory.",
+  "authors": "Oded Galor, Marc Klemp, Daniel C. Wainstock",
+  "date": "2026-08-21T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21870culturalevolution",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "面板/回归分析"
+   ],
+   "ctx": [
+    "货币政策传导",
+    "跨境与国际维度",
+    "能源与气候影响"
+   ],
+   "question": "What gave rise to the mosaic of cultural expressions across the globe?",
+   "finding": "Drawing on measures of cultural distance and diversity derived from folkloric and musical traditions among ethnic groups, visual representations of common concepts, and the dispersion of norms, values, and attitudes, the empirical analysis lends credence to the predictions of the theory.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入货币政策传导、跨境与国际维度、能源与气候影响，方法上采用面板/回归分析。"
+  }
+ },
+ {
+  "title": "DP21869 Paying Not to Know: News Avoidance in Times of War",
+  "link": "https://cepr.org/publications/dp21869",
+  "abstract": "Do individuals at war avoid news about outgroup victims? Would such news affect them if they were exposed to it? We study Israelis and Jordanians during the 2023-2025 Gaza war. Four findings stand out. First, individuals are substantially less willing to read about outgroup than ingroup civilian victims. Second, news avoidance is driven less by instrumental considerations or universal affective factors, and more by social identity and group norms. Third, reading about outgroup victims increases knowledge, fosters empathy toward the outgroup, and affects policy positions. Finally, these effects arise even among individuals who would rather avoid such news.",
+  "authors": "Ro'ee Levy, Moses Shayo, Guy Yanay",
+  "date": "2026-08-21T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21869payingnottoknownewsavoidanceintimesofwar",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Do individuals at war avoid news about outgroup victims?",
+   "finding": "Finally, these effects arise even among individuals who would rather avoid such news.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」。"
+  }
+ },
+ {
+  "title": "DP21862 Survival and Financial Literacy in Investment Decisions Later in Life",
+  "link": "https://cepr.org/publications/dp21862",
+  "abstract": "We study how subjective survival beliefs and financial literacy jointly shape saving and portfolio decisions later in life. Using data from the English Longitudinal Study of Ageing, we document that individuals who underestimate their survival probabilities are less likely to participate in risky financial markets. To identify the underlying mechanisms, we conduct a randomized survey experiment that cross-randomizes survival and financial literacy interventions and independently randomizes participation costs. Survival literacy updates subjective longevity beliefs, whereas financial literacy increases risky-asset participation by attenuating the deterrent effect of participation costs. We then build a heterogeneous-agent life-cycle model to evaluate survey-informed, revenue-neutral policy interventions. The counterfactuals show that financial literacy is the main driver of market entry, while survival literacy is complementary to financial literacy in raising the share of wealth invested in risky assets; only survival literacy, however, delivers positive welfare gains once financing costs are taken into account.",
+  "authors": "Chiara Dal Bianco, Francesco Maura, Francesca Parodi, Guglielmo Weber",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21862survivalandfinancialliteracyininvestmentdecisionslaterinlife",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [
+    "住户/消费者调查数据"
+   ],
+   "method": [
+    "描述性/政策梳理"
+   ],
+   "ctx": [],
+   "question": "We study how subjective survival beliefs and financial literacy jointly shape saving and portfolio decisions later in life.",
+   "finding": "Using data from the English Longitudinal Study of Ageing, we document that individuals who underestimate their survival probabilities are less likely to participate in risky financial markets.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，方法上采用描述性/政策梳理，数据来自住户/消费者调查数据。"
+  }
+ },
+ {
+  "title": "DP21867 AI in a Fragmenting World",
+  "link": "https://cepr.org/publications/dp21867",
+  "abstract": "We link two global trends—AI and geoeconomic fragmentation—asking how fragmentation affects the international diffusion of AI, the magnitude of gains, and their distribution across economies. We ask these questions in general but also with a focus on the MENAP economies.",
+  "authors": "Barry Eichengreen, Jingyuan(George) Cui, Asmaa El Ganainy, Yevgeniya Korniyenko, Elyad Shojaei, Li Zeng, Shihangyin Zhang",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21867aiinafragmentingworld",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 11,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "We link two global trends—AI and geoeconomic fragmentation—asking how fragmentation affects the international diffusion of AI, the magnitude of gains, and their distribution across economies.",
+   "finding": "We ask these questions in general but also with a focus on the MENAP economies.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入跨境与国际维度。"
+  }
+ },
+ {
+  "title": "DP21864 Falling Fertility: The Changing Value of Freedom, Fulfillment, and Family",
+  "link": "https://cepr.org/publications/dp21864",
+  "abstract": "Fertility has fallen in nearly all high-income countries. People also report wanting fewer children: between 2012 and 2022 the ideal number of children fell from 2.42 to 2.31 and the share of respondents intending a child within three years fell from 28 to 21 percent over a similar period. Why? Using two cross-national surveys that ask respondents about their attitudes and their fertility preferences, both fielded twice roughly a decade apart, we decompose each decline into the contribution of a broad and competing set of attitudes. Three stand out: children are increasingly seen as interfering with the freedom of parents; views on whether mothers of young children should work have become markedly more progressive and account for a substantially larger share of the decline among the tertiary-educated; and fewer people believe that women or men need children to lead a fulfilled life. This last attitude changed most over the decade and is the largest contributor to the fall in intended fertility, above all among less-educated women. The changing division of household work and increasing work-family conflict have minor contributions to changing fertility preferences.",
+  "authors": "Raquel Fernández, Inés Berniell, Milagros Onofri",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21864fallingfertilitythechangingvalueoffreedomfulfillmentandfamily",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 21,
+   "data": [],
+   "method": [
+    "机器学习 / 文本分析"
+   ],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "Fertility has fallen in nearly all high-income countries.",
+   "finding": "The changing division of household work and increasing work-family conflict have minor contributions to changing fertility preferences.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入用户采纳与普惠，方法上采用机器学习 / 文本分析。"
+  }
+ },
+ {
+  "title": "DP21863 Changing Gender Norms across Generations: Evidence from a Paternity Leave Reform",
+  "link": "https://cepr.org/publications/dp21863",
+  "abstract": "Social norms are an important barrier to gender convergence in economic outcomes. We study whether a public policy designed to promote gender equality at home can pave the way towards gender convergence by shaping gender norms in the next generation. We exploit the introduction of paid paternity leave in Spain in 2007, which granted fathers 13 days of non-transferable paid leave after childbirth. Eligibility depended sharply on the child’s date of birth. We combine this policy variation with original survey data collected from adolescents and implement a within-school difference-in-differences design comparing children born just before and after the reform cutoff within the same school cohort, using adjacent cohorts as controls. Children exposed to paternity leave eligibility display more egalitarian gender attitudes and beliefs in early adolescence. They are also more likely to engage in counter-stereotypical household chores, and hold less gender-stereotypical expectations regarding future work and family roles. The effects largely disappear in late adolescence.",
+  "authors": "Lidia Farré, Christina Felfe, Libertad Gonzalez, Patrick Schneider",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21863changinggendernormsacrossgenerationsevidencefromapaternityleavereform",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 21,
+   "data": [
+    "住户/消费者调查数据"
+   ],
+   "method": [
+    "双重差分 DiD"
+   ],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "Social norms are an important barrier to gender convergence in economic outcomes.",
+   "finding": "The effects largely disappear in late adolescence.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入用户采纳与普惠，方法上采用双重差分 DiD，数据来自住户/消费者调查数据。"
+  },
+  "cn": {
+   "一句话": "利用西班牙陪产假改革，研究公共政策能否通过塑造下一代性别规范促进性别趋同。",
+   "问题": "公共政策能否通过改变下一代性别规范来推动性别趋同？",
+   "数据": "摘要未说明具体来源；采用作者自收集的青少年调查数据，覆盖西班牙2007年陪产假改革前后出生的青少年。",
+   "方法": "基于2007年西班牙陪产假改革引入的出生日期资格断点，采用校内双重差分设计，比较同一学校队列中改革前后出生儿童，并以相邻队列为对照。",
+   "发现": "有资格享受陪产假的儿童在青春期早期表现出更平等的性别态度和观念，更少刻板的家务分工及未来角色预期；但效应在青春期后期基本消失。",
+   "含义": "不直接相关。"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "DP21866 Incomplete Insurance and Open-Economy Spillovers of Labor Market Reforms",
+  "link": "https://cepr.org/publications/dp21866",
+  "abstract": "This paper studies how an unemployment-benefit reform in one member state of a monetary union affects savings, net foreign asset positions, and fiscal space across member states when households face incomplete insurance. Lower benefits reduce unemployment and increase fiscal space in the reforming country. Employed workers increase their precautionary savings to compensate for reduced public insurance. A portion of these savings is invested abroad, pushing the non-reforming country into a negative net foreign asset position and lowering its long-run consumption. Despite raising fiscal space and long-run average consumption in the reforming country, the reform may decrease ex-ante welfare because it reduces insurance and depresses consumption during the transition as households self-insure through higher savings. We discipline our proposed model with firm-level evidence on Germany’s post-reform tradable-sector expansion following the Hartz IV reform of unemployment benefits. In our simulation, this reform accounts for a substantial share of the observed post-reform open-economy adjustment, whereas the earlier wage moderation cannot explain most of the observed patterns.",
+  "authors": "Brigitte Hochmuth, Christian Merkl, Heiko Stüber",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21866incompleteinsuranceandopeneconomyspilloversoflabormarketreforms",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 20,
+   "data": [
+    "模型模拟/校准（非实证数据）"
+   ],
+   "method": [],
+   "ctx": [
+    "用户采纳与普惠",
+    "系统性风险传染"
+   ],
+   "question": "This paper studies how an unemployment-benefit reform in one member state of a monetary union affects savings, net foreign asset positions, and fiscal space across member states when households face incomplete insurance.",
+   "finding": "In our simulation, this reform accounts for a substantial share of the observed post-reform open-economy adjustment, whereas the earlier wage moderation cannot explain most of the observed patterns.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，切入用户采纳与普惠、系统性风险传染，数据来自模型模拟/校准（非实证数据）。"
+  },
+  "cn": {
+   "一句话": "研究货币联盟内失业福利改革在不完全保险下对储蓄、净外国资产和财政空间的跨境溢出。",
+   "问题": "货币联盟成员国失业福利改革如何通过不完全保险影响储蓄、净外国资产和财政空间？",
+   "数据": "摘要未说明具体数据来源；仅提及德国Hartz IV改革后企业层面证据。",
+   "方法": "构建模型并以德国Hartz IV改革"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "DP21865 Coal Supply Chains and Electricity Reliability",
+  "link": "https://cepr.org/publications/dp21865",
+  "abstract": "Can localized weather shocks to upstream fuel suppliers undermine down-stream electricity reliability? Using administrative data linking South African power plants to contracted coal mines from 2015 to 2024, we combine plant operating records, mining-firm revenue data, and route-level traffic sensor data. Exploiting within-plant variation in supplier-mine rainfall, we find that rainfall shocks reduce mine output and lower coal plant availability. Daily traffic data confirm that rainfall reduces coal deliveries along contracted mine-to-plant routes. These disruptions propagate to the grid, contributing to rolling blackouts. Electricity security hinges on the resilience of coal supplyn contracts and logistics, not only on plant resilience.",
+  "authors": "Imelda Imelda, Suchita Srinivasan",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21865coalsupplychainsandelectricityreliability",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 21,
+   "data": [
+    "行政管理与信贷登记数据"
+   ],
+   "method": [],
+   "ctx": [],
+   "question": "Can localized weather shocks to upstream fuel suppliers undermine down-stream electricity reliability?",
+   "finding": "Exploiting within-plant variation in supplier-mine rainfall, we find that rainfall shocks reduce mine output and lower coal plant availability.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，数据来自行政管理与信贷登记数据。"
+  },
+  "cn": {
+   "一句话": "研究降雨冲击对煤炭供应链及电力可靠性的影响。",
+   "问题": "上游燃料供应商的局部天气冲击是否会削弱下游电力可靠性？",
+   "数据": "南非电厂与合同煤矿"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "DP21861 Cautious Careers: Job Mobility under Incomplete Markets",
+  "link": "https://cepr.org/publications/dp21861",
+  "abstract": "Job mobility is risky, workers are risk averse, and insurance markets are incomplete. This paper studies how these features curb and distort job-to-job transitions by making workers excessively cautious: they place too much weight on job safety over wage and productivity gains. We demonstrate this tradeoff by eliciting employed workers’ wage-safety indifference curves in a custom, representative survey. On average, employed US workers require a 1.63% pay raise to accept each additional percentage point of annual unemployment risk in a new job. We assess the macroeconomic consequences of our mechanism by embedding it into a general equilibrium search model. Jobs differ in both wages (productivity) and unemployment risk, and risk-averse workers self-insure against unemployment risk through a non-state-contingent bond while searching on and off the job. We find that a complete markets counterfactual would boost job mobility by 12% and productivity by 0.19%. We also highlight a new role for unemployment insurance: it encourages employed workers to accept risky but high-productivity offers, thereby increasing productivity (by 1.3%) and job creation—as well as job loss and unemployment.",
+  "authors": "Alex Clymo, Piotr Denderski, Yusuf Mercan, Benjamin Schoefer",
+  "date": "2026-08-20T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21861cautiouscareersjobmobilityunderincompletemarkets",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "一般均衡 / DSGE",
+    "机器学习 / 文本分析"
+   ],
+   "ctx": [],
+   "question": "Job mobility is risky, workers are risk averse, and insurance markets are incomplete.",
+   "finding": "We find that a complete markets counterfactual would boost job mobility by 12% and productivity by 0.19%.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，方法上采用一般均衡 / DSGE + 机器学习 / 文本分析。"
+  }
+ },
+ {
+  "title": "DP21859 The Power of Substitution: Short-Run Electricity Demand Flexibility",
+  "link": "https://cepr.org/publications/dp21859",
+  "abstract": "We estimate short-run electricity demand responses to price changes for Norwegian households from 2023 to 2025, using continental solar and wind forecasts, and hydrological inflow to instrument supply-driven price variation. The presence of several instruments for the price changes allows us to explicitly test the margins at which substitution happens. Households’ electricity substitution is real but coarse: households mostly choose between day and night consumption with a price elasticity of 0.073. Substitution across hours within these blocks, or across days, is more limited.",
+  "authors": "Martin Blomhoff Holm, Katinka Holtsmark",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21859thepowerofsubstitutionshortrunelectricitydemandflexibility",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "面板/回归分析"
+   ],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "We estimate short-run electricity demand responses to price changes for Norwegian households from 2023 to 2025, using continental solar and wind forecasts, and hydrological inflow to instrument supply-driven price variation.",
+   "finding": "Substitution across hours within these blocks, or across days, is more limited.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入用户采纳与普惠，方法上采用面板/回归分析。"
+  }
+ },
+ {
+  "title": "DP21860 Cognitive Training for Jobseekers: Evidence from a Randomized Experiment",
+  "link": "https://cepr.org/publications/dp21860",
+  "abstract": "Cognition is likely to be important for job search, but its role is not yet well understood. We study an online field experiment with jobseekers registered at the Swiss public employment services. Participants were randomly assigned to an online cognitive training program designed to strengthen core cognitive abilities and transversal cognitive abilities relevant for job search. Combining administrative and survey data on employment and earnings, we find that access to cognitive training substantially increases employment rates and earnings while reducing reliance on transfer income. In a simple search model, these findings could arise when cognition improves search effectiveness leading to lower search effort but higher chances of employment.",
+  "authors": "Hélène Benghalem, Mirjam Bächli, Doriana Tinello, Sascha Zuber, Mauro Cherubini, Damaris Aschwanden, Matthias Kliegel, Rafael Lalive, Michele Pellizzari",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21860cognitivetrainingforjobseekersevidencefromarandomizedexperiment",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [
+    "住户/消费者调查数据"
+   ],
+   "method": [
+    "随机实验"
+   ],
+   "ctx": [],
+   "question": "Cognition is likely to be important for job search, but its role is not yet well understood.",
+   "finding": "Combining administrative and survey data on employment and earnings, we find that access to cognitive training substantially increases employment rates and earnings while reducing reliance on transfer income.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，方法上采用随机实验，数据来自住户/消费者调查数据。"
+  }
+ },
+ {
+  "title": "DP21858 Free to Choose: Bank Capital in Britain, 1878-1939",
+  "link": "https://cepr.org/publications/dp21858",
+  "abstract": "Government regulation of the banking sector is pervasive, making it difficult to empirically analyze when banks would voluntarily choose to issue equity if there were no minimum requirements on capital adequacy. A unique historical setting occurred in the late nineteenth-century United Kingdom when joint-stock banks were free to choose their capital structures. We show that during this era, banks were willing to issue equity as part of restructuring processes, but were reluctant to do so on a regular basis to offset increases in liabilities. We find that large issues of uncalled capital were made as a replacement for unlimited liability, and this uncalled capital continued to restrain risk taking as shown by an analysis of bank loan books. Banks were also willing to issue stock to finance mergers and acquisitions, but this was generally just used to absorb the equity of target banks so did not increase aggregate paid-up capital. Equity issuance did not keep pace with deposit growth, leading to the erosion of capital adequacy over the long run.",
+  "authors": "Gareth Campbell, Lyndon Moore, John Turner",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21858freetochoosebankcapitalinbritain18781939",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规"
+   ],
+   "question": "Government regulation of the banking sector is pervasive, making it difficult to empirically analyze when banks would voluntarily choose to issue equity if there were no minimum requirements on capital adequacy.",
+   "finding": "We show that during this era, banks were willing to issue equity as part of restructuring processes, but were reluctant to do so on a regular basis to offset increases in liabilities.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入监管与合规。"
+  }
+ },
+ {
+  "title": "DP21856 Deceptive Science Maps: Organizational Affiliation and Data Manipulation in Alzheimer's Research",
+  "link": "https://cepr.org/publications/dp21856",
+  "abstract": "Does corporate authorship increase or decrease deceptive conduct in science? Commercial interests are often viewed as a threat to scientific integrity. Yet when firms build on their science in downstream innovation, fraudulent findings can derail costly development, creating private incentives to produce reliable evidence. We test this logic in Alzheimer’s research, using inappropriate image duplication as an observable marker of deceptive conduct. Combining AI-based detection with manual validation, we document a rising incidence of data manipulation. Such cases are nearly absent in corporate-authored papers and less frequent in academic-industry collaborations, but only when firms exercise meaningful control over the production of evidence. The reduction in problematic duplications is largest when firms are likely to build on the results and in settings where deceptive conduct is more prevalent. However, this difference disappears when research concerns drugs already commercialized by the authoring firm. These findings recast the role of commercial interests in science: they can undermine integrity when legitimating existing products, but strengthen it when firms need solid evidence to build on.",
+  "authors": "Matteo Tranchero, Christian Fons-Rosen, Lee Fleming",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21856deceptivesciencemapsorganizationalaffiliationanddatamanipulationinalzheimersresearc",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "描述性/政策梳理"
+   ],
+   "ctx": [
+    "违法风险与操作风险"
+   ],
+   "question": "Does corporate authorship increase or decrease deceptive conduct in science?",
+   "finding": "Combining AI-based detection with manual validation, we document a rising incidence of data manipulation.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入违法风险与操作风险，方法上采用描述性/政策梳理。"
+  }
+ },
+ {
+  "title": "DP21857 Small-Group Interactions Reduce Homophily by Muting Directed Search",
+  "link": "https://cepr.org/publications/dp21857",
+  "abstract": "We study how the quasi-random assignment of MBA students to different peer groups shapes their homophily by gender and ethnicity. We show that students form substantially more cross-trait friendships within small groups than in the broader MBA cohort. We then decompose homophily into the contributions of peer-group composition, preferences, and directed search. Directed search, in which students approach peers with particular characteristics, can substantially amplify even weak preferences for same-trait friends. Survey evidence indicates only weak same-trait preferences but strong same-trait bias in approach decisions. Consistent with this pattern, structural estimates imply that directed search accounts for much of overall homophily. This result helps explain why homophily is lower in small groups, where directed search is muted, and suggests that homophily can be reduced through peer-group design.",
+  "authors": "Andrea Galeotti, Reem Qamar, Adam Szeidl",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21857smallgroupinteractionsreducehomophilybymutingdirectedsearch",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "We study how the quasi-random assignment of MBA students to different peer groups shapes their homophily by gender and ethnicity.",
+   "finding": "We show that students form substantially more cross-trait friendships within small groups than in the broader MBA cohort.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」。"
+  }
+ },
+ {
+  "title": "DP21855 The U.S.-China Trade War and the Geography of Global Production",
+  "link": "https://cepr.org/publications/dp21855",
+  "abstract": "We study how the U.S.-China trade war affected manufacturing activity in third countries using a novel plant-level dataset covering millions of establishments in 50 major economies, including a\u000eliates of more than 200,000 multinational enterprises (MNEs). Combining establishment-level data with detailed tariff information, we estimate the effects of U.S. and Chinese punitive bilateral output and input tari s on sales, employment, and establishments across countries, industries, and stages of production. We find that third-country effects of the trade war are highly heterogeneous and largely offsetting, yielding moderately negative net effects overall. Most of the adjustment is driven by multinational enterprises reallocating activity across affiliate networks, while domestic firms respond much less.",
+  "authors": "Harald Fadinger, Lei Li, Sophia Praetorius, Jan Schymik",
+  "date": "2026-08-19T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21855theuschinatradewarandthegeographyofglobalproduction",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "面板/回归分析"
+   ],
+   "ctx": [
+    "跨境与国际维度",
+    "系统性风险传染"
+   ],
+   "question": "We study how the U.S.-China trade war affected manufacturing activity in third countries using a novel plant-level dataset covering millions of establishments in 50 major economies, including a\u000eliates of more than 200,000 multinational enterprises (MNEs).",
+   "finding": "We find that third-country effects of the trade war are highly heterogeneous and largely offsetting, yielding moderately negative net effects overall.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入跨境与国际维度、系统性风险传染，方法上采用面板/回归分析。"
+  }
+ },
+ {
+  "title": "DP21853 There is no Forward Guidance Puzzle",
+  "link": "https://cepr.org/publications/dp21853",
+  "abstract": "According to the forward guidance puzzle, the economy responds more strongly to future than current interest rate cuts in many policy models used by central banks. We show that the puzzle arises only if three conditions are met: (1) a future interest rate cut is announced, (2) an interest rate peg precedes it, and (3) agents are assumed to attribute the peg exclusively to a sequence of monetary policy shocks. Absent any of these conditions, the response to a promised future interest rate cut weakens with the anticipation horizon, and forward guidance is no longer a forceful policy.",
+  "authors": "SeHyoun Ahn, Martin Blomhoff Holm",
+  "date": "2026-08-18T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21853thereisnoforwardguidancepuzzle",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导"
+   ],
+   "question": "According to the forward guidance puzzle, the economy responds more strongly to future than current interest rate cuts in many policy models used by central banks.",
+   "finding": "We show that the puzzle arises only if three conditions are met: (1) a future interest rate cut is announced, (2) an interest rate peg precedes it, and (3) agents are assumed to attribute the peg exclusively to a sequence of monetary policy shocks.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入货币政策传导。"
+  }
+ },
+ {
+  "title": "DP21854 Large-Load Electricity Customers and Spillovers on Household Prices: Evidence from U.S. Data Centers",
+  "link": "https://cepr.org/publications/dp21854",
+  "abstract": "We study how large-load customers affect household electricity prices. We map the AI-associated data center build-out in the years following 2021 to U.S. utility territories and implement a shift-share design based on pre-AI fiber infrastructure. A standard deviation of ten data centers raises household electricity prices by 13%, and a single hyperscaler facility increases prices by 4%. Demand-driven channels seem to be the dominant mechanism, and households bear a disproportionate burden compared to other customers. Nonprofit utilities, energy surplus, and retail competition may mitigate price impacts. Our results provide novel insights about electricity price spillovers from large individual consumers.",
+  "authors": "Cameron Scalera, Valentina Bosetti, Filippo Pecci",
+  "date": "2026-08-18T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21854largeloadelectricitycustomersandspilloversonhouseholdpricesevidencefromusdatacenter",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 20,
+   "data": [],
+   "method": [
+    "工具变量 IV"
+   ],
+   "ctx": [
+    "用户采纳与普惠",
+    "系统性风险传染",
+    "能源与气候影响"
+   ],
+   "question": "We study how large-load customers affect household electricity prices.",
+   "finding": "Our results provide novel insights about electricity price spillovers from large individual consumers.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，切入用户采纳与普惠、系统性风险传染、能源与气候影响，方法上采用工具变量 IV。"
+  },
+  "cn": {
+   "一句话": "研究美国数据中心建设对家庭电价的影响",
+   "问题": "大型电力用户如何影响家庭电价？",
+   "数据": "摘要未说明",
+   "方法": "基于AI前光纤基础设施的shift-share设计",
+   "发现": "数据中心数量标准差增加使家庭电价提高13%，单个超大规模设施提高4%",
+   "含义": "监管需关注大型用户电价溢出，避免加重家庭负担"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "DP21851 The Data Revolution, and Its Uses, in International Trade",
+  "link": "https://cepr.org/publications/dp21851",
+  "abstract": "In recent decades, economists studying international trade have gained access to an unprecedented volume and variety of data. These data have provided new insights and a more granular understanding of the mechanics of trade. Analyzing a large corpus of papers, we document that the nature of research has also shifted. Previously, the typical trade paper was either purely theoretical or an empirical paper testing theoretical predictions. More recently, scholarship has shifted toward a more integrated approach, particularly quantitative modeling. This development is surprising. We might have expected the data revolution (and contemporaneous credibility revolution) to increase the share of primarily empirical papers—although the markers of these revolutions are clearly evident in the rise of causal inference within empirical work. This article reviews these developments, assessing the strengths and limitations of different modes of inquiry, and plotting a path forward to harness the growing richness of data within the field.",
+  "authors": "David Atkin, Benjamin Faber",
+  "date": "2026-08-17T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21851thedatarevolutionanditsusesininternationaltrade",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [],
+   "method": [
+    "定量校准与反事实模拟",
+    "描述性/政策梳理"
+   ],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "In recent decades, economists studying international trade have gained access to an unprecedented volume and variety of data.",
+   "finding": "Analyzing a large corpus of papers, we document that the nature of research has also shifted.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入跨境与国际维度，方法上采用定量校准与反事实模拟 + 描述性/政策梳理。"
+  }
+ },
+ {
+  "title": "DP21852 Monetary Transmission to Firm-level R&D",
+  "link": "https://cepr.org/publications/dp21852",
+  "abstract": "Monetary policy is usually evaluated through its effect on aggregate output and inflation, with less attention to how it reallocates innovative investment across firms. Existing evidence shows that higher rates reduce innovation, but the firms driving this response remain unclear. Combining Norway’s R&D survey with administrative data and narrative monetary shocks for 2001–2018, we estimate heterogeneous firm responses. Contractionary policy reduces R&D most in high-growth firms with recent equity issuance, consistent with asset-price channels of monetary transmission. Standard debt-based measures explain little heterogeneity. Monetary policy therefore has long-run real effects primarily through its effects on R&D in high-growth firms.",
+  "authors": "Ruslana Datsenko, Martin Blomhoff Holm",
+  "date": "2026-08-17T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21852monetarytransmissiontofirmlevelrd",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 13,
+   "data": [
+    "行政管理与信贷登记数据"
+   ],
+   "method": [
+    "面板/回归分析"
+   ],
+   "ctx": [
+    "货币政策传导"
+   ],
+   "question": "Monetary policy is usually evaluated through its effect on aggregate output and inflation, with less attention to how it reallocates innovative investment across firms.",
+   "finding": "Existing evidence shows that higher rates reduce innovation, but the firms driving this response remain unclear.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，切入货币政策传导，方法上采用面板/回归分析，数据来自行政管理与信贷登记数据。"
+  }
+ },
+ {
+  "title": "DP21850 Dust in the Wind: Causes and Consequences of Managerial Replacements",
+  "link": "https://cepr.org/publications/dp21850",
+  "abstract": "If the economic performance of a firm is disappointing, the manager may be replaced. Whether that improves performance is unclear. For regular firms, it is often difficult to study the causes and consequences of managerial replacement due to limited data availability. This is different for sports clubs, where high-quality data are available on a regular basis. The current paper studies managerial replacements in professional football in the Netherlands. Disappointment is measured by two indicators that use bookmaker expectations as a reference. Points surprise is based on actual results, while performance surprise is based on expected goals. The analysis shows that within-season managerial replacements are more likely when there is disappointment, that is, when both surprise indicators are negative. Match results improve after managerial replacement. However, this improvement is not causal: a counterfactual analysis suggests that match results would have improved even in the absence of managerial replacement.",
+  "authors": "Jan C. van Ours",
+  "date": "2026-08-16T23:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "cepr-dp",
+  "org": "CEPR",
+  "org_cn": "欧洲经济政策研究中心",
+  "group": "core",
+  "key": "dp21850dustinthewindcausesandconsequencesofmanagerialreplacements",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 17,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "If the economic performance of a firm is disappointing, the manager may be replaced.",
+   "finding": "However, this improvement is not causal: a counterfactual analysis suggests that match results would have improved even in the absence of managerial replacement.",
+   "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产。"
+  }
+ },
+ {
+  "title": "Political Entrepreneurs",
+  "link": "https://www.nber.org/papers/w35637",
+  "abstract": "Firms shape public policy not only from the outside through lobbying and campaign contributions, but also from the inside when business owners hold public office. We study this channel using a novel dataset that links state legislators personal financial disclosures to bill sponsorship records",
+  "authors": "Aaron Chatterji , Jorge Guzman , Joyce Ma , Ryan C. McDevitt",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "politicalentrepreneurs",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Firms shape public policy not only from the outside through lobbying and campaign contributions, but also from the inside when business owners hold public office.",
+   "finding": "We study this channel using a novel dataset that links state legislators personal financial disclosures to bill sponsorship records",
+   "lead": "美国国民经济研究局「Working Paper」。"
+  }
+ },
+ {
+  "title": "The Meritocratic Consensus and Stratification in Higher Education",
+  "link": "https://www.nber.org/papers/w35650",
+  "abstract": "American colleges and universities are highly stratified by pre-college academic achievement, family background, and institutional resources. We study the meritocratic consensus in American higher education: colleges that high-testing students (who are generally also from high-income families)",
+  "authors": "Zachary Bleemer , Jesse Rothstein",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "themeritocraticconsensusandstratificationinhighereducation",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "American colleges and universities are highly stratified by pre-college academic achievement, family background, and institutional resources.",
+   "finding": "We study the meritocratic consensus in American higher education: colleges that high-testing students (who are generally also from high-income families)",
+   "lead": "美国国民经济研究局「Working Paper」。"
+  }
+ },
+ {
+  "title": "Instrument Hacking",
+  "link": "https://www.nber.org/papers/w35633",
+  "abstract": "In instrumental-variable (IV) studies, researchers often evaluate multiple candidate instruments and selectively report the specification with the most favorable first- or second-stage statistics. We show that this form of instrument selection (instrument-hacking) induces median bias in IV",
+  "authors": "Michael P. Keane , Timothy Neal , Patrick Vu",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "instrumenthacking",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "违法风险与操作风险"
+   ],
+   "question": "In instrumental-variable (IV) studies, researchers often evaluate multiple candidate instruments and selectively report the specification with the most favorable first- or second-stage statistics.",
+   "finding": "We show that this form of instrument selection (instrument-hacking) induces median bias in IV",
+   "lead": "美国国民经济研究局「Working Paper」，切入违法风险与操作风险。"
+  }
+ },
+ {
+  "title": "The Yeoman's Portfolio: Measuring Historical Risk Preferences Using Crop Choice",
+  "link": "https://www.nber.org/papers/w35634",
+  "abstract": "We design a method for measuring the risk preferences of agents in the deep past. The method combines a structural model of crop choice as a portfolio allocation with machine-learning prediction of expected crop returns, using historic agronomic and climate data. We estimate county-level risk",
+  "authors": "Remy Levin , Daniela Vidart",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "theyeomansportfoliomeasuringhistoricalriskpreferencesusingcropchoice",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [
+    "理论建模",
+    "结构式估计"
+   ],
+   "ctx": [
+    "能源与气候影响"
+   ],
+   "question": "We design a method for measuring the risk preferences of agents in the deep past.",
+   "finding": "The method combines a structural model of crop choice as a portfolio allocation with machine-learning prediction of expected crop returns, using historic agronomic and climate data.",
+   "lead": "美国国民经济研究局「Working Paper」，切入能源与气候影响，方法上采用理论建模 + 结构式估计。"
+  }
+ },
+ {
+  "title": "Occupational Licensing of Uber Drivers",
+  "link": "https://www.nber.org/papers/w35635",
+  "abstract": "We examine whether occupational licensing improves service quality and safety using trip-level Uber data that include driver ratings and telematics-based measures of driving behavior. Exploiting quasi-random assignment from proximity-based dispatch, we compare trips served by licensed and unlicensed",
+  "authors": "Jonathan Hall , Jason Hicks , Morris M. Kleiner , Yun taek Oh",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "occupationallicensingofuberdrivers",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 15,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规"
+   ],
+   "question": "We examine whether occupational licensing improves service quality and safety using trip-level Uber data that include driver ratings and telematics-based measures of driving behavior.",
+   "finding": "Exploiting quasi-random assignment from proximity-based dispatch, we compare trips served by licensed and unlicensed",
+   "lead": "美国国民经济研究局「Working Paper」，主题为加密资产，切入监管与合规。"
+  }
+ },
+ {
+  "title": "Rate Risk and Rate Insurance",
+  "link": "https://www.nber.org/papers/w35636",
+  "abstract": "I decompose stock returns into a duration-matched Treasury component, identified from monetary policy surprises, and a payoff component. Risk and returns rise much less with duration for stocks than for their matched Treasuries. Stock volatility is dampened by rate insurance: rates fall in bad times",
+  "authors": "Olivier Wang",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "rateriskandrateinsurance",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导",
+    "市场微观结构与定价"
+   ],
+   "question": "I decompose stock returns into a duration-matched Treasury component, identified from monetary policy surprises, and a payoff component.",
+   "finding": "Stock volatility is dampened by rate insurance: rates fall in bad times",
+   "lead": "美国国民经济研究局「Working Paper」，切入货币政策传导、市场微观结构与定价。"
+  }
+ },
+ {
+  "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness",
+  "link": "https://www.nber.org/papers/w35638",
+  "abstract": "How slow are bank transfers, and how do transfer delays affect deposit demand? Using transaction-level data from millions of depositors, we measure transfer delays by matching debits and credits across accounts held by the same depositor. Shorter delays correlate with more transfers and lower",
+  "authors": "Xu Lu , Yang Song , Yao Zeng",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "tracingtheimpactofpaymentconvenienceondepositsevidencefromdepositoractiveness",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [
+    "微观交易/账户级数据"
+   ],
+   "method": [],
+   "ctx": [
+    "支付清算"
+   ],
+   "question": "How slow are bank transfers, and how do transfer delays affect deposit demand?",
+   "finding": "Shorter delays correlate with more transfers and lower",
+   "lead": "美国国民经济研究局「Working Paper」，切入支付清算，数据来自微观交易/账户级数据。"
+  }
+ },
+ {
+  "title": "Local Labor Demand and Achievement Gaps: Evidence from the Great Recession",
+  "link": "https://www.nber.org/papers/w35639",
+  "abstract": "We examine how contractions in local labor demand during the Great Recession affected children's academic achievement. We combine county-level test scores for grades 38 from the Stanford Education Data Archive with a shift-share design that interacts counties' 2005 industry composition with national",
+  "authors": "Karla Cordova , Jessamyn Schaller",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "locallabordemandandachievementgapsevidencefromthegreatrecession",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [
+    "工具变量 IV"
+   ],
+   "ctx": [],
+   "question": "We examine how contractions in local labor demand during the Great Recession affected children's academic achievement.",
+   "finding": "We combine county-level test scores for grades 38 from the Stanford Education Data Archive with a shift-share design that interacts counties' 2005 industry composition with national",
+   "lead": "美国国民经济研究局「Working Paper」，方法上采用工具变量 IV。"
+  }
+ },
+ {
+  "title": "Survival Analysis with Limited Overlap and Censoring Distribution Shift",
+  "link": "https://www.nber.org/papers/w35643",
+  "abstract": "Survival analysis methods are often used to predict the time until the onset of an event in settings when the true time-to-event (TTE) may be censored during training. Such approaches typically assume uncensored data are representative of censored data and that the probability of censoring",
+  "authors": "Meera Krishnamoorthy , Donna Tjandra , Divya Shanmugam , Amanda E. Kowalski , Jenna Wiens",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "survivalanalysiswithlimitedoverlapandcensoringdistributionshift",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Survival analysis methods are often used to predict the time until the onset of an event in settings when the true time-to-event (TTE) may be censored during training.",
+   "finding": "Such approaches typically assume uncensored data are representative of censored data and that the probability of censoring",
+   "lead": "美国国民经济研究局「Working Paper」。"
+  }
+ },
+ {
+  "title": "Labor Market Power with Worker and Firm Heterogeneity",
+  "link": "https://www.nber.org/papers/w35640",
+  "abstract": "How do firms set wages? How should governments set income taxes? If labor supply is inelastic to wages, firms can pay workers less than their marginal products, and governments can increase taxes without eroding the base. However, the structure of labor supply elasticities in the economy is complex.",
+  "authors": "David W. Berger , Kyle F. Herkenhoff , Jaehun Jeong , Simon Mongey",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "labormarketpowerwithworkerandfirmheterogeneity",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "违法风险与操作风险"
+   ],
+   "question": "How should governments set income taxes?",
+   "finding": "However, the structure of labor supply elasticities in the economy is complex.",
+   "lead": "美国国民经济研究局「Working Paper」，切入违法风险与操作风险。"
+  }
+ },
+ {
+  "title": "Monetary-Fiscal Interactions: A Reappraisal",
+  "link": "https://www.nber.org/papers/w35642",
+  "abstract": "The possibility of fiscal dominance in the representative-agent New Keynesian model (RANK) hinges on the assumption that income is perpetually demand-determined: fiscal deficits can drive output and inflation within that model only insofar as they trigger infinitely lasting, self-sustained shifts in",
+  "authors": "George-Marios Angeletos , Chen Lian , Christian K. Wolf , Dalton Rongxuan Zhang",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "monetaryfiscalinteractionsareappraisal",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 15,
+   "data": [],
+   "method": [
+    "一般均衡 / DSGE"
+   ],
+   "ctx": [],
+   "question": "The possibility of fiscal dominance in the representative-agent New Keynesian model (RANK) hinges on the assumption that income is perpetually demand-determined: fiscal deficits can drive output and inflation within that model only insofar as they trigger infinitely lasting, self-sustained shifts in",
+   "finding": "",
+   "lead": "美国国民经济研究局「Working Paper」，主题为加密资产，方法上采用一般均衡 / DSGE。"
+  }
+ },
+ {
+  "title": "Benchmark Mineability and the Financing of AI Innovation",
+  "link": "https://www.nber.org/papers/w35641",
+  "abstract": "Public AI benchmarks steer research and allocate investments. They are therefore market designs. Public examples can reveal the process behind a private final test, while a finite public score cannot cover a broad task space inherent to general intelligence. I show how both gaps become profitable",
+  "authors": "Alex Chan",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "benchmarkmineabilityandthefinancingofaiinnovation",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Public AI benchmarks steer research and allocate investments.",
+   "finding": "I show how both gaps become profitable",
+   "lead": "美国国民经济研究局「Working Paper」。"
+  }
+ },
+ {
+  "title": "Measuring the Welfare Gains from Cardinal-Preference Mechanisms in School Choice",
+  "link": "https://www.nber.org/papers/w35658",
+  "abstract": "Ordinal mechanisms use rankings but not preference intensities. Cardinal mechanisms also elicit school utilities, allowing them to use students preferences over assignment lotteries. We compare probabilistic serial with four cardinal mechanisms that maximize the same welfare objective under",
+  "authors": "Hülya Eraslan , Jeremy T. Fox , YingHua He",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "measuringthewelfaregainsfromcardinalpreferencemechanismsinschoolchoice",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Ordinal mechanisms use rankings but not preference intensities.",
+   "finding": "We compare probabilistic serial with four cardinal mechanisms that maximize the same welfare objective under",
+   "lead": "美国国民经济研究局「Working Paper」。"
+  }
+ },
+ {
+  "title": "Where the Grass Seems Greener: Economic Misperceptions and Support for Democracy",
+  "link": "https://www.nber.org/papers/w35644",
+  "abstract": "Support for populist and authoritarian regimes is rising worldwide, despite evidence that they tend to underperform economically. We examine the role of (mis)perceptions of regime performance as drivers of political attitudes, leveraging two survey experiments with 11,377 respondents during",
+  "authors": "Daron Acemoglu , Nicolas Ajzenman , Guillermo Cruces , Martin Fiszbein , Gaston Garcia Zavaleta , Carlos Molina",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "wherethegrassseemsgreenereconomicmisperceptionsandsupportfordemocracy",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [
+    "住户/消费者调查数据"
+   ],
+   "method": [],
+   "ctx": [
+    "监管与合规"
+   ],
+   "question": "Support for populist and authoritarian regimes is rising worldwide, despite evidence that they tend to underperform economically.",
+   "finding": "We examine the role of (mis)perceptions of regime performance as drivers of political attitudes, leveraging two survey experiments with 11,377 respondents during",
+   "lead": "美国国民经济研究局「Working Paper」，切入监管与合规，数据来自住户/消费者调查数据。"
+  }
+ },
+ {
+  "title": "Stress Testing Cardiac Care Markets through Deregulation",
+  "link": "https://www.nber.org/papers/w35645",
+  "abstract": "The diffusion of technological innovation depends on incentives, regulations, and firms strategic behaviors. We study these intersections within cardiac procedure markets following Medicares expansion of non-hospital facility options for treatment, enabled by clinical advancements. State-level",
+  "authors": "Daniel R. Arnold , Michael R. Richards , Yashaswini Singh , Christopher M. Whaley",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "stresstestingcardiaccaremarketsthroughderegulation",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 14,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规"
+   ],
+   "question": "The diffusion of technological innovation depends on incentives, regulations, and firms strategic behaviors.",
+   "finding": "We study these intersections within cardiac procedure markets following Medicares expansion of non-hospital facility options for treatment, enabled by clinical advancements.",
+   "lead": "美国国民经济研究局「Working Paper」，主题为金融稳定，切入监管与合规。"
+  }
+ },
+ {
+  "title": "Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model",
+  "link": "https://www.nber.org/papers/w35647",
+  "abstract": "We develop stress tests based on an original International Monetary System (IMS) model with regime switchings. The model is calibrated for nine reference currencies from the beginning of the Classical Gold Standard to the present. Regime switchings in currency dominance are related to combinations",
+  "authors": "Michael D. Bordo , Cécile Bastidon",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "currencydominanceisnotforeversomeinsightsfromanonlineardynamicmodel",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 9,
+   "data": [
+    "模型模拟/校准（非实证数据）"
+   ],
+   "method": [
+    "定量校准与反事实模拟"
+   ],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "We develop stress tests based on an original International Monetary System (IMS) model with regime switchings.",
+   "finding": "Regime switchings in currency dominance are related to combinations",
+   "lead": "美国国民经济研究局「Working Paper」，主题为金融稳定，切入跨境与国际维度，方法上采用定量校准与反事实模拟，数据来自模型模拟/校准（非实证数据）。"
+  }
+ },
+ {
+  "title": "Do Local Synthetic Opioid Overdose Deaths Affect Provider Prescribing of Buprenorphine?",
+  "link": "https://www.nber.org/papers/w35648",
+  "abstract": "Buprenorphine prescribing for opioid use disorder remains far below the scale of the overdose crisis. We estimate the causal effect of county-level synthetic opioid overdose mortality shocks on the volume of buprenorphine treatment delivered, exploiting the staggered geographic diffusion of",
+  "authors": "Nicole Siegal , Sumedha Gupta , Matthew C. Aalsma , Stephen Crystal , Jennifer Miles , Hillary Samples , Allen Campbell , Kosali I. Simon , Rosalie Liccardo Pacula",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "dolocalsyntheticopioidoverdosedeathsaffectproviderprescribingofbuprenorphine",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [
+    "面板/回归分析"
+   ],
+   "ctx": [],
+   "question": "Buprenorphine prescribing for opioid use disorder remains far below the scale of the overdose crisis.",
+   "finding": "We estimate the causal effect of county-level synthetic opioid overdose mortality shocks on the volume of buprenorphine treatment delivered, exploiting the staggered geographic diffusion of",
+   "lead": "美国国民经济研究局「Working Paper」，方法上采用面板/回归分析。"
+  }
+ },
+ {
+  "title": "The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries",
+  "link": "https://www.nber.org/papers/w35649",
+  "abstract": "Childcare services can offer an opportunity for women to develop their careers and increase household income. At the same time, it can affect the development of children, depending on the quality of care. We first develop a collective model of the household as a conceptual framework to show how",
+  "authors": "Serena Goldberg , Costas Meghir",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "theeffectofchildcareonfemalelaborsupplyandchilddevelopmentinlowandmiddleincomecountries",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [
+    "理论建模",
+    "描述性/政策梳理"
+   ],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "Childcare services can offer an opportunity for women to develop their careers and increase household income.",
+   "finding": "We first develop a collective model of the household as a conceptual framework to show how",
+   "lead": "美国国民经济研究局「Working Paper」，切入用户采纳与普惠，方法上采用理论建模 + 描述性/政策梳理。"
+  }
+ },
+ {
+  "title": "Falling Fertility: The Changing Value of Freedom, Fulfillment, and Family",
+  "link": "https://www.nber.org/papers/w35651",
+  "abstract": "Fertility has fallen in nearly all high-income countries. People also report wanting fewer children: between 2012 and 2022 the ideal number of children fell from 2.42 to 2.31 and the share of respondents intending a child within three years fell from 28 to 21 percent over a similar period. Why?",
+  "authors": "Raquel Fernández , Inés Berniell , Milagros Onofri",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "fallingfertilitythechangingvalueoffreedomfulfillmentandfamily",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [
+    "机器学习 / 文本分析"
+   ],
+   "ctx": [],
+   "question": "Fertility has fallen in nearly all high-income countries.",
+   "finding": "People also report wanting fewer children: between 2012 and 2022 the ideal number of children fell from 2.42 to 2.31 and the share of respondents intending a child within three years fell from 28 to 21 percent over a similar period.",
+   "lead": "美国国民经济研究局「Working Paper」，方法上采用机器学习 / 文本分析。"
+  }
+ },
+ {
+  "title": "A Model of Global Firms and Capital Markets",
+  "link": "https://www.nber.org/papers/w35652",
+  "abstract": "We develop a general-equilibrium model of the global economy that integrates heterogeneous firms competing in product markets with countries that allocate capital around the world. Combining a hedonic demand system on the product side with a mean-variance portfolio system on the asset side, we",
+  "authors": "Loukas Karabarbounis , Bruno Pellegrino , Juliana Salomao",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "amodelofglobalfirmsandcapitalmarkets",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [
+    "理论建模"
+   ],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "We develop a general-equilibrium model of the global economy that integrates heterogeneous firms competing in product markets with countries that allocate capital around the world.",
+   "finding": "Combining a hedonic demand system on the product side with a mean-variance portfolio system on the asset side, we",
+   "lead": "美国国民经济研究局「Working Paper」，切入跨境与国际维度，方法上采用理论建模。"
+  }
+ },
+ {
+  "title": "To Tax or To Ax? Marginal Tax and Spending Multipliers in Consolidations",
+  "link": "https://www.nber.org/papers/w35653",
+  "abstract": "We introduce the notion of marginal cumulative multiplier the effect of either government spending or taxation on output holding the other fiscal instrument constant and apply it to a well known panel of consolidation episodes in 16 countries in the period 1978-2020. In our benchmark specification",
+  "authors": "Roberto Perotti , Luca Sala",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "totaxortoaxmarginaltaxandspendingmultipliersinconsolidations",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "违法风险与操作风险"
+   ],
+   "question": "We introduce the notion of marginal cumulative multiplier the effect of either government spending or taxation on output holding the other fiscal instrument constant and apply it to a well known panel of consolidation episodes in 16 countries in the period 1978-2020.",
+   "finding": "",
+   "lead": "美国国民经济研究局「Working Paper」，切入违法风险与操作风险。"
+  }
+ },
+ {
+  "title": "Critical Minerals, Geopolitics, and the Green Transition",
+  "link": "https://www.nber.org/papers/w35654",
+  "abstract": "The green energy transition will be powered by the mining and processing of lithium, nickel, and cobalt, which are critical for the production of advanced batteries. These minerals are concentrated geographically but traded globally, allowing key mining countries to exercise market power through",
+  "authors": "Tomás Domínguez-Iino , Jonathan T. Elliott , Allan Hsiao",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "criticalmineralsgeopoliticsandthegreentransition",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 22,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度",
+    "能源与气候影响"
+   ],
+   "question": "The green energy transition will be powered by the mining and processing of lithium, nickel, and cobalt, which are critical for the production of advanced batteries.",
+   "finding": "These minerals are concentrated geographically but traded globally, allowing key mining countries to exercise market power through",
+   "lead": "美国国民经济研究局「Working Paper」，主题为加密资产，切入跨境与国际维度、能源与气候影响。"
+  },
+  "cn": {
+   "一句话": "研究关键矿产的地理集中与市场力量对绿色转型的影响",
+   "问题": "主要矿业国如何通过关键矿产的市场力量影响绿色转型？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "绿色转型依赖锂、镍、钴等关键矿产；这些矿产地理集中但全球交易，使主要矿业国能行使市场力量",
+   "含义": "关键矿产供应集中可能威胁绿色转型所需的供应链稳定，需政策协调"
+  },
+  "cn_model": "deepseek-v4-flash"
+ },
+ {
+  "title": "Crypto Capture of Foreign Aid",
+  "link": "https://www.nber.org/papers/w35655",
+  "abstract": "The 2016 Panama Papers leak tightened regulatory enforcement around money laundering and offshore banking. We investigate whether the diversion of foreign aid in developing countries led to a shift to cryptocurrency as an alternative laundering platform. We develop a disbursement-timed forensic",
+  "authors": "Sumit Agarwal , Peiyi Jin , Eswar S. Prasad , Daniel Rabetti",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "cryptocaptureofforeignaid",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 24,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规"
+   ],
+   "question": "The 2016 Panama Papers leak tightened regulatory enforcement around money laundering and offshore banking.",
+   "finding": "We develop a disbursement-timed forensic",
+   "lead": "美国国民经济研究局「Working Paper」，主题为加密资产，切入监管与合规。"
+  }
+ },
+ {
+  "title": "Cultural Evolution",
+  "link": "https://www.nber.org/papers/w35656",
+  "abstract": "What gave rise to the mosaic of cultural expressions across the globe? Why are some societies more culturally diverse than others? This study develops a unified theory of cultural evolution, characterizing the forces that have governed this process over the course of human existence. The research",
+  "authors": "Oded Galor , Marc Klemp , Daniel C. Wainstock",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "culturalevolution",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "What gave rise to the mosaic of cultural expressions across the globe?",
+   "finding": "This study develops a unified theory of cultural evolution, characterizing the forces that have governed this process over the course of human existence.",
+   "lead": "美国国民经济研究局「Working Paper」。"
+  }
+ },
+ {
+  "title": "The Data Revolution, and Its Uses, in International Trade",
+  "link": "https://www.nber.org/papers/w35657",
+  "abstract": "In recent decades, economists studying international trade have gained access to an unprecedented volume and variety of data. These data have provided new insights and a more granular understanding of the mechanics of trade. Analyzing a large corpus of papers, we document that the nature of research",
+  "authors": "David Atkin , Benjamin Faber",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "thedatarevolutionanditsusesininternationaltrade",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [
+    "描述性/政策梳理"
+   ],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "In recent decades, economists studying international trade have gained access to an unprecedented volume and variety of data.",
+   "finding": "Analyzing a large corpus of papers, we document that the nature of research",
+   "lead": "美国国民经济研究局「Working Paper」，切入跨境与国际维度，方法上采用描述性/政策梳理。"
+  }
+ },
+ {
+  "title": "The Effects of SNAP Sugary Drink Restrictions on Consumption and Welfare",
+  "link": "https://www.nber.org/papers/w35659",
+  "abstract": "As of July 2026, 23 states had approved policies that disallow spending of SNAP benefits on sugary drinks. The effects of such restrictions on consumption are unclear, however, since most households can simply switch to buying sugary drinks with non-SNAP funds. Using a difference-in- differences",
+  "authors": "Hunt Allcott , Amy Finkelstein , Anna Grummon , Matthew J. Notowidigdo",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "theeffectsofsnapsugarydrinkrestrictionsonconsumptionandwelfare",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "As of July 2026, 23 states had approved policies that disallow spending of SNAP benefits on sugary drinks.",
+   "finding": "Using a difference-in- differences",
+   "lead": "美国国民经济研究局「Working Paper」，切入用户采纳与普惠。"
+  }
+ },
+ {
+  "title": "Do Minimum Wages Help Workers in Poor and Low-Income Families?",
+  "link": "https://www.nber.org/papers/w35628",
+  "abstract": "We provide the first direct estimates of the effects of minimum wages on low-wage workers in families at different points of the distribution of income-to-needs, using data from the Survey of Income and Program Participation, which oversamples low-income families. We find adverse rather than",
+  "authors": "David Neumark , Emma Wohl",
+  "date": "2026-08-01T00:00:00+00:00",
+  "ptype": "Working Paper",
+  "src_id": "nber",
+  "org": "NBER",
+  "org_cn": "美国国民经济研究局",
+  "group": "core",
+  "key": "dominimumwageshelpworkersinpoorandlowincomefamilies",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 7,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "We provide the first direct estimates of the effects of minimum wages on low-wage workers in families at different points of the distribution of income-to-needs, using data from the Survey of Income and Program Participation, which oversamples low-income families.",
+   "finding": "",
+   "lead": "美国国民经济研究局「Working Paper」。"
+  }
+ },
+ {
+  "title": "Collateral policy surprises | Pia Hüttl, Gökhan Ider, Matthias Kaldorf",
+  "link": "https://www.bundesbank.de/en/publications/research/discussion-papers/collateral-policy-surprises-957108",
+  "abstract": "",
+  "authors": "",
+  "date": "2026-08-18T08:00:00+00:00",
+  "ptype": "Discussion Paper",
+  "src_id": "buba",
+  "org": "Bundesbank",
+  "org_cn": "德国央行",
+  "group": "cb",
+  "key": "collateralpolicysurprisespiahttlgkhanidermatthiaskaldorf",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 11,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "储备资产与抵押品"
+   ],
+   "question": "",
+   "finding": "",
+   "lead": "德国央行「Discussion Paper」，切入储备资产与抵押品。"
+  }
+ },
+ {
+  "title": "Financial System Report Annex \"Use and Risk Management of Generative AI by Japanese Financial Institutions\"",
+  "link": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260824.htm",
+  "abstract": "",
+  "authors": "",
+  "date": "2026-08-24T02:00:00+00:00",
+  "ptype": "Release",
+  "src_id": "boj",
+  "org": "BoJ",
+  "org_cn": "日本银行",
+  "group": "cb",
+  "key": "financialsystemreportannexuseandriskmanagementofgenerativeaibyjapanesefinancialinstitution",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 8,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "",
+   "finding": "",
+   "lead": "日本银行「Release」。"
+  }
+ },
+ {
+  "title": "Bank of Japan Accounts (August 20)",
+  "link": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260820.htm",
+  "abstract": "",
+  "authors": "",
+  "date": "2026-08-24T01:00:00+00:00",
+  "ptype": "Release",
+  "src_id": "boj",
+  "org": "BoJ",
+  "org_cn": "日本银行",
+  "group": "cb",
+  "key": "bankofjapanaccountsaugust20",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 8,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "",
+   "finding": "",
+   "lead": "日本银行「Release」。"
+  }
+ },
+ {
+  "title": "Assessing a Medium-Run Natural Rate of Interest",
+  "link": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/08/assessing-medium-run-natural-rate-of-interest/",
+  "abstract": "The natural rate of interest is the inflation-adjusted interest rate consistent with the economy operating at full capacity. Although this rate helps gauge the economy’s health, empirical estimates of it are imprecise and volatile. A medium-run measure that focuses on responsiveness to persistent economic factors while removing short-term volatility may provide more reliable guidance. Analysis suggests that monetary policy using this measure could stabilize inflation and achieve maximum employment more effectively than standard benchmarks. Current medium-run estimates suggest that monetary policy is accommodative, although uncertainty around this estimate remains high.",
+  "authors": "\"Vasco C\\u00fardia\"",
+  "date": "2026-08-18T00:00:00+00:00",
+  "ptype": "Economic Letter",
+  "src_id": "sffed",
+  "org": "SF Fed",
+  "org_cn": "旧金山联储",
+  "group": "cb",
+  "key": "assessingamediumrunnaturalrateofinterest",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "货币政策传导",
+    "市场微观结构与定价"
+   ],
+   "question": "The natural rate of interest is the inflation-adjusted interest rate consistent with the economy operating at full capacity.",
+   "finding": "Current medium-run estimates suggest that monetary policy is accommodative, although uncertainty around this estimate remains high.",
+   "lead": "旧金山联储「Economic Letter」，切入货币政策传导、市场微观结构与定价。"
+  }
+ },
+ {
+  "title": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs",
+  "link": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-reporting-framework-clearing-activity-recognised-third-country",
+  "abstract": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs 18 August 2026 CCP Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, has launched a consultation on a proposed annual reporting framework under EMIR for clearing activity at recognised third-country central counterparties (CCPs), aimed at improving supervisory visibility of EU firms' exposures to such CCPs. The consultation paper sets out ESMA's proposed Regulatory Technical Standards (RTS) and Implementing Technical Standards (ITS) under European Market Infrastructure Regulation (EMIR). The reporting obligation will apply to clearing members and clients that clear transactions through recognised third country CCPs. The objective is to provide supervisory authorities with a structured and consistent overview of the scale, characteristics and risk profile of EU firms' exposures to recognised third-country CCPs, contributing to the broader monitoring framework established under EMIR 3. In line with ESMA’s simplification and burden reduction agenda, the proposal seeks to maximise the reuse of information already available through existing reporting channels and limits new requirements to the information that is not available to ESMA or competent authorities. Once implemented, the new requirements will establish a harmonised approach to reporting clearing activity at recognised third-country CCPs. Next steps ESMA invites stakeholders to provide feedback on the reporting framework, templates and format by 12 October 2026. Following the consultation, ESMA will assess the responses received and prepare a Final Report. Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu 18/08/2026 ESMA12-2121844265-6008 Consultation paper on the reporting framework under EMIR for clearing activity at recognised third-country CCPs Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs",
+  "authors": "",
+  "date": null,
+  "ptype": "Publication",
+  "src_id": "esma",
+  "org": "ESMA",
+  "org_cn": "欧洲证券与市场管理局",
+  "group": "intl",
+  "key": "esmaconsultsonreportingframeworkforclearingactivityatrecognisedthirdcountryccps",
+  "first_seen": "2026-08-24T11:32:39.202755+00:00",
+  "meta": {
+   "topics": [],
+   "score": 2,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "监管与合规",
+    "支付清算"
+   ],
+   "question": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs 18 August 2026 CCP Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, has launched a consultation on a proposed annual reporting framework under EMIR for clearing activity at recognised third-country central counterparties (CCPs), aimed at improving supervisory visibility of EU firms' exposures to such CCPs.",
+   "finding": "Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu 18/08/2026 ESMA12-2121844265-6008 Consultation paper on the reporting framework under EMIR for clearing activity at recognised third-country CCPs Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs",
+   "lead": "欧洲证券与市场管理局「Publication」，切入监管与合规、支付清算。"
   }
  }
 ]
