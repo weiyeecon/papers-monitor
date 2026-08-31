@@ -4,10 +4,7 @@
 筛出与 **稳定币 / 加密资产 / 资产代币化 / CBDC / 金融稳定 / 跨境支付** 相关的新论文，
 用 Anthropic API 生成结构化中文摘要，产出两样东西：
 
-- **网页看板** `docs/index.html` —— 可按主题、机构、时间窗筛选，支持中文搜索、MD/CSV 导出
-- **Markdown 周报** `reports/YYYY-Www.md` —— 手机上用 GitHub App 就能读
 
-抓取跑在 GitHub Actions 的服务器上，没有浏览器同源策略，**不需要任何 CORS 代理**。
 
 ---
 
