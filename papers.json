@@ -288,7 +288,16 @@
    "question": "This paper develops a calibrated general-equilibrium model to study how different configurations of trade and financial policy reshape the hierarchy of global currencies --- and the U.S. dollar's position at its anchor.",
    "finding": "The stakes are large: In our model, shifts in currencies' safety can redirect global capital flows and alter sovereign borrowing costs by hundreds of billions of dollars annually.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为支付与跨境，切入跨境与国际维度、系统性风险传染，方法上采用定量校准与反事实模拟，数据来自模型模拟/校准（非实证数据）。"
-  }
+  },
+  "cn": {
+   "一句话": "构建校准一般均衡模型，研究贸易金融政策如何重塑全球货币层级与美元锚地位。",
+   "问题": "不同贸易和金融政策配置如何影响全球货币安全性、锚地位及美元主导地位？",
+   "数据": "摘要未说明",
+   "方法": "校准的一般均衡模型，内生化货币安全性与锚地位，基于经济“有效规模”。",
+   "发现": "与全球贸易网络融合最深的经济体获得最大安全溢价和锚地位；货币安全性转变可每年改变数千亿美元跨境资本流动与主权借贷成本。",
+   "含义": "政策开放与一体化程度决定货币国际地位，影响全球金融稳定与美元体系演变。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21808 Solar Adoption by Mandates",
@@ -680,7 +689,16 @@
    "question": "Using monthly bilateral trade data for 50 countries at the HTS-10 product level, this paper finds that foreign exporters absorbed 40-50 percent of the tariff increases, consistent with optimal tariff theory.",
    "finding": "The results are robust to a wide range of controls.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入用户采纳与普惠。"
-  }
+  },
+  "cn": {
+   "一句话": "利用50国产品贸易数据，估计2025年美国关税冲击下出口商吸收程度及市场势力影响",
+   "问题": "2025年美国关税冲击中，外国出口商价格吸收程度如何随市场势力变化？",
+   "数据": "50国HTS-10产品级月度双边贸易数据；时间跨度摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "外国出口商平均吸收40-50%关税；主导出口商吸收50-65%，较小供应商基本全部转嫁",
+   "含义": "最大供应商吸收关税意味着消费者价格涨幅较小，缓解关税对通胀的冲击"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21795 Creative Destruction through Innovation Bursts",
@@ -781,7 +799,16 @@
    "question": "We study the labor-market effects of brand capital, a demand-side intangible asset that differentiates firms' products.",
    "finding": "Brand capital thus leads to firms' expansion, shifts labor demand toward market-facing tasks, and provides a micro-level channel through which demand-side intangible capital can lower labor shares.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，方法上采用事件研究。"
-  }
+  },
+  "cn": {
+   "一句话": "研究品牌资本对劳动力市场的影响，利用意大利商标转让数据识别因果效应。",
+   "问题": "品牌资本如何影响企业规模、工资、劳动力构成与劳动份额？",
+   "数据": "意大利全部商标转让记录，关联企业财务报表和雇主-雇员匹配数据；时间跨度摘要未说明。",
+   "方法": "匹配事件研究设计。",
+   "发现": "商标收购使无形资产增19%、销售增8%、就业增6%，工资不变，劳动份额下降；营销和销售岗位增幅约为其他岗位两倍。",
+   "含义": "需求侧无形资本降低劳动份额，可能加剧分配失衡，需政策关注。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21797 Observability and Social Interactions in Consumption",
@@ -1378,7 +1405,16 @@
    "question": "Quantifying spillovers from scientific knowledge to technology is important for understanding the social returns to science and for designing policy.",
    "finding": "We document large heterogeneity in spillovers across countries, disciplines, and institutions.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，切入跨境与国际维度、系统性风险传染、能源与气候影响，方法上采用描述性/政策梳理。"
-  }
+  },
+  "cn": {
+   "一句话": "提出Science Rank指标，量化科学知识向技术的溢出并评估各国机构贡献。",
+   "问题": "如何识别并量化科学论文对下游专利技术价值的溢出贡献？",
+   "数据": "摘要未说明。",
+   "方法": "结合专利与论文引用网络，构建Science Rank指标，将专利价值回溯分配给相关科学论文。",
+   "发现": "Science Rank比直接引用计数更能识别有影响力的科学；美国是科学溢出强国，惠及国内外技术发展；中低收入国家研究价值中较大份额流向气候变化相关创新。",
+   "含义": "为政策设计提供依据，助力识别各国机构对全球挑战创新的实际贡献。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21776 Global Robots",
@@ -1552,7 +1588,16 @@
    "question": "Central banks and financial surveillance authorities need to cope with the potential realization of financial stability risks, adopting preventive measures or using liquidity once crises materialize.",
    "finding": "We show that these market-driven transition shocks generate larger macro financial instability than carbon pricing for a given change in emissions, while delaying environmental gains.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，切入能源与气候影响，方法上采用一般均衡 / DSGE。"
-  }
+  },
+  "cn": {
+   "一句话": "构建环境DSGE模型，比较偏好冲击与碳定价对转型风险的影响及政策应对",
+   "问题": "市场驱动的偏好冲击与碳定价相比，如何影响宏观金融稳定及政策效果？",
+   "数据": "摘要未说明",
+   "方法": "环境DSGE模型，含金融摩擦，并对比事前宏观审慎与事后量化宽松政策",
+   "发现": "同等减排下，偏好冲击比碳定价引发更大的宏观金融不稳定并延迟环境收益；事前宏观审慎政策能抑制金融放大，事后干预仅能部分稳定。",
+   "含义": "支持监管部门尽早采取预防性金融措施应对转型风险。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21769 Measuring the Culture of Useful Knowledge and the Roots of Innovation",
@@ -2925,7 +2970,16 @@
    "question": "Central banks are rethinking reserve portfolios as geopolitical fragmentation raises concerns about the accessibility of foreign-held assets, while dollar-funding stress keeps the US dollar at the centre of global financial stability.",
    "finding": "The findings highlight the importance of maintaining liquidity in the currencies where stress is likely, alongside sound domestic funding structures, credible policy frameworks, and prudent limits on unhedged foreign currency debt.",
    "lead": "CEPR 政策评论「Column」，主题为金融稳定，切入货币政策传导、跨境与国际维度、监管与合规。"
-  }
+  },
+  "cn": {
+   "一句话": "研究美元与黄金储备如何缓解全球碎片化下的货币贬值压力",
+   "问题": "美元流动性紧张时，美元和黄金储备能否缓冲本币贬值？",
+   "数据": "18个经济体高频美元货币政策意外与分钟级汇率数据；具体来源与时间跨度摘要未说明",
+   "方法": "基于高频货币政策意外和分钟汇率数据的实证回归分析；摘要未说明具体识别策略",
+   "发现": "美元和黄金储备与更小本币贬值幅度相关，尤其在缺少官方美元流动性支持且美元负债较大的经济体",
+   "含义": "应保持压力货币流动性，限制未对冲外债，并强化国内融资结构与政策可信度"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "High-speed internet and early childhood development: Causal evidence from a countrywide programme",
@@ -3123,7 +3177,16 @@
    "question": "Sai Ma , Viktors Stebunovs , Judit Temesvary We develop a Transmission Growth-at-Risk (TGaR) framework that incorporates foreign financial vulnerabilities as predictors of U.S. downside growth risk.",
    "finding": "These findings show that monitoring foreign financial vulnerabilities is important for gauging U.S. growth prospects.",
    "lead": "美联储理事会「FEDS / IFDP」，主题为金融稳定，切入货币政策传导，方法上采用向量自回归 VAR。"
-  }
+  },
+  "cn": {
+   "一句话": "构建跨国金融脆弱性向美国经济增长尾部风险传导的TGaR框架。",
+   "问题": "外国金融脆弱性如何影响美国经济下行增长风险？",
+   "数据": "摘要未说明。",
+   "方法": "构建Transmission Growth-at-Risk（TGaR）框架，区分金融条件与金融脆弱性，结合贸易和美元一体化渠道。",
+   "发现": "外国金融脆弱性升高会降低美国增长-at-risk；资产估值压力和国外金融部门杠杆放大效应最大，外部脆弱性影响中期GDP，加入后8季度预测评分提升53%。",
+   "含义": "监测外国金融脆弱性对研判美国增长前景和金融稳定至关重要。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "FEDS Paper: The Last Taxi: LCR Buffers and Bank Liquidity Provision",
@@ -4649,7 +4712,16 @@
    "question": "This paper proposes a sign-narrative VAR approach to identifying financial shocks in currency markets.",
    "finding": "Focusing on two emerging economies (Brazil and Chile), our estimates suggest that financial shocks account for about one third of UIP fluctuations, and contribute less than 10% to the variance of macro variables including output and inflation.",
    "lead": "国际货币基金组织「IMF Working Papers」，主题为金融稳定，切入跨境与国际维度、监管与合规、系统性风险传染，方法上采用结构式估计。"
-  }
+  },
+  "cn": {
+   "一句话": "用符号叙事VAR识别货币市场金融冲击并评估其宏观影响",
+   "问题": "货币市场金融冲击如何识别，以及它们对宏观经济波动的贡献有多大？",
+   "数据": "摘要未说明具体数据来源、样本范围与时间跨度；仅提及巴西和智利两个新兴经济体",
+   "方法": "提出符号叙事VAR（sign-narrative VAR）方法，结合符号限制与叙事限制识别金融冲击",
+   "发现": "金融冲击解释约三分之一的无抛补利率平价（UIP）波动，但对产出和通胀等宏观变量方差的贡献不足10%；金融冲击一旦发生会引发产出急剧下降。",
+   "含义": "货币市场摩擦可能通过金融冲击向实体经济传导，对新兴经济体金融稳定构成实质性风险。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Creditors’ Seniority and Sovereign Risk",
@@ -4716,7 +4788,16 @@
    "question": "Governments have historically used financial repression to reduce debt and fiscal pressures, yet few systematic measures of repression exist.",
    "finding": "Applying our measures to a novel dataset of 17 advanced economies since 1920, we find that financial repression has been a persistent feature of modern history, peaking after World War II, receding during the capital account liberalization era, and rising again after the Global Financial Crisis.",
    "lead": "国际货币基金组织「IMF Working Papers」，主题为金融稳定，切入货币政策传导、跨境与国际维度，数据来自IMF / 世行宏观数据库。"
-  }
+  },
+  "cn": {
+   "一句话": "构建数量型金融压制指标，并分析17个发达经济体1920年以来的证据。",
+   "问题": "如何系统衡量金融压制及其对债务削减的影响？",
+   "数据": "17个发达经济体1920年至今的新数据集；具体来源摘要未说明。",
+   "方法": "基于结构投资组合选择模型构建两个数量型压制指标；使用债务分解框架。",
+   "发现": "金融压制在二战后达到顶峰，资本账户自由化时期消退，全球金融危机后回升；二战后压制是债务削减的主要驱动力，财政储蓄超过传统铸币税。",
+   "含义": "当前高债务与资本流动受限等条件重现，金融压制可能被更多使用，需警惕其扭曲效应。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Dominant Currency Pricing and Currency Risk Premia",
@@ -4749,7 +4830,16 @@
    "question": "This paper studies how dominant-currency pricing affects currency risk premia.",
    "finding": "Under a standard Taylor rule, this mechanism generates persistently higher inflation.",
    "lead": "国际货币基金组织「IMF Working Papers」，主题为金融稳定，切入跨境与国际维度。"
-  }
+  },
+  "cn": {
+   "一句话": "研究主导货币定价如何影响货币风险溢价。",
+   "问题": "主导货币定价与美元负债如何决定货币风险溢价？",
+   "数据": "摘要未说明。",
+   "方法": "主成分分析提取共同风险因子，结合小型开放经济模型分析。",
+   "发现": "美元出口定价削弱汇率稳定作用，美元债务使贬值发生在坏状态，推高货币溢价和风险调整后中性利率；标准泰勒规则下通胀持续偏高。",
+   "含义": "提示央行需关注美元定价与债务结构对货币政策传导和金融稳定的影响。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Convergence from Above",
@@ -7743,7 +7833,16 @@
    "question": "Many public-sector decisions require allocating scarce attention under uncertainty.",
    "finding": "In a randomized evaluation of 4,752 child referrals over 14 months in",
    "lead": "美国国民经济研究局「Working Paper」，主题为加密资产，切入监管与合规。"
-  }
+  },
+  "cn": {
+   "一句话": "用随机实验评估算法风险评分对儿童保护调查决策的影响。",
+   "问题": "公共部门在不确定性下分配稀缺注意力时，算法风险评估能否改善儿童保护决策？",
+   "数据": "摘要未说明具体来源；提及4,752例儿童转介，时间跨度14个月。",
+   "方法": "随机评估（随机对照实验）。",
+   "发现": "摘要未给出结果；研究考察算法风险评分如何影响监管人员对案件的审查决策。",
+   "含义": "不直接相关（涉及公共部门儿童保护，而非金融稳定）。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Cognitive Limitations and Long-Term Care Use in the Netherlands: Evidence from the Lifelines Cohort Study",
@@ -10769,7 +10868,16 @@
    "question": "by Nordine Abidi, Leonardo Gambacorta, Christoffer Kok, Leonardo Madio, Ixart Miquel-Flores, Alberto Partida Investment in cybersecurity in an interconnected banking system has public-good properties: positive externalities can generate systemic underinvestment.",
    "finding": "Using confidential supervisory data from the European Central Bank, we first identify \"laggard\" European banks that underinvest relative to their cyber-risk profiles, and then examine how supervisory scrutiny affects their incentives to invest.",
    "lead": "国际清算银行「Working Paper」，主题为金融稳定，切入监管与合规、系统性风险传染、违法风险与操作风险，数据来自银行监管报表（Call Report / Y-9C 等）。"
-  }
+  },
+  "cn": {
+   "一句话": "研究监管审查对网络风险投资不足银行网络安全投资的影响。",
+   "问题": "监管审查能否激励网络风险投资不足的欧洲银行增加网络安全投入？",
+   "数据": "欧洲央行机密监管数据；具体样本范围与时间跨度摘要未说明。",
+   "方法": "摘要未说明。",
+   "发现": "监管审查能改善投资不足银行的网络安全投资，缓解系统性投资不足。",
+   "含义": "有助于增强银行体系网络安全，维护金融稳定。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Elasticity of money in production networks, working capital, credit lines and financial conditions",
@@ -12234,7 +12342,16 @@
    "question": "We study the short-run macroeconomic transmission of a US–China tariff war in an open economy multi-sector New Keynesian model with input–output linkages, sectoral nominal rigidities, and heterogeneous currency invoicing.",
    "finding": "The results show that tariff incidence depends jointly on where the tariff lands, how the shock propagates through production networks, and how invoicing governs border-price adjustment.",
    "lead": "欧洲央行「Working Paper」，主题为金融稳定，切入货币政策传导、跨境与国际维度、系统性风险传染，方法上采用一般均衡 / DSGE。"
-  }
+  },
+  "cn": {
+   "一句话": "构建多部门新凯恩斯模型分析美中关税战的短期宏观传导",
+   "问题": "美中关税战如何通过生产网络和货币计价影响各国经济？",
+   "数据": "摘要未说明",
+   "方法": "开放经济多部门新凯恩斯模型，包含投入产出关联、部门名义刚性与异质性货币计价",
+   "发现": "互征10个百分点关税下，加征关税国承担更多通胀压力，目标国产出降幅更大；生产网络放大冲击，美元计价加深中国产出收缩。",
+   "含义": "评估关税影响需综合考虑关税落点、生产网络与计价货币，仅看双边贸易份额会误判。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Long-term implications of a digital euro on liquidity and funding costs in the German banking system | Ulrich Krüger, Lui-Hsian Wong",
@@ -13074,7 +13191,13 @@
    "question": "Will Aarons and Asani Sarkar How has the recent implementation of tariffs affected small businesses?",
    "finding": "We find that the majority of national firms in the goods and retail sectors reported experiencing financial challenges due to tariffs in 2025, with even larger shares of regional firms doing so.",
    "lead": "纽约联储「Liberty Street」，主题为加密资产，切入跨境与国际维度、储备资产与抵押品，数据来自住户/消费者调查数据。"
-  }
+  },
+  "cn": {
+   "一句话": "用2025年小企业信贷调查数据，研究关税对美国小企业的影响。",
+   "问题": "关税实施如何影响美国小企业的财务、成本转嫁与前景预期？",
+   "数据": "2025年版小企业信贷调查（SBCS），覆盖全国及第二区（纽约、新泽西、康涅狄格）雇主企业；全国6500家、第二区976家；调查于2025年9月至"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "More Tariff Pass‑Through Is in the Pipeline",
@@ -14404,7 +14527,16 @@
    "question": "Dawson, and Julian Gonzalez-Murphy A succession of shocks to the global economy in recent years has focused attention on the improved economic and financial resilience of emerging market economies.",
    "finding": "Any errors or omissions are the responsibility of the author(s).",
    "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定 × 支付与跨境，切入货币政策传导、跨境与国际维度、监管与合规，数据来自商业行情数据库。"
-  }
+  },
+  "cn": {
+   "一句话": "比较核心与外围新兴市场在近期冲击中的韧性差异。",
+   "问题": "核心与外围新兴市场应对近期经济冲击的韧性为何存在差异？",
+   "数据": "基于IMF、UN、J.P. Morgan、MSCI、UCDP等数据，核心22国与外围92国，覆盖2000-2025年。",
+   "方法": "将新兴市场分为核心（MSCI 22国）与外围（92国）两组，对比债务币种结构、储备、通胀、利差等指标。",
+   "发现": "核心新兴市场GDP全球占比从2000年14%升至2025年33%，外围仍约6%；核心外债低、储备高、通胀更快回落，主权利差低于外围。",
+   "含义": "外围新兴市场脆弱性仍高，其抵御冲击能力不足或构成全球金融稳定隐患。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "The Fed Has Two Tools to Influence Money Market Conditions",
@@ -14569,7 +14701,15 @@
    "finding": "We find that legalization increases spending at online sportsbooks roughly tenfold, but betting does not stop at state boundaries.",
    "lead": "纽约联储「Liberty Street」，主题为稳定币 × 加密资产 × 金融稳定，切入监管与合规、用户采纳与普惠、储备资产与抵押品，数据来自微观交易/账户级数据。"
   },
-  "cn_model": "deepseek-v4-flash"
+  "cn_model": "deepseek-v4-flash",
+  "cn": {
+   "一句话": "研究体育博彩合法化对消费者信贷和还款的影响",
+   "问题": "体育博彩合法化如何影响家庭金融健康，是否产生跨州溢出效应？",
+   "数据": "匿名交易级消费数据（Earnest Analytics）与纽约联储消费者信贷小组（5% Equifax样本）；县-季度；2018—2025年",
+   "方法": "比较合法州与非法州，采用事件研究法/双重差分",
+   "发现": "合法化使在线博彩支出增约十倍；邻近非法县溢出效应约为合法县的15%；参与率约3%，总体信贷拖欠率上升约0.3个百分点，合法县三年后拖欠率升超0.5个百分点（基线10.7%）",
+   "含义": "体育博彩合法化显著影响家庭金融稳定，且跨境溢出要求政策协调。"
+  }
  },
  {
   "title": "The New York Fed DSGE Model Forecast—March 2026",
@@ -15451,7 +15591,16 @@
    "question": "Wändi Bruine de Bruin, Keshav Dogra, Sebastian Heise, Edward S.",
    "finding": "Any errors or omissions are the responsibility of the author(s).",
    "lead": "纽约联储「Liberty Street」，主题为加密资产 × 金融稳定，切入监管与合规、用户采纳与普惠、储备资产与抵押品，数据来自住户/消费者调查数据。"
-  }
+  },
+  "cn": {
+   "一句话": "通过访谈和调查研究企业如何定价及成本冲击的传导。",
+   "问题": "企业调整价格时考虑哪些因素，如何权衡不同目标？",
+   "数据": "33位企业决策者访谈（2021年）；约700家企业调查（2022年末至2023年初），覆盖美联储第二、四、六辖区。",
+   "方法": "两阶段设计，定性开放式访谈与定量调查相结合。",
+   "发现": "企业普遍设定目标利润率，但多非机械成本加成；在利润与销量间权衡，强需求利于提价，并密切关注竞争对手行为。",
+   "含义": "价格传导并非均匀，成本冲击对通胀的影响取决于需求与竞争条件。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Is Monetary Policy Still Seasonal?",
@@ -17165,7 +17314,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为稳定币。"
-  }
+  },
+  "cn": {
+   "一句话": "用计量方法研究稳定币稳定性，探讨其是否真正稳定。",
+   "问题": "稳定币的稳定性是真实存在，还是如同抛硬币般随机？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "摘要未提供，依据标题推断研究聚焦于稳定币脱锚风险及其可预测性。",
+   "含义": "若稳定币稳定性不足，可能引发挤兑与金融传染，需加强监管。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Putting Macroprudential Policy to Work",
@@ -17234,7 +17392,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为金融稳定。"
-  }
+  },
+  "cn": {
+   "一句话": "揭示影子银行体系中的金融稳定风险并加以更清晰分析。",
+   "问题": "影子银行体系潜藏哪些金融稳定风险，如何识别与评估？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "摘要未提供，依据标题推断旨在提升对影子银行体系风险来源与传导路径的可见性。",
+   "含义": "有助于监管者更早识别影子银行风险，防范金融体系脆弱性累积。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Housing bubbles, the leverage cycle and the role of central banking",
@@ -17895,7 +18062,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为央行数字货币。"
-  }
+  },
+  "cn": {
+   "一句话": "研究央行数字货币过渡期的管理策略",
+   "问题": "如何管理向央行数字货币的转型过程？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "摘要未提供，依据标题合理概括为探讨平稳过渡路径与潜在风险防范",
+   "含义": "为央行数字货币引入提供政策参考，维护金融稳定"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Pension Liquidity Risk",
@@ -18487,7 +18663,16 @@
    "question": "The total carbon footprint of the bitcoin network has increased by 25% in 2020, while the number of transactions decreased by 6%.",
    "finding": "The resulting climate impact in 2020 is estimated to be 402 kg of CO2 per bitcoin transaction.",
    "lead": "荷兰央行「Research Publication」，主题为加密资产，切入系统性风险传染、能源与气候影响。"
-  }
+  },
+  "cn": {
+   "一句话": "测算比特币网络碳足迹及其2020年变化与单位交易排放",
+   "问题": "比特币网络的碳足迹及其交易效率如何变化？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "2020年比特币碳足迹增加25%，交易量减少6%，每笔交易排放402千克二氧化碳。",
+   "含义": "比特币碳排放持续上升，对气候政策构成压力，需关注其环境外部性。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Flood risk and financial stability: Evidence from a stress test for the Netherlands",
@@ -18558,7 +18743,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为央行数字货币，切入用户采纳与普惠。"
-  }
+  },
+  "cn": {
+   "一句话": "研究消费者采用央行数字货币的触发因素。",
+   "问题": "哪些因素触发消费者采用央行数字货币？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "消费者采用CBDC可能受使用便利、隐私保护及激励设计等因素影响。",
+   "含义": "为央行优化CBDC设计以促进安全高效支付提供参考。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Spillover effects of sovereign bond purchases in the euro area",
@@ -18652,7 +18846,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为稳定币。"
-  }
+  },
+  "cn": {
+   "一句话": "研究阿姆斯特丹银行作为早期稳定币的货币治理机制",
+   "问题": "阿姆斯特丹银行是否构成早期稳定币，其治理如何运作？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "摘要未提供，依据标题推断该行通过治理机制维持币值稳定，但具体结论不详。",
+   "含义": "对理解稳定币治理与货币稳定性有历史借鉴意义。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "The effectiveness of macroprudential policies and capital controls against volatile capital inflows",
@@ -18787,7 +18990,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为央行数字货币。"
-  }
+  },
+  "cn": {
+   "一句话": "探讨央行数字货币的目标、前提条件与设计选择。",
+   "问题": "央行数字货币应具备哪些目标、前提和设计选项？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "基于标题，该研究提出央行数字货币需明确目标并满足前提条件，设计选择影响其效果。",
+   "含义": "对央行数字货币的稳健设计及金融稳定具有政策参考意义。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Effects of credit restrictions in the Netherlands and lessons for macroprudential policy",
@@ -19380,7 +19592,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为加密资产。"
-  }
+  },
+  "cn": {
+   "一句话": "检验欧洲货币联盟过度赤字程序对财政纪律的有效性。",
+   "问题": "过度赤字程序是否有效约束了成员国财政纪律？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "摘要未提供，依据标题推断研究关注该程序的实际约束效果，具体结论不明。",
+   "含义": "若程序无效，则欧元区财政框架可信度受损，可能影响金融稳定。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Revisiting the central bank’s lender of last resort function",
@@ -19608,7 +19829,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为加密资产，切入用户采纳与普惠。"
-  }
+  },
+  "cn": {
+   "一句话": "研究零售商接受比特币支付的驱动因素。",
+   "问题": "什么因素推动零售商采用比特币作为支付方式？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "摘要未提供，但依据标题推测，零售商的比特币采用受交易成本、支付便利性及客户需求等因素影响。",
+   "含义": "对数字货币在零售支付领域的推广及支付体系稳定性有一定参考意义。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Bank based versus market-based financing. Implications for systemic risk",
@@ -19702,7 +19932,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为加密资产。"
-  }
+  },
+  "cn": {
+   "一句话": "研究自然资源开采对当地商业约束的影响",
+   "问题": "自然资源开采如何影响当地企业面临的商业约束？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "自然资源开采对当地商业约束具有显著影响",
+   "含义": "不直接相关"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "On the differential impact of securitization on bank lending during the financial crisis",
@@ -19803,7 +20042,16 @@
    "question": "",
    "finding": "",
    "lead": "荷兰央行「Research Publication」，主题为稳定币。"
-  }
+  },
+  "cn": {
+   "一句话": "研究欧元区内部价格水平收敛进程，及其与美国的比较演变。",
+   "问题": "欧元区各国价格水平是否趋向收敛，其长期趋势如何变化？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "欧洲曾追赶美国的价格水平，但随后再次落后；欧元区内部收敛进程出现反复。",
+   "含义": "欧元区价格分化可能影响单一货币政策传导与金融稳定。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Systemic risk of European banks: Regulators and markets",
@@ -22925,7 +23173,16 @@
    "question": "",
    "finding": "",
    "lead": "香港金管局「Research」，主题为稳定币，切入跨境与国际维度、市场微观结构与定价。"
-  }
+  },
+  "cn": {
+   "一句话": "研究稳定币对新兴市场经济体汇率波动的影响",
+   "问题": "稳定币如何影响新兴市场经济体的汇率波动？",
+   "数据": "摘要未提供",
+   "方法": "摘要未提供",
+   "发现": "研究评估稳定币对汇率波动的影响，具体方向与程度未在摘要中说明",
+   "含义": "稳定币可能影响新兴市场汇率稳定，需关注相关风险与"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "External Publications (2026)",
@@ -23404,7 +23661,16 @@
    "question": "The Bank for International Settlements' Committee on Payments and Market Infrastructures (CPMI) and the International Organization of Securities Commissions (IOSCO) closely monitor the implementation of the Principles for financial market infrastructures (PFMI).",
    "finding": "This report presents the conclusions drawn by CPMI-IOSCO from a Level 2 assessment of whether, and to what degree, the legal, regulatory and oversight frameworks for financial market infrastructures (FMIs) in the United Kingdom for systemically important payment systems and central securities depositories (CSDs)/securities settlement systems (SSSs) are complete and consistent with the Principles.",
    "lead": "支付与市场基础设施委员会「Publication」，主题为支付与跨境，切入跨境与国际维度、监管与合规、支付清算。"
-  }
+  },
+  "cn": {
+   "一句话": "评估英国系统重要性支付系统和中央证券存管/证券结算系统的PFMI实施情况。",
+   "问题": "英国金融基础设施的法律、监管和监督框架是否完整且符合PFMI原则？",
+   "数据": "摘要未说明",
+   "方法": "CPMI-IOSCO Level 2评估，对照PFMI原则评估框架完整性与一致性",
+   "发现": "报告提出了评估结论，但摘要未披露具体发现。",
+   "含义": "评估结果有助于确保英国支付结算基础设施稳健，维护金融稳定。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Harmonised ISO 20022 data requirements for enhancing cross-border payments – updated report",
@@ -24250,7 +24516,16 @@
    "question": "Macroprudential policy faces a range of challenges that stem from the difficulty to quantify its principal objective, financial stability, and from the absence of an established analytical paradigm to guide its conduct.",
    "finding": "These challenges are particularly relevant when ...",
    "lead": "全球金融体系委员会「Publication」，主题为金融稳定。"
-  }
+  },
+  "cn": {
+   "一句话": "探讨宏观审慎政策目标量化与沟通面临的挑战及应对",
+   "问题": "宏观审慎政策如何设定和沟通其目标，以应对金融稳定难以量化、缺乏分析范式的难题？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "宏观审慎政策的主要目标（金融稳定）难以量化，且缺乏既定的分析范式指导其操作，这给政策制定与沟通带来显著挑战。",
+   "含义": "清晰设定并有效沟通宏观审慎政策目标，有助于增强政策可信度与金融稳定。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Experiences with the ex ante appraisal of macroprudential instruments",
@@ -25712,7 +25987,16 @@
    "question": "Drawing on more than 89,000 firm-level observations from 94 countries across Europe, other advanced economies, Africa, Asia, Latin America, and the Middle East, sourced from the World Bank and the European Bank for Reconstruction and Development, we examine whether ambitious national climate commitments translate into greater corporate adoption of CO2 monitoring and energy management practices.",
    "finding": "The results show that an ambitious national net-zero target, defined as 2050 or earlier, compared with a later or no target, is associated with a statistically significant increase in corporate climate mitigation action once firm-level characteristics and country fixed effects are considered.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入用户采纳与普惠、能源与气候影响。"
-  }
+  },
+  "cn": {
+   "一句话": "研究国家气候承诺是否促进企业采纳二氧化碳监测与能源管理措施。",
+   "问题": "国家层面的雄心气候目标是否转化为企业更大程度的气候减缓行动？",
+   "数据": "世界银行与欧洲复兴开发银行数据，94国89,000余家企业观测；时间跨度摘要未说明。",
+   "方法": "企业层面回归，控制企业特征与国家固定效应；摘要未明示具体识别策略。",
+   "发现": "净零目标设为2050年或更早时，企业气候减缓行动显著增加；西欧效果更大，审计企业最可能，中小企业最不可能。",
+   "含义": "气候承诺落实存在企业异质性，需关注中小企业及东欧非欧盟能源密集行业。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21822 Wealth Tax, Entrepreneurship, and the Legal Form of Business Organization",
@@ -27116,7 +27400,16 @@
    "question": "This paper analyses the European prohibition of monetary financing from an economic perspective.",
    "finding": "In general, these proposals would seem to jeopardise the prohibition of monetary financing and ultimately weaken price stability and sound public finances.",
    "lead": "欧洲央行出版物「Publication」，主题为加密资产，切入货币政策传导、监管与合规、储备资产与抵押品。"
-  }
+  },
+  "cn": {
+   "一句话": "分析欧元区禁止货币融资的经济学理由、实施标准与潜在挑战。",
+   "问题": "欧元区禁止货币融资的经济学依据、实践标准及近期争议是什么？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "禁止货币融资有助于维护央行独立性和财政纪律；欧盟禁令比EMU前及全球主要货币区更严，三十年来基本被遵守，但新冠疫情期间的“直升机撒钱”和债务取消提议会危及该禁令。",
+   "含义": "放松货币融资禁令可能削弱价格稳定与公共财政健康，对欧洲央行信誉构成风险。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Letter from the ECB President to Mr Gerald Hauser, MEP, on digital euro",
@@ -32110,7 +32403,16 @@
    "question": "Fertility has fallen in nearly all high-income countries.",
    "finding": "The changing division of household work and increasing work-family conflict have minor contributions to changing fertility preferences.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入用户采纳与普惠，方法上采用机器学习 / 文本分析。"
-  }
+  },
+  "cn": {
+   "一句话": "研究分解高收入国家生育意愿下降背后的态度变化贡献。",
+   "问题": "为什么高收入国家的理想子女数和生育意愿持续下降？",
+   "数据": "两个跨国民调，各调查两次、相隔约十年；摘要未说明具体来源与时间跨度。",
+   "方法": "将生育意愿下降分解为多种态度变化的贡献；摘要未说明具体计量模型。",
+   "发现": "子女妨碍自由、育儿观念更进步、不再认为有孩子才圆满三类态度贡献最大；其中“人生圆满需孩子”的观念变化最剧，对低学历女性影响最大。",
+   "含义": "政策应关注个人自由与实现感等深层观念变化，而非仅靠经济补贴扭转生育下滑。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21863 Changing Gender Norms across Generations: Evidence from a Paternity Leave Reform",
@@ -33533,7 +33835,16 @@
    "question": "Predictions about the workplace impact of artificial intelligence often begin with what the technology can do captured by occupations’ exposure to AI.",
    "finding": "Comparative advantage is a much better predictor of AI adoption than absolute advantage based on exposure alone.",
    "lead": "CEPR 政策评论「Column」，主题为加密资产，切入用户采纳与普惠。"
-  }
+  },
+  "cn": {
+   "一句话": "利用德国工人数据，证明比较优势比暴露度更能预测AI采纳。",
+   "问题": "AI采纳是由比较优势还是仅由暴露度决定的？",
+   "数据": "摘要未说明（德国工人代表性数据）",
+   "方法": "摘要未说明",
+   "发现": "AI采纳取决于AI相对人类劳动是否值得使用；比较优势比基于暴露的绝对优势更能预测AI采纳。",
+   "含义": ""
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Financial engineering is no substitute for interest rates: Lessons from Türkiye",
@@ -35237,7 +35548,16 @@
    "question": "Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies.",
    "finding": "Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.",
    "lead": "欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定 × 支付与跨境，切入货币政策传导、跨境与国际维度，方法上采用描述性/政策梳理。"
-  }
+  },
+  "cn": {
+   "一句话": "比较1980年代与2020年代美国紧缩周期对全球经济的影响，强调财政空间作用。",
+   "问题": "为何2020年代美国货币紧缩未像1982年那样引发新兴经济体资本流入骤停与全球衰退？",
+   "数据": "摘要未说明。",
+   "方法": "构建含财政空间约束的Mundell-Fleming框架，并以跨国证据检验。",
+   "发现": "2020年代与1980年代在货币政策有效性、财政空间和外部脆弱性上存在差异，财政空间是传导外部利率冲击的核心变量，紧缩后经济表现受财政空间塑造。",
+   "含义": "财政空间决定外部紧缩冲击的传导强度，维护财政缓冲有助于增强金融与经济韧性。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "DP21877 What the Iran War Teaches Us about the Price Elasticity of Oil Supply",
@@ -35332,7 +35652,16 @@
    "question": "Elena Falcettoni One of the goals of the Federal Reserve has always been the promotion of a safe and efficient payments system, and it consistently fosters such an environment by playing multiple, simultaneous roles, including as a supervisor of banks and financial market utilities, as an operator of payments services within the industry, and as a catalyst for payment system improvements.",
    "finding": "",
    "lead": "美联储 FEDS Notes「FEDS Note」，主题为支付与跨境，切入跨境与国际维度、监管与合规、储备资产与抵押品。"
-  }
+  },
+  "cn": {
+   "一句话": "概述美联储十年来通过多重角色促进美国跨境支付系统安全与效率的努力。",
+   "问题": "美联储在跨境支付领域如何发挥作用以促进安全高效的支付系统？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "美联储长期致力于推动安全高效的支付体系，通过监管者、运营者和催化剂等多重角色同时发力，持续促进跨境支付系统的改进。",
+   "含义": "表明美联储将跨境支付安全与效率作为维护金融稳定的重要抓手，其监管与运营协同有助于降低系统性风险。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "FEDS Note: Repo Markets and the Fed’s Balance Sheet: Implications for Monetary Policy Implementation",
@@ -35529,7 +35858,11 @@
    "question": "This paper analyzes the intraday timing of transactions in Colombia's large-value payment system (CUD) from 2018 to 2025, focusing on how changes in reserve requirements affect liquidity management by financial institutions.",
    "finding": "Using high-frequency transaction data, we document that reductions in reserve requirements in April 2020 and September 2024 are associated with a shift of settlement activity toward later hours of the day.",
    "lead": "BIS 与金融稳定学院「Publication」，主题为支付与跨境，切入储备资产与抵押品、支付清算，方法上采用描述性/政策梳理。"
-  }
+  },
+  "cn": {
+   "一句话": "研究哥伦比亚大额支付系统中"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Hard to shift, easy to reshape: central bank reserve demand and frictions",
@@ -37173,7 +37506,16 @@
    "question": "As low-income countries (LICs) gain access to international capital markets, the scope for increased financing rises but so does the risk of shocks.",
    "finding": "Our empirical results suggest that, after the global financial crisis (GFC), the global financial cycle has been a significant driver of private capital flows to LICs.",
    "lead": "国际货币基金组织「IMF Working Papers」，主题为金融稳定 × 支付与跨境，切入跨境与国际维度。"
-  }
+  },
+  "cn": {
+   "一句话": "研究全球金融周期对低收入国家私人资本流动及政府借款的影响。",
+   "问题": "全球金融周期如何影响低收入国家的资本流动与政府外部借款？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "全球金融危机后，全球金融周期显著驱动低收入国家私人资本流入；美元走强伴随净流入减弱；政府外部借款具有较小但统计显著的逆周期成分。",
+   "含义": "低收入国家易受全球金融周期冲击，政策需重视逆周期缓冲与国际金融安全网。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "Labor Productivity Growth in the Nordics",
@@ -37269,7 +37611,16 @@
    "question": "The post-GFC era has marked a transition from the relative stability of the “Great Moderation” to a more volatile “Great Turbulence,” characterized by structural transformations, frequent shocks, heightened uncertainty, and constrained policy space.",
    "finding": "It concludes that credible, resilient, and well-coordinated policy frameworks will be essential to preserving domestic and external stability in an increasingly shock-prone world.",
    "lead": "国际货币基金组织「Departmental Papers」，主题为加密资产，切入跨境与国际维度、监管与合规、能源与气候影响。"
-  }
+  },
+  "cn": {
+   "一句话": "评估现有宏观政策框架能否应对人口、气候、地缘割裂与AI四大趋势",
+   "问题": "现有宏观经济政策框架在结构性转型和冲击频发下是否仍然适用？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "可靠、有韧性且协调良好的政策框架对维护内外稳定至关重要，尤其是在冲击频发环境中。",
+   "含义": "政策框架需加强可信度与协调性，以增强金融和经济稳定性。"
+  },
+  "cn_model": "deepseek-v4-flash"
  },
  {
   "title": "ESG Disclosure and Green Investment in the EU",
@@ -37593,5 +37944,180 @@
    "finding": "Projections suggest that future demographic changes will gradually lower trend unemployment about 0.4 percentage point further over the next 20 years.",
    "lead": "旧金山联储「Economic Letter」。"
   }
+ },
+ {
+  "title": "FEDS Paper: United States of U-Star",
+  "link": "https://www.federalreserve.gov/econres/feds/united-states-of-u-star.htm",
+  "abstract": "Hie Joo Ahn and Jeremy Rudd This paper estimates state-level trend unemployment rates (trend U-star) based on the trend components of unemployment inflows and outflows across unemployment durations. The estimated trend U-stars, particularly the portions attributable to long-termunemployment, have levels and dynamics that vary substantially across states. Long-termunemployment makes a relatively small contribution to trend U-star in agricultural states, but takes a larger share for Rust Belt states and several states in the Sun Belt. While higher educational attainment and population aging put downward pressure on U-star, the effects of industrial structure and labor-market rigidities are mixed. Using the estimates of state-level trend U-star, we revisit previous work on state-level Phillips curves and find that the estimated slopes of forward-looking inflation equations are driven bymovements in trend U-star rather than by cyclical variation in the unemployment rate.",
+  "authors": "",
+  "date": "2026-08-31T17:31:00+00:00",
+  "ptype": "FEDS / IFDP",
+  "src_id": "fed-wp",
+  "org": "Fed Board",
+  "org_cn": "美联储理事会",
+  "group": "cb",
+  "key": "fedspaperunitedstatesofustar",
+  "first_seen": "2026-08-31T17:56:53.816843+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Hie Joo Ahn and Jeremy Rudd This paper estimates state-level trend unemployment rates (trend U-star) based on the trend components of unemployment inflows and outflows across unemployment durations.",
+   "finding": "Using the estimates of state-level trend U-star, we revisit previous work on state-level Phillips curves and find that the estimated slopes of forward-looking inflation equations are driven bymovements in trend U-star rather than by cyclical variation in the unemployment rate.",
+   "lead": "美联储理事会「FEDS / IFDP」。"
+  }
+ },
+ {
+  "title": "IFDP Paper: Pricing Risk Globally: Intermediary Constraints, the Dollar, and the Global Financial Cycle",
+  "link": "https://www.federalreserve.gov/econres/ifdp/pricing-risk-globally-intermediary-constraints-the-dollar-and-the-global-financial-cycle.htm",
+  "abstract": "Ozge Akinci, Sebnem Kalemli-Ozcan, and Albert Queralto We study how increased uncertainty about U.S. asset returns affects global asset prices and exchange rates in a two-country model with intermediary balance-sheet constraints. Empirically, uncertainty shocks widen global credit spreads, appreciate the dollar, and increase currency risk premia. In our model, higher uncertainty tightens intermediary constraints and lowers asset prices, reversing the counterfactual asset price increase in frictionless models. Because constraints make net worth especially valuable in bad times, risk premia respond strongly to uncertainty shocks. This interaction allows the model to match the credit spread, currency premium, and dollar responses in the data.",
+  "authors": "",
+  "date": "2026-08-31T17:29:00+00:00",
+  "ptype": "FEDS / IFDP",
+  "src_id": "fed-wp",
+  "org": "Fed Board",
+  "org_cn": "美联储理事会",
+  "group": "cb",
+  "key": "ifdppaperpricingriskgloballyintermediaryconstraintsthedollarandtheglobalfinancialcycle",
+  "first_seen": "2026-08-31T17:56:53.816843+00:00",
+  "meta": {
+   "topics": [],
+   "score": 10,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "Ozge Akinci, Sebnem Kalemli-Ozcan, and Albert Queralto We study how increased uncertainty about U.S. asset returns affects global asset prices and exchange rates in a two-country model with intermediary balance-sheet constraints.",
+   "finding": "This interaction allows the model to match the credit spread, currency premium, and dollar responses in the data.",
+   "lead": "美联储理事会「FEDS / IFDP」，切入跨境与国际维度。"
+  }
+ },
+ {
+  "title": "Global imbalances, growth and stability",
+  "link": "https://www.bis.org/speeches/20260630-global-imbalances-growth-and-stability",
+  "abstract": "Remarks by Mr Tiff Macklem, Governor of the Bank of Canada, at Paris Europlace – Chambre de commerce France-Canada, Paris, 23 June 2026.",
+  "authors": "Tiff Macklem",
+  "date": "2026-06-30T00:00:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "globalimbalancesgrowthandstability",
+  "first_seen": "2026-08-31T17:56:53.816843+00:00",
+  "meta": {
+   "topics": [],
+   "score": -1,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "Remarks by Mr Tiff Macklem, Governor of the Bank of Canada, at Paris Europlace – Chambre de commerce France-Canada, Paris, 23 June 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入跨境与国际维度。"
+  }
+ },
+ {
+  "title": "Mundell's plan for a European currency - from theory to history",
+  "link": "https://www.bis.org/speeches/20260630-mundells-plan-european-currency-theory-history",
+  "abstract": "Welcome address by Mr Fabio Panetta, Governor of the Bank of Italy, at the \"International macroeconomics in a changing world - old questions, new realities\" workshop, organised by the Bank of Italy, Centre for Economic Policy Research (CEPR) and LUISS (Libera Università Internazionale degli Studi Sociali), in honour of Robert Mundell, Rome, 22 June 2026.",
+  "authors": "Fabio Panetta",
+  "date": "2026-06-30T00:00:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "mundellsplanforaeuropeancurrencyfromtheorytohistory",
+  "first_seen": "2026-08-31T17:56:53.816843+00:00",
+  "meta": {
+   "topics": [],
+   "score": -1,
+   "data": [],
+   "method": [],
+   "ctx": [
+    "跨境与国际维度"
+   ],
+   "question": "Welcome address by Mr Fabio Panetta, Governor of the Bank of Italy, at the \"International macroeconomics in a changing world - old questions, new realities\" workshop, organised by the Bank of Italy, Centre for Economic Policy Research (CEPR) and LUISS (Libera Università Internazionale degli Studi Sociali), in honour of Robert Mundell, Rome, 22 June 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，切入跨境与国际维度。"
+  }
+ },
+ {
+  "title": "Opening remarks - \"10th Annual Macroprudential Conference\"",
+  "link": "https://www.bis.org/speeches/20260630-opening-remarks-10th-annual-macroprudential-conference",
+  "abstract": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 10th Annual Macroprudential Conference, jointly organised with the Deutsche Bundesbank, the Nederlandsche Bank, and the Sveriges Riksbank, Dublin, 22 June 2026.",
+  "authors": "Gabriel Makhlouf",
+  "date": "2026-06-30T00:00:00+00:00",
+  "ptype": "Speech",
+  "src_id": "bis-speech",
+  "org": "BIS",
+  "org_cn": "央行行长演讲库",
+  "group": "core",
+  "key": "openingremarks10thannualmacroprudentialconference",
+  "first_seen": "2026-08-31T17:56:53.816843+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "fs",
+     "label": "金融稳定",
+     "cls": "t-fs"
+    }
+   ],
+   "score": 13,
+   "data": [],
+   "method": [],
+   "ctx": [],
+   "question": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 10th Annual Macroprudential Conference, jointly organised with the Deutsche Bundesbank, the Nederlandsche Bank, and the Sveriges Riksbank, Dublin, 22 June 2026.",
+   "finding": "",
+   "lead": "央行行长演讲库「Speech」，主题为金融稳定。"
+  }
+ },
+ {
+  "title": "Consumer Vibe Check: Gas Prices and Inflation Expectations",
+  "link": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/08/consumer-vibe-check-gas-prices-and-inflation-expectations/",
+  "abstract": "According to household surveys, inflation expectations tend to move together with expectations for gasoline price changes. The relationship is not symmetrical, though: Inflation expectations rise when households revise up their outlook for gas price growth but change little when they revise it down. This pattern is strongest among lower-income and less-educated households. Analysis also suggests that increases in expected gas price growth are associated with greater perceived inflation uncertainty. However, quantitatively, the evidence suggests a moderate relationship between changes in expected gasoline prices and households’ inflation expectations.",
+  "authors": "\"Taerin Kim\", \"Yeji Sung\"",
+  "date": "2026-09-01T00:00:00+00:00",
+  "ptype": "Economic Letter",
+  "src_id": "sffed",
+  "org": "SF Fed",
+  "org_cn": "旧金山联储",
+  "group": "cb",
+  "key": "consumervibecheckgaspricesandinflationexpectations",
+  "first_seen": "2026-08-31T17:56:53.816843+00:00",
+  "meta": {
+   "topics": [
+    {
+     "id": "crypto",
+     "label": "加密资产",
+     "cls": "t-crypto"
+    }
+   ],
+   "score": 18,
+   "data": [
+    "住户/消费者调查数据"
+   ],
+   "method": [],
+   "ctx": [
+    "用户采纳与普惠"
+   ],
+   "question": "According to household surveys, inflation expectations tend to move together with expectations for gasoline price changes.",
+   "finding": "However, quantitatively, the evidence suggests a moderate relationship between changes in expected gasoline prices and households’ inflation expectations.",
+   "lead": "旧金山联储「Economic Letter」，主题为加密资产，切入用户采纳与普惠，数据来自住户/消费者调查数据。"
+  },
+  "cn": {
+   "一句话": "研究汽油价格预期与居民通胀预期之间的不对称关联。",
+   "问题": "汽油价格预期如何影响居民通胀预期及其不确定性？",
+   "数据": "摘要未说明",
+   "方法": "摘要未说明",
+   "发现": "通胀预期随汽油价格预期上调而上升，但随其下调时变化较小；该模式在低收入、低教育群体中最强，且汽油价格预期上升伴随通胀不确定性增大，但总体关系温和。",
+   "含义": "对央行通胀预期管理有启示，需关注能源价格预期的非对称影响。"
+  },
+  "cn_model": "deepseek-v4-flash"
  }
 ]
