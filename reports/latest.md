@@ -1,160 +1,132 @@
-# 数字货币与金融稳定 · 每周论文简报 2026-W47
+# 数字货币与金融稳定 · 每周论文简报 2026-W48
 
-生成时间：2026-11-16 20:57 UTC　·　本周新增主题相关 **42** 篇　·　库内累计 **2537** 篇
+生成时间：2026-11-23 22:35 UTC　·　本周新增主题相关 **30** 篇　·　库内累计 **2612** 篇
 
-## 核心四家（26 篇）
+## 核心四家（20 篇）
 
-### [Cross-Border Banking Exposures and Macroeconomic Spillover Effects](https://doi.org/10.5089/9798229066655.001)
+### [Central Bank Digital Currency - Looking Ahead Towards Future Financial Infrastructure](https://doi.org/10.5089/9798229066105.007)
 
-`IMF` 国际货币基金组织 · IMF Working Papers · 2026-11-14 · 相关度 36 · 加密资产、金融稳定
+`IMF` 国际货币基金组织 · Policy Papers · 2026-11-16 · 相关度 43 · 央行数字货币、资产代币化、加密资产、金融稳定
 
-- **作者**：Zhongxia Zhang, Francine Nyankiye
-- **要点（规则提取）**：国际货币基金组织「IMF Working Papers」，主题为加密资产 × 金融稳定，切入跨境与国际维度、监管与合规、系统性风险传染，方法上采用面板/回归分析 + 描述性/政策梳理。
-- **原文结论句**：We document the scale, geography, funding source, market structure, and institutional setting of Kenyan banks' presence in countries inside the East African Community.
+- **一句话**：总结CBDC手册第四波，讨论央行货币在数字金融基础设施中的角色。
+- **问题**：政策讨论应如何从CBDC发行转向央行货币在数字化、代币化与互联金融生态中的作用？
+- **数据**：摘要未说明
+- **方法**：摘要未说明
+- **发现**：政策讨论正从CBDC发行转向央行货币在数字、代币化和互联金融生态中的角色；第四波手册章节聚焦CBDC作为金融基础设施、与下一代资本市场交叉及技术增强合规。
+- **含义**：应将CBDC纳入更广泛的央行货币与金融基础设施政策框架，以支持数字金融演进中的金融稳定。
 
-### [Crash Injuries and Fatalities in the United States Following Standardization of Automatic Emergency Braking](https://www.nber.org/papers/w36028)
+### [Five Facts About Stablecoins](https://www.nber.org/papers/w36038)
+
+`NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 26 · 稳定币、加密资产
+
+- **作者**：Lin William Cong , Gordon Y. Liao , Eswar S. Prasad , Tony Zhang
+- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为稳定币 × 加密资产，切入支付清算，方法上采用描述性/政策梳理，数据来自链上交易数据。
+- **原文结论句**：First, stablecoins serve as a transaction currency: onchain volume exceeds Bitcoins despite a much smaller supply, velocity has risen sharply, and transactions have shifted toward low-value
+
+### [Long-run Uncovered Interest Parity in Emerging Markets](https://www.nber.org/papers/w36052)
 
 `NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 25 · 加密资产、金融稳定
 
-- **作者**：Vishal Patel , Christopher M. Worsham , Michael Liu-Hass , Thomas Tsai , Anupam Jena
-- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为加密资产 × 金融稳定，切入监管与合规、用户采纳与普惠。
-- **原文结论句**：As a natural experiment, we leveraged the staggered implementation
+- **作者**：Alessandro Rebucci , Sinem Yagmur Toraman , Giorgio Valente , Nicolò Capirone
+- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为加密资产 × 金融稳定。
+- **原文结论句**：We show it does not, and that sovereign credit risk can explain the failure.
 
-### [Fast Payment Ecosystem Models and Performance in Brazil, the United States, and China](https://doi.org/10.5089/9798229066709.001)
+### [DP22201 The China Shock and Employment Concentration within Local Labor Markets](https://cepr.org/publications/dp22201)
 
-`IMF` 国际货币基金组织 · IMF Working Papers · 2026-11-14 · 相关度 24 · 支付与跨境
+`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-19 · 相关度 21 · 加密资产
 
-- **作者**：Yibin Mu
-- **一句话**：比较巴西、美国、中国快速支付生态的基础设施、制度与应用。
-- **问题**：三国快速支付生态的治理、互操作、定价与准入如何影响采用、竞争、信任和韧性？
+- **作者**：Rosario Crinò
+- **一句话**：研究中国进口渗透如何改变美国通勤区内就业集中度。
+- **问题**：中国进口渗透是否改变美国地方劳动力市场内部地理与就业集中度？
+- **数据**：摘要未说明具体来源；样本为2002—2020年美国通勤区工作场所就业数据。
+- **方法**：采用Autor等（2013）工具变量设计识别中国进口渗透的影响。
+- **发现**：中国进口渗透降低通勤区内就业集中度，进口暴露四分位增幅解释HHI差异下降约15%；初始主导节点及制造业占比高节点就业份额相对降
+
+### [DP22199 Last-Mile Delivery and the Future of Foreign Aid](https://cepr.org/publications/dp22199)
+
+`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-19 · 相关度 21 · 加密资产
+
+- **作者**：Erika Deserranno, Andrea Guariso, Nancy Qian
+- **一句话**：综述对外援助最后一公里交付中非国家提供者与一线人员管理的证据。
+- **问题**：对外援助最后一公里交付中，非国家提供者扩大及一线人员管理如何影响服务到达，援助分配与退出应如何
+
+### [DP22195 Cost Evidence and Welfare in Optimal Procurement](https://cepr.org/publications/dp22195)
+
+`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-19 · 相关度 21 · 加密资产
+
+- **作者**：Patrick W. Schmitz
+- **一句话**：构建理论模型刻画成本证据对最优采购机制与福利的影响
+- **问题**：在供应商私下知晓成本且可能持有成本证据时，允许成本证据如何影响最优采购机制、买方利润与社会福利？
 - **数据**：摘要未说明
-- **方法**：定性比较评估，未进行因果估计或模型排序
-- **发现**：结果更多取决于治理、互操作、定价与准入在各国条件下的互动，而非公私供给；巴西靠共同规则和低摩擦准入快速普及，美国多基础设施仍可互操作，中国平台整合带来规模但集中度与监管挑战上升。
-- **含义**：快速支付生态设计需兼顾互操作与准入以促进普惠和韧性，同时防范平台集中带来的金融稳定与监管风险。
+- **方法**：构建理论机制设计模型，刻画允许与不允许可采信成本证据时的利润最大化采购机制。
+- **发现**：允许证据会弱提高买方利润，但可能降低总剩余，即使采购更频繁；最优机制偏向证据持有者，可能选择成本更高供应商；福利效应取决于采购收益：收益足够小时提高福利，足够大时降低福利。
+- **含义**：对
 
-### [Ready-to-run global liquidity stress tests for banks and banking systems](https://www.bis.org/publications/working-paper-1394-ready-to-run-global-liquidity-stress-tests-banks-and-banking-systems)
+### [DP22193 Does the Stock Market Price Operational Flexibility?](https://cepr.org/publications/dp22193)
 
-`BIS` 国际清算银行 · Working Paper · 2026-11-11 · 相关度 22 · 金融稳定
+`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-18 · 相关度 21 · 加密资产
 
-- **作者**：Li Lian Ong
-- **一句话**：提出可即时运行的银行及银行体系全球流动性压力测试框架。
-- **问题**：如何快速评估银行和银行体系流动性风险，并比较不同经济体与银行间的流动性缓冲差异。
-- **数据**：摘要未提供
-- **方法**：摘要未提供
-- **发现**：研究提出一套可即时运行的全球流动性压力测试框架，用于快速评估银行和银行体系流动性风险，并支持同业及跨经济体流动性缓冲比较。
-- **含义**：有助于监管机构在市场压力期及时识别流动性风险、开展跨境比较并维护金融稳定。
+- **作者**：Li Li, Xiangyang Li, Steven Ongena, Yabin Wang
+- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入系统性风险传染。
+- **原文结论句**：Our findings suggest that investors value operating alternatives and local knowledge already in place.
 
-### [DP22185 Creative Destruction with AI versus AI's Destruction of Creativity](https://cepr.org/publications/dp22185)
+### [Sudden Stops, Steady Remittances](https://doi.org/10.5089/9798229066259.001)
 
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-16 · 相关度 21 · 加密资产
+`IMF` 国际货币基金组织 · IMF Working Papers · 2026-11-20 · 相关度 20 · 支付与跨境
 
-- **作者**：Christian Bayer, Petr Sedláček
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，方法上采用理论建模。
-- **原文结论句**：Using a model of firm entry and selection where product development is uncertain and exclusively human-led, we show that AI automation may reduce welfare, even if it also raises productivity.
+- **作者**：Jafet Baca-Obando, Justin Eloriaga
+- **要点（规则提取）**：国际货币基金组织「IMF Working Papers」，主题为支付与跨境，切入支付清算，方法上采用局部投影 LP + 面板/回归分析。
+- **原文结论句**：The evidence is consistent with remittances acting as tail insurance in true financing crises rather than as a general cushion in any large current account adjustment.
 
-### [DP22183 Partisan Demographics](https://cepr.org/publications/dp22183)
+### [Digital Banking in Latin America](https://doi.org/10.5089/9798229066358.001)
 
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-15 · 相关度 21 · 加密资产
+`IMF` 国际货币基金组织 · IMF Working Papers · 2026-11-20 · 相关度 19 · 金融稳定、支付与跨境
 
-- **作者**：Damilola Afolabi, Klaus F. Zimmermann
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入用户采纳与普惠、能源与气候影响。
-- **原文结论句**：The chapter concludes by identifying the conditions under which partisan politics becomes a consequential determinant of demographic behavior and by outlining priorities for future research.
+- **作者**：Dmitry Vasilyev, Bihong Huang, Corrado Macchiarelli
+- **要点（规则提取）**：国际货币基金组织「IMF Working Papers」，主题为金融稳定 × 支付与跨境，切入监管与合规、支付清算。
+- **原文结论句**：The paper argues that digital bank development is shaped less by individual regulatory instruments than by the complementarity between proportional licensing, data-portability frameworks, fast payment infrastructure, and market conditions.
 
-### [DP22175 The Message or the Messenger? Scientific Evidence and Policy Misperceptions](https://cepr.org/publications/dp22175)
+### [Researcher choices matter: Synthetic controls and California’s $20 fast-food minimum wage](https://cepr.org/voxeu/columns/researcher-choices-matter-synthetic-controls-and-californias-20-fast-food-minimum)
 
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-13 · 相关度 21 · 加密资产
+`VoxEU` CEPR 政策评论 · Column · 2026-11-22 · 相关度 18 · 加密资产
 
-- **作者**：Marco Bertoni, Paolo Falco, Luigi Guiso, Tullio Jappelli, Roberto Nisticò
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，数据来自住户/消费者调查数据。
-- **原文结论句**：Crucially, updating is largely independent of source alignment: across all four reforms, credible evidence can travel across partisan divides, so the partisan branding of a mainstream outlet is not the primary barrier to communicating evaluated policy effects.
+- **作者**：Jeffrey Clemens, Olivia Edwards, Jonathan Meer, Joshua Nguyen
+- **要点（规则提取）**：CEPR 政策评论「Column」，主题为加密资产，方法上采用合成控制。
+- **原文结论句**：The authors argue that results should be shown across a range of defensible choices.
 
-### [DP22177 The Global Fiscal Actions (GFA) Dataset](https://cepr.org/publications/dp22177)
+### [The Macroeconomic Impact of Refugee Flows in the Middle East and Central Asia](https://doi.org/10.5089/9798229032445.087)
 
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-13 · 相关度 21 · 加密资产
+`IMF` 国际货币基金组织 · Departmental Papers · 2026-11-20 · 相关度 18 · 加密资产
 
-- **作者**：Hites Ahir, Matthieu Bellon, Maria Chiara Cavalleri, Shuvam Das, Davide Furceri, Faizaan Kisat, Aiko Mineshima, Irene Rausell Moreno, Vishal Parmar, Nikhil Patel, Adrian Peralta-Alva
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入跨境与国际维度、违法风险与操作风险，方法上采用机器学习 / 文本分析。
-- **原文结论句**：We illustrate its value through applications to fiscal cyclicality and country-specific fiscal multipliers, providing new evidence on the conduct and effectiveness of fiscal policy worldwide.
+- **作者**：Antonio Bassanetti, Ghadeer Noufal, Nasir Rao, Pedro Rodriguez, Annalaura Maria Sacco, Alexander Tieman, Subi Suvetha Velkumar
+- **要点（规则提取）**：国际货币基金组织「Departmental Papers」，主题为加密资产，切入跨境与国际维度。
+- **原文结论句**：Relatively more conducive integration policies may over time mitigate some of these macroeconomic pressures, as they foster refugees’ self-reliance and contributions to the local economy.
 
-### [DP22179 Divide and Indebt How Geoeconomic Fragmentation Affects Public Debt and Macro-Fiscal Stability](https://cepr.org/publications/dp22179)
+### [DP22209 Beyond the First-Best: Welfare and OPEC Market Power](https://cepr.org/publications/dp22209)
 
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-13 · 相关度 21 · 加密资产
+`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-23 · 相关度 15 · 金融稳定
 
-- **作者**：Davide Furceri, Marcos Poplawski-Ribeiro, Ervin Prifti
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，方法上采用局部投影 LP + 向量自回归 VAR，数据来自TRACE 债券交易数据。
-- **原文结论句**：We find that a one standard deviation increase in geoeconomic fragmentation raises public debt by up to 3 percentage points of GDP in the medium term.
+- **作者**：Jan De Loecker, John Asker, Allan Collard-Wexler, Charlotte De Cannière
+- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，切入跨境与国际维度，数据来自微观交易/账户级数据。
+- **原文结论句**：Eliminating cost-minimization violations outside the cartel shrinks losses to around 0.7 trillion dollars, indicating that other frictions in the oil market are complementary to OPEC’s market power.
 
-### [DP22165 Money, Power and Civil Society. Reconstructing Pablo Levín’s Interpretation of Marx’s Value-Form](https://cepr.org/publications/dp22165)
-
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-10 · 相关度 21 · 加密资产
-
-- **作者**：Facundo Alvaredo, Pilar Piqué
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产。
-- **原文结论句**：It argues that if power arises immanently within commodity exchange, the defining presupposition of civil society as a sphere devoid of intrinsic power becomes untenable, calling for a reconsideration of the foundations of political economy.
-
-### [DP22167 Cross-Border Infrastructure Finance for EMDEs: Patterns, Drivers, and Regulatory Barriers](https://cepr.org/publications/dp22167)
-
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-10 · 相关度 21 · 加密资产
-
-- **作者**：Stijn Claessens, Daniela Klingebiel, Nicolo Pastrone
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为加密资产，切入银行存款与信贷中介、跨境与国际维度、监管与合规。
-- **原文结论句**：We find that primary PF volumes declined modestly in low-risk countries (CRC 0–2) and more substantially in higher-risk countries (CRC 3–7).
-
-### [DP22187 The Changing Vulnerability of the U.S. Economy to Oil Shocks](https://cepr.org/publications/dp22187)
-
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-16 · 相关度 20 · 金融稳定
-
-- **作者**：Danilo Leiva-Leon, Giovanni Olivei, Ara Patvakanian, Jenny Tang, Egon Zakrajšek
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，方法上采用工具变量 IV + 局部投影 LP。
-- **原文结论句**：These relative gains, visible in non-extraction employment and house prices, point to regional offsets that may dampen the aggregate inflation–real activity tradeoff.
-
-### [Cash and the digital euro - two sides of the same coin](https://www.bis.org/speeches/20261112-cash-and-digital-euro-two-sides-same-coin)
-
-`BIS` 央行行长演讲库 · Speech · 2026-11-12 · 相关度 19 · 央行数字货币
-
-- **作者**：Piero Cipollone
-- **要点（规则提取）**：央行行长演讲库「Speech」，主题为央行数字货币。
-
-### [The Czech National Bank’s first DLT bond and the new physics of the digital koruna](https://www.bis.org/speeches/20261112-czech-national-banks-first-dlt-bond-and-new-physics-digital-koruna)
-
-`BIS` 央行行长演讲库 · Speech · 2026-11-12 · 相关度 19 · 加密资产
-
-- **作者**：Aleš Michl
-- **要点（规则提取）**：央行行长演讲库「Speech」，主题为加密资产。
-
-### [The effects of inflation on euro area public debt](https://cepr.org/voxeu/columns/effects-inflation-euro-area-public-debt)
-
-`VoxEU` CEPR 政策评论 · Column · 2026-11-16 · 相关度 18 · 加密资产
-
-- **作者**：Jef Boeckx, Leonardo Iania, Joris Wauters
-- **要点（规则提取）**：CEPR 政策评论「Column」，主题为加密资产。
-- **原文结论句**：Increases in longer-term inflation compensation lowered the market value of debt, but were not sufficient to offset the debt-increasing effect of earlier declines.
-
-### [Currency risk drives remittance fees as much as markups do](https://cepr.org/voxeu/columns/currency-risk-drives-remittance-fees-much-markups-do)
-
-`VoxEU` CEPR 政策评论 · Column · 2026-11-16 · 相关度 17 · 支付与跨境
-
-- **作者**：Leonardo Flori, Nicola Limodio
-- **要点（规则提取）**：CEPR 政策评论「Column」，主题为支付与跨境，切入跨境与国际维度、支付清算。
-- **原文结论句**：Competition alone cannot lower these costs.
-
-### [DP22170 fereg: Fast high-dimensional fixed-effects regressions in Stata](https://cepr.org/publications/dp22170)
-
-`CEPR` 欧洲经济政策研究中心 · Discussion Paper · 2026-11-12 · 相关度 15 · 金融稳定
-
-- **作者**：Johannes Schmieder
-- **要点（规则提取）**：欧洲经济政策研究中心「Discussion Paper」，主题为金融稳定，切入挤兑与赎回、违法风险与操作风险，数据来自行政管理与信贷登记数据、模型模拟/校准（非实证数据）。
-- **原文结论句**：On administrative data with 1.2 million workers and 117,000 firms, fereg and feppml were at least 3.4 times faster than every other command at every number of cores.
-
-### [Measuring the Impact of Impact Measurement](https://www.nber.org/papers/w36009)
+### [Are Republicans and Democrats Different Taxpayers? Evidence From Property Tax Appeals](https://www.nber.org/papers/w36055)
 
 `NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 15 · 加密资产
 
-- **作者**：Emanuele Colonnelli , Timothy McQuade , Natalia Rigol , Benjamin N. Roth
-- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为加密资产，方法上采用随机实验。
-- **原文结论句**：We conduct the first randomized controlled trial of an impact measurement intervention among high-growth social enterprises in India.
+- **作者**：Brad C. Nathan , Ricardo Perez-Truglia , Alejandro Zentner
+- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为加密资产，切入违法风险与操作风险。
+- **原文结论句**：We study this question in the context of a common form of tax avoidance: property tax appeals.
 
-### [Last-Mile Delivery and the Future of Aid](https://www.nber.org/papers/w36012)
+### [Climate Risk, Real Estate, and Property Insurance](https://www.nber.org/papers/w36051)
+
+`NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 15 · 加密资产
+
+- **作者**：Benjamin L. Collier , Benjamin J. Keys , Philip Mulder
+- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为加密资产，切入能源与气候影响。
+- **原文结论句**：The effectiveness of these market signals depends on whether standard economic
+
+### [Last-Mile Delivery and the Future of Foreign Aid](https://www.nber.org/papers/w36012)
 
 `NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 15 · 加密资产
 
@@ -162,191 +134,119 @@
 - **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为加密资产。
 - **原文结论句**：This article reviews evidence on two key aspects of last-mile delivery.
 
-### [The Effects of Years of Health Insurance on the Health of Older Adults](https://www.nber.org/papers/w36020)
+### [The Deutsche Bundesbank's 2026 Financial Stability Review](https://www.bis.org/speeches/20261119-deutsche-bundesbanks-2026-financial-stability-review)
 
-`NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 15 · 加密资产
+`BIS` 央行行长演讲库 · Speech · 2026-11-19 · 相关度 13 · 金融稳定
 
-- **作者**：Yu Liu , Kevin Callison , Robert Kaestner
-- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为加密资产。
-- **原文结论句**：This study examines the health effects of an additional year of health insurance coverage by exploiting differential changes in coverage pre-to-post implementation of the Affordable Care Act (ACA) for
+- **作者**：Michael Theurer
+- **要点（规则提取）**：央行行长演讲库「Speech」，主题为金融稳定。
 
-### [The Last Arbitrage? Capital Flows, Development, and Infrastructure as an Asset Class](https://www.nber.org/papers/w36022)
+### [Some potential financial stability implications of Artificial Intelligence](https://www.bis.org/speeches/20261119-some-potential-financial-stability-implications-artificial-intelligence)
 
-`NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 14 · 支付与跨境
+`BIS` 央行行长演讲库 · Speech · 2026-11-19 · 相关度 13 · 金融稳定
 
-- **作者**：Anusha Chari , Monroe Gamble , Peter Blair Henry
-- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为支付与跨境，切入跨境与国际维度、市场微观结构与定价。
-- **原文结论句**：When poor countries opened their stock markets to foreign investors in the late 1980s, it did: rich-country capital arbitraged away the excess return on emerging-market equity and created a new asset class.
+- **作者**：Michael S Barr
+- **要点（规则提取）**：央行行长演讲库「Speech」，主题为金融稳定，切入跨境与国际维度、储备资产与抵押品。
 
-### [How Does Capital Flow To Poor Countries? Evidence from Venture Capital and Private Equity](https://www.nber.org/papers/w36036)
+### [Locked out: Drivers and consequences of housing affordability pressures in Europe](https://cepr.org/voxeu/columns/locked-out-drivers-and-consequences-housing-affordability-pressures-europe)
 
-`NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 14 · 支付与跨境
+`VoxEU` CEPR 政策评论 · Column · 2026-11-21 · 相关度 12 · 金融稳定
 
-- **作者**：Emanuele Colonnelli , Marcio Cruz , Josh Lerner , Mariana Pereira-Lopez , Yuanchang Wei
-- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为支付与跨境，切入跨境与国际维度。
-- **原文结论句**：We study how venture capital and private equity investors evaluate firms across countries, using an experimental survey of 1,485 investors in 108 countries who are incentivized to evaluate hypothetical investment opportunities with
+- **作者**：Robert Beyer, Nina Biljanovska, Alexandra Fotiou, Morgan Maneely, Frederik Toscani
+- **要点（规则提取）**：CEPR 政策评论「Column」，主题为金融稳定，切入跨境与国际维度、用户采纳与普惠。
+- **原文结论句**：Beyond distributional concerns, declining affordability also has adverse consequences for labour allocation and efficiency.
 
-### [Opening remarks - Monetary Policy Report (IPOM) press conference, third quarter of 2026](https://www.bis.org/speeches/20261110-opening-remarks-monetary-policy-report-ipom-press-conference-third-quarter-2026)
+### [The geography of financial frictions](https://cepr.org/voxeu/columns/geography-financial-frictions)
 
-`BIS` 央行行长演讲库 · Speech · 2026-11-10 · 相关度 14 · 加密资产
+`VoxEU` CEPR 政策评论 · Column · 2026-11-17 · 相关度 12 · 金融稳定
 
-- **作者**：Vladimir Werning
-- **要点（规则提取）**：央行行长演讲库「Speech」，主题为加密资产，切入货币政策传导。
+- **作者**：Alexander Haas, Rustam Jamilov
+- **要点（规则提取）**：CEPR 政策评论「Column」，主题为金融稳定，切入货币政策传导，方法上采用一般均衡 / DSGE + 理论建模，数据来自机构专有数据。
+- **原文结论句**：Using proprietary data from the European Central Bank’s Survey on the Access to Finance of Enterprises, we document substantial regional heterogeneity in the access to external finance, which is persistent over time and matters for monetary policy: high-friction countries are less responsive to monetary shocks.
 
-### [Macroeconomic effects of rare earth supply disruptions](https://cepr.org/voxeu/columns/macroeconomic-effects-rare-earth-supply-disruptions)
-
-`VoxEU` CEPR 政策评论 · Column · 2026-11-14 · 相关度 12 · 金融稳定
-
-- **作者**：Christian Bogmans, Maximiliano Jerez Osses, Jorge Miranda-Pinto, Jean-Marc Natal
-- **要点（规则提取）**：CEPR 政策评论「Column」，主题为金融稳定，切入储备资产与抵押品、系统性风险传染，方法上采用网络与传染模拟。
-- **原文结论句**：Policymakers should build strategic reserves and develop domestic capacity to help withstand the short-run losses from rare earth shortages.
-
-### [The gig economy and digital payments](https://www.bis.org/publications/paper-177-gig-economy-and-digital-payments)
-
-`BIS/FSI` BIS 与金融稳定学院 · Publication · 2026-11-12 · 相关度 10 · 支付与跨境
-
-- **作者**：Jon Frost
-- **要点（规则提取）**：BIS 与金融稳定学院「Publication」，主题为支付与跨境，切入支付清算。
-- **原文结论句**：Gig work involves digital platforms that intermediate between workers and (retail or business) customers, in areas as diverse as ride-hailing and food delivery, freelance design and professional services, and customer service.
-
-### [Clouds of Credit: Mapping the Financial Web Behind AI Compute](https://www.nber.org/papers/w36032)
+### [Chips & Tokens at the Fault Lines: Two Stacks in One Fragmenting World](https://www.nber.org/papers/w36056)
 
 `NBER` 美国国民经济研究局 · Working Paper · 2026-11-01 · 相关度 9 · 金融稳定
 
-- **作者**：Stijn Van Nieuwerburgh , Zijin Su
-- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为金融稳定，切入系统性风险传染，方法上采用定量校准与反事实模拟，数据来自模型模拟/校准（非实证数据）。
-- **原文结论句**：Our calibrated model supports a large compute expansion in the coming
+- **作者**：Fabio Natalucci , Alessandro Rebucci
+- **要点（规则提取）**：美国国民经济研究局「Working Paper」，主题为金融稳定。
+- **原文结论句**：The paper maps this contest across two stacks: the real economy
 
-## 主要央行（10 篇）
+## 主要央行（9 篇）
 
-### [Banking System Vulnerability: 2026 Update](https://libertystreeteconomics.newyorkfed.org/2026/11/banking-system-vulnerability-2026-update/)
+### [What Do Foreign Trends Tell Us About Future U.S. Labor Force Dynamics?](https://libertystreeteconomics.newyorkfed.org/2026/11/what-do-foreign-trends-tell-us-about-future-u-s-labor-force-dynamics/)
 
-`NY Fed` 纽约联储 · Liberty Street · 2026-11-12 · 相关度 41 · 加密资产、金融稳定
+`NY Fed` 纽约联储 · Liberty Street · 2026-11-23 · 相关度 20 · 加密资产
 
-- **要点（规则提取）**：纽约联储「Liberty Street」，主题为加密资产 × 金融稳定，切入监管与合规、储备资产与抵押品、系统性风险传染，数据来自银行监管报表（Call Report / Y-9C 等）。
-- **原文结论句**：We use data through 2026:Q2 to update our analysis and discuss how the vulnerability measures have changed since our last update one year ago .
+- **要点（规则提取）**：纽约联储「Liberty Street」，主题为加密资产，切入跨境与国际维度、储备资产与抵押品。
+- **原文结论句**：Larger declines in the prime-age population than in the working-age population (note the gap in Spain) imply that a large share of the population has moved into the 55-64 age group and will drop out of the traditional working-age population over the coming decade.
 
-### [Who holds stablecoins? New evidence on euro area consumer holdings](https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202607_08~f4ddf0117c.en.html)
+### [FEDS Paper: The Welfare Effects of Bank Liquidity and Capital Requirements(Revised)](https://www.federalreserve.gov/econres/feds/the-welfare-effects-of-bank-liquidity-and-capital-requirements.htm)
 
-`ECB` 欧洲央行出版物 · Publication · 2026-11-11 · 相关度 41 · 稳定币、加密资产、金融稳定
+`Fed Board` 美联储理事会 · FEDS / IFDP · 2026-11-23 · 相关度 19 · 金融稳定
 
-- **一句话**：基于欧洲央行消费者预期调查，考察欧元区稳定币持有上升及金融稳定影响。
-- **问题**：欧元区稳定币持有是否上升及其对金融稳定的影响是什么？
-- **数据**：数据来源为欧洲央行消费者预期调查；样本范围与时间跨度摘要未说明。
-- **方法**：摘要未说明。
-- **发现**：稳定币具有交易性质，当前消费者持有暴露仍有限；但持有增加会带来风险，并可能通过消费者信心和金融市场产生溢出效应。
-- **含义**：应持续监测稳定币使用及其对消费者信心与金融市场的溢出，以维护金融稳定。
+- **要点（规则提取）**：美联储理事会「FEDS / IFDP」，主题为金融稳定，切入监管与合规。
+- **原文结论句**：Still, optimal policy relies on both requirements to mitigate moral hazard from deposit insurance and is close to Basel III levels.
 
-### [Can Workers Predict Job Finding and Job Loss?](https://libertystreeteconomics.newyorkfed.org/2026/11/can-workers-predict-job-finding-and-job-loss/)
+### [Financial stability risks from large IPOs, equity issuance and passive investing](https://www.ecb.europa.eu//press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_03~46e116aeb8.en.html)
 
-`NY Fed` 纽约联储 · Liberty Street · 2026-11-16 · 相关度 20 · 加密资产
+`ECB` 欧洲央行出版物 · Publication · 2026-11-18 · 相关度 19 · 金融稳定
 
-- **要点（规则提取）**：纽约联储「Liberty Street」，主题为加密资产，切入用户采纳与普惠、储备资产与抵押品，方法上采用描述性/政策梳理，数据来自住户/消费者调查数据、微观交易/账户级数据。
-- **原文结论句**：Although job-finding expectations align closely with actual rates before COVID, we document a persistent pessimism following the pandemic, in which newly unemployed workers underestimate their true probability of finding a job.
+- **要点（规则提取）**：欧洲央行出版物「Publication」，主题为金融稳定，切入系统性风险传染。
+- **原文结论句**：Although these developments do not currently constitute a systemic financial stability risk, they could amplify market cyclicality and the sensitivity of equity financing to changes in sentiment.
 
-### [A Look at the Wider Divide in Credit Card Delinquency by Income](https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/)
+### [Financial stability implications of AI adoption in the financial industry and the real economy](https://www.ecb.europa.eu//press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_01~dd6e15a84a.en.html)
 
-`NY Fed` 纽约联储 · Liberty Street · 2026-11-10 · 相关度 20 · 加密资产
+`ECB` 欧洲央行出版物 · Publication · 2026-11-18 · 相关度 19 · 金融稳定
 
-- **要点（规则提取）**：纽约联储「Liberty Street」，主题为加密资产，切入用户采纳与普惠、储备资产与抵押品、支付清算，数据来自TRACE 债券交易数据。
-- **原文结论句**：We find that during the pandemic, an increasing share of new credit cards went to borrowers with lower incomes and credit scores, and those accounts are now showing higher levels of distress.
+- **要点（规则提取）**：欧洲央行出版物「Publication」，主题为金融稳定，切入监管与合规、用户采纳与普惠、违法风险与操作风险。
+- **原文结论句**：Policies should focus on improving the quality of data that monitor the use of AI, strengthening the oversight of critical AI providers and adapting market safeguards and supervisory capabilities to emerging risks.
 
-### [FEDS Paper: Artificial Intelligence and the U.S. Economy: Current Evidence](https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm)
+### [Transatlantic securitisation gap revisited: comparing EU and US securitisation architectures](https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op403.en.pdf)
 
-`Fed Board` 美联储理事会 · FEDS / IFDP · 2026-11-12 · 相关度 18 · 加密资产
+`ECB` 欧洲央行出版物 · Publication · 2026-11-19 · 相关度 18 · 加密资产
 
-- **要点（规则提取）**：美联储理事会「FEDS / IFDP」，主题为加密资产，切入用户采纳与普惠，方法上采用描述性/政策梳理。
-- **原文结论句**：Specifically, we document the boom in data center capital investment, the current rate of adoption of AI tools in the economy, the impact of the AI-related investment surge on prices, and discuss whether AI tools have affected the labor market and productivity yet.
+- **要点（规则提取）**：欧洲央行出版物「Publication」，主题为加密资产。
+- **原文结论句**：We conclude that the apparent gap in terms of scale stems from methodological and structural differences in how securitisation is defined and measured across jurisdictions, rather than from a structurally weaker or less developed EU securitisation market.
 
-### [The impact of monetary policy on productivity](https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op402.en.pdf)
+### [Beyond local deposit markets: Social spillovers in deposit pricing | Sofia Anyfantaki, Panagiotis Avramidis, Natalya Martynova](https://www.bundesbank.de/en/publications/research/discussion-papers/beyond-local-deposit-markets-social-spillovers-in-deposit-pricing-1016068)
 
-`ECB` 欧洲央行出版物 · Publication · 2026-11-15 · 相关度 18 · 加密资产
+`Bundesbank` 德国央行 · Discussion Paper · 2026-11-18 · 相关度 18 · 金融稳定
 
-- **要点（规则提取）**：欧洲央行出版物「Publication」，主题为加密资产，切入货币政策传导。
-- **原文结论句**：Overall, the findings suggest that expansionary monetary policy shocks enhance productivity by improving resource allocation.
+- **要点（规则提取）**：德国央行「Discussion Paper」，主题为金融稳定，切入系统性风险传染。
 
-### [IFDP Paper: Trade Deflection: The Spillover Effects of U.S. Tariffs on Import Prices in Bystander Countries](https://www.federalreserve.gov/econres/ifdp/trade-deflection-the-spillover-effects-of-us-tariffs-on-import-prices-in-bystander-countries.htm)
+### [FEDS Note: Increasing International Interdependence: Global Supply Chains and Cross-Border Macroeconomic Spillovers](https://www.federalreserve.gov/econres/notes/feds-notes/increasing-international-interdependence-global-supply-chains-and-cross-border-macroeconomic-spillovers-20261120.html)
 
-`Fed Board` 美联储理事会 · FEDS / IFDP · 2026-11-10 · 相关度 17 · 金融稳定
+`Fed Board` 美联储 FEDS Notes · FEDS Note · 2026-11-20 · 相关度 17 · 金融稳定
 
-- **要点（规则提取）**：美联储理事会「FEDS / IFDP」，主题为金融稳定，切入跨境与国际维度、用户采纳与普惠、系统性风险传染。
-- **原文结论句**：We show that Chinese products targeted by U.S. tariffs experience persistent declines in import prices in bystander countries, and that these declines are largest in emerging markets.
+- **要点（规则提取）**：美联储 FEDS Notes「FEDS Note」，主题为金融稳定，切入跨境与国际维度、系统性风险传染。
+- **原文结论句**：As these networks deepen, conditions in one country matter more for output and prices in another, so domestic outcomes depend less on domestic conditions alone and more on the economies and sectors on which domestic production relies.
 
-### [Instant Payments, Fraud, and Optimal Consumer Protection](https://www.bankofcanada.ca/2026/11/staff-working-paper-2026-41/)
+### [Does the Stock Market Stigmatize Banks that Borrow from the Fed?](https://libertystreeteconomics.newyorkfed.org/2026/11/does-the-stock-market-stigmatize-banks-that-borrow-from-the-fed/)
 
-`BoC` 加拿大央行 · Staff Working Paper · 2026-11-09 · 相关度 16 · 支付与跨境
+`NY Fed` 纽约联储 · Liberty Street · 2026-11-17 · 相关度 16 · 金融稳定
 
-- **要点（规则提取）**：加拿大央行「Staff Working Paper」，主题为支付与跨境，切入用户采纳与普惠、支付清算、违法风险与操作风险。
-- **原文结论句**：It compares centralized and decentralized governance, showing how access pricing, payment eligibility, prevention incentives, and liability allocation jointly determine fraud risk and the set of payments admitted to the system.
+- **要点（规则提取）**：纽约联储「Liberty Street」，主题为金融稳定，切入挤兑与赎回、货币政策传导、储备资产与抵押品，数据来自银行监管报表（Call Report / Y-9C 等）、Compustat / CRSP。
+- **原文结论句**：We find that, after a first trip to the Fed’s Discount Window (DW), investors became more sensitive to that bank’s weaknesses.
 
-### [The real and financial effects of local corporate tax increases: evidence from linked firm–bank data](https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3309~4e8af93b3a.en.pdf)
+### [Financial Stability Review, November 2026](https://www.ecb.europa.eu//press/financial-stability-publications/fsr/html/ecb.fsr202611~e03b919d36.en.html)
 
-`ECB` 欧洲央行 · Working Paper · 2026-11-11 · 相关度 15 · 金融稳定
+`ECB` 欧洲央行出版物 · Publication · 2026-11-18 · 相关度 15 · 金融稳定
 
-- **要点（规则提取）**：欧洲央行「Working Paper」，主题为金融稳定，切入违法风险与操作风险，方法上采用双重差分 DiD + 面板/回归分析，数据来自行政管理与信贷登记数据、微观交易/账户级数据。
-- **原文结论句**：Our results highlight how local tax policy can transmit through both financial and real margins, with implications for fiscal design in decentralized settings.
+- **要点（规则提取）**：欧洲央行出版物「Publication」，主题为金融稳定。
 
-### [Decoding the cyber-AI nexus](https://www.ecb.europa.eu//press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html)
+## 国际组织与监管（1 篇）
 
-`ECB` 欧洲央行出版物 · Publication · 2026-11-16 · 相关度 14 · 金融稳定
+### [FSB sets out its priorities for 2027](https://www.fsb.org/2026/11/fsb-sets-out-its-priorities-for-2027/)
 
-- **要点（规则提取）**：欧洲央行出版物「Publication」，主题为金融稳定，切入监管与合规、用户采纳与普惠、系统性风险传染。
-- **原文结论句**：Mitigating these risks requires banks, AI developers, cybersecurity firms and regulators to coordinate their efforts to enhance resilience, improve governance and address emerging systemic vulnerabilities.
+`FSB` 金融稳定理事会 · Publication · 2026-11-17 · 相关度 30 · 稳定币、金融稳定
 
-## 国际组织与监管（6 篇）
-
-### [FSB recommends Türkiye further strengthens its regulatory framework for crypto-assets and stablecoins](https://www.fsb.org/2026/11/fsb-recommends-turkiye-further-strengthens-its-regulatory-framework-for-crypto-assets-and-stablecoins/)
-
-`FSB` 金融稳定理事会 · Publication · 2026-11-11 · 相关度 51 · 稳定币、加密资产、金融稳定
-
-- **一句话**：评估土耳其落实FSB加密资产与稳定币监管建议的进展。
-- **问题**：土耳其落实FSB加密资产和稳定币监管监督建议的进展如何，是否需强化框架？
+- **一句话**：FSB公布2027年工作优先事项并讨论全球金融风险。
+- **问题**：FSB应如何确定2027年优先事项以应对全球金融体系脆弱性？
 - **数据**：摘要未提供
 - **方法**：摘要未提供
-- **发现**：FSB第二份同行评审认为，土耳其仍需进一步加强加密资产和稳定币监管框架。
-- **含义**：这有助于提升土耳其加密资产监管一致性并维护金融稳定。
-
-### [Financial stability in a rapidly changing world](https://www.fsb.org/2026/11/financial-stability-in-a-rapidly-changing-world/)
-
-`FSB` 金融稳定理事会 · Publication · 2026-11-13 · 相关度 33 · 加密资产、金融稳定
-
-- **一句话**：探讨快速变化世界中系统性风险管理的透明度等挑战。
-- **问题**：在快速变化的金融环境中，管理系统性风险面临哪些最困难挑战，尤其透明度问题？
-- **数据**：摘要未提供
-- **方法**：摘要未提供
-- **发现**：演讲指出管理系统性风险的两大难题之一在于透明度，即市场参与者能否看见并理解风险积累；第二项挑战摘要未展开。
-- **含义**：金融稳定政策需强化风险透明度与系统性风险监测，以应对快速变化环境。
-
-### [Peer Review of Türkiye](https://www.fsb.org/2026/11/peer-review-of-turkiye/)
-
-`FSB` 金融稳定理事会 · Publication · 2026-11-11 · 相关度 22 · 稳定币、加密资产
-
-- **一句话**：评估土耳其加密资产监管框架的实施进展。
-- **问题**：FSB对土耳其落实加密资产活动全球监管框架情况开展同行评议发现了什么？
-- **数据**：摘要未说明
-- **方法**：FSB 2025年专题同行评议
-- **发现**：土耳其已敲定加密资产监管框架但尚未覆盖稳定币，近年来在监管、监督和监测方面取得实质进展。
-- **含义**：需补齐稳定币监管以降低加密资产活动相关金融稳定风险。
-
-### [G20 Roadmap for Enhancing Cross-border Payments: Consolidated progress report for 2026](https://www.fsb.org/2026/11/g20-roadmap-for-enhancing-cross-border-payments-consolidated-progress-report-for-2026/)
-
-`FSB` 金融稳定理事会 · Publication · 2026-11-16 · 相关度 19 · 支付与跨境
-
-- **要点（规则提取）**：金融稳定理事会「Publication」，主题为支付与跨境，切入跨境与国际维度、支付清算。
-- **原文结论句**：The international community of the FSB, Bank for International Settlement’s Committee on Payments and Market Infrastructures, and partner organisations has now largely completed the international policy… Source
-
-### [Further work by jurisdictional authorities and private sector necessary to enhance cross-border payments](https://www.fsb.org/2026/11/further-work-by-jurisdictional-authorities-and-private-sector-necessary-to-enhance-cross-border-payments/)
-
-`FSB` 金融稳定理事会 · Publication · 2026-11-16 · 相关度 17 · 金融稳定、支付与跨境
-
-- **要点（规则提取）**：金融稳定理事会「Publication」，主题为金融稳定 × 支付与跨境，切入跨境与国际维度、支付清算。
-
-### [Virtual outreach event on FSB Regulatory and Supervisory Modernisation Principles](https://www.fsb.org/2026/11/virtual-outreach-event-on-fsb-regulatory-and-supervisory-modernisation-principles/)
-
-`FSB` 金融稳定理事会 · Publication · 2026-11-16 · 相关度 10 · 金融稳定
-
-- **要点（规则提取）**：金融稳定理事会「Publication」，主题为金融稳定，切入监管与合规。
-- **原文结论句**：These principles aim to promote greater alignment among authorities and help ensure that regulatory and supervisory frameworks remain effective and responsible as they evolve.
+- **发现**：FSB全体会议讨论了全球金融体系脆弱性、人工智能、稳定币、危机准备和非银金融部门，并制定来年工作计划。
+- **含义**：关注人工智能、稳定币与非银金融风险有助于维护全球金融稳定。
 
 ---
 
